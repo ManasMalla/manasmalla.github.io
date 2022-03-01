@@ -100,7 +100,7 @@ a {
 .column {
   height: 100%;
   display: flex;
-  flex-basis: 44%;
+  flex-basis: 48%;
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
