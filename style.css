@@ -1,7 +1,32 @@
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-bold-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-medium-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-medium-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-regular-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
   overflow-y: hidden;
+  font-family: "gilroy", sans-serif;
 }
 
 video {
@@ -93,10 +118,11 @@ h1 {
 }
 button {
   cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #fff;
   width: 170px;
   padding: 10px 30px;
   font-size: 150%;
-  font-family: "Product Sans, sans-serif";
   font-weight: bold;
   border-radius: 20px;
   border: none;
@@ -130,10 +156,6 @@ button {
 .button-column {
   width: 100px;
   height: 100%;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
 }
 
 .next-button {
@@ -144,6 +166,9 @@ button {
   border-top-right-radius: 20px;
   display: flex;
   justify-content: center;
+  position: absolute;
+  right: 6%;
+  bottom: 0;
 }
 
 .next-button img {
