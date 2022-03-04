@@ -1,7 +1,104 @@
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-black-italic-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-black-italic-webfont.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-black-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-black-webfont.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-bold-italic-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-bold-italic-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-bold-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-italic-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-light-italic-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-light-italic-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-light-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-light-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-medium-italic-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-medium-italic-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-medium-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-medium-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-regular-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-thin-italic-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-thin-italic-webfont.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-thin-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-thin-webfont.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "gilroy", sans-serif;
 }
 body {
   background-color: #f8f8f8;
@@ -74,10 +171,10 @@ body {
 }
 
 .branding-content {
-  position: absolute;
+  width: 0px;
   height: 0px;
   margin-top: 0px;
-  transition: height 500ms;
+  transition: width, height 500ms;
 }
 
 .row {
@@ -116,7 +213,7 @@ h2 {
 
 h3 {
   color: rgba(0, 0, 0, 0.5);
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -133,6 +230,14 @@ h3 {
 
 #user-metrics {
   justify-content: space-around;
+}
+
+#user-metric div {
+  cursor: pointer;
+}
+
+.clickable {
+  cursor: pointer;
 }
 
 #user-metrics p {
@@ -152,7 +257,81 @@ h3 {
   text-align: center;
 }
 
-#add-post {
-  width: 32px;
-  height: 32px;
+.nav-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nav-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.nav-icon svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nav {
+  width: calc(100% - 40px);
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.search-box {
+  display: flex;
+  width: 0rem;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  margin-right: 10px;
+  margin-top: -10px;
+  border-radius: 14px;
+  align-items: center;
+  transition: width 1s;
+}
+
+.search-box svg {
+  margin: 0px 18px;
+  width: 24px;
+  height: 24px;
+}
+#search-icon {
+  transition: width 1s;
+}
+
+#clear-text {
+  visibility: hidden;
+}
+
+input {
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  background: none;
+  font-size: 14px;
+}
+
+.search .nav-icon {
+  margin-left: 0rem;
+  margin-right: 0rem;
 }

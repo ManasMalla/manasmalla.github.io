@@ -1,7 +1,26 @@
 
 var isCollapsed = false;
+var isTextEmpty = true;
+
+function checkIfTextIsEmpty(){
+
+  var input = document.getElementById("search-box").value;
+   if(input != ""){
+     document.getElementById("clear-text").style.visibility = "visible";
+  }else{
+    document.getElementById("clear-text").style.visibility = "hidden";
+  }
+}
+
+function viewSearchBox(){
+  document.getElementsByClassName("search-box")[0].style.width = "18rem";
+  document.getElementById("search-icon").style.width = "0rem";
+}
+
 function myFunction() {
     if (isCollapsed) {
+      document.getElementsByClassName("branding-content")[0].style.width = 
+      "0px";
       document.getElementsByClassName("branding-content")[0].style.height = 
       "0px";
       document.getElementsByClassName("navbar")[0].style.transform = 
@@ -24,7 +43,9 @@ function myFunction() {
       buttons[0].style.transform = "translateX(-290px) scaleX(-1)";
       buttons[0].style.backgroundColor = "#F8F8F8";
       document.getElementsByClassName("branding-content")[0].style.height = 
-      "25px";
+      "24px";
+      document.getElementsByClassName("branding-content")[0].style.width = 
+      "auto";
       isCollapsed = true;
     }
   }
