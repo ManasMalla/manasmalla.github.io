@@ -16,7 +16,6 @@ function setDetails(){
   let username = params.get("username");
 
   document.getElementById("username-textfield").innerText = "@"+username;
-  document.getElementById("username-textfield").style.textTransform = "capitalize";
 }
 
 function checkIfSubmitted(){
