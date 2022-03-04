@@ -1,0 +1,20 @@
+.main-content {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 30px 20%;
+}
+.nav {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.row {
+  justify-content: start;
+}
+.profile-picture {
+  margin-right: 80px;
+  width: 140px;
+  height: 140px;
+}
+h3 {
+  text-align: start;
+}

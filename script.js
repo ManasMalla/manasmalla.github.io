@@ -13,8 +13,9 @@ function checkIfTextIsEmpty(){
 
 function setDetails(){
   let params = (new URL(document.location)).searchParams;
-  let name = params.get("name");
-  document.getElementById("username-textfield").innerText = name;
+  let username = params.get("username");
+
+  document.getElementById("username-textfield").innerText = "@"+username;
   document.getElementById("username-textfield").style.textTransform = "capitalize";
 }
 
