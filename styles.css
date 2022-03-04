@@ -151,23 +151,27 @@ body {
   width: 25px;
   height: 25px;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .navbar #brand {
   height: 25px;
   margin-top: 4px;
+  cursor: pointer;
 }
 
 #logo-content {
   height: 100%;
   margin-right: 10px;
   object-fit: cover;
+  cursor: pointer;
 }
 
 #brand-content {
   height: 100%;
   margin-top: 4px;
   object-fit: cover;
+  cursor: pointer;
 }
 
 .branding-content {
@@ -334,4 +338,47 @@ input {
 .search .nav-icon {
   margin-left: 0rem;
   margin-right: 0rem;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav-actions {
+  margin: 20px;
+  margin-top: 30px;
+  height: 270px;
+}
+.nav-action {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.nav-action svg {
+  margin-right: 20px;
+  width: 16px;
+  height: 16px;
+}
+
+#log-out {
+  stroke: #dd2a7b;
+  color: #dd2a7b;
+  font-weight: 600;
+}
+
+.testBox {
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+}
+
+.test {
+  width: 100px;
+  height: 100px;
+  background-color: #4285f4;
 }

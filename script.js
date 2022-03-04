@@ -11,6 +11,13 @@ function checkIfTextIsEmpty(){
   }
 }
 
+function setDetails(){
+  let params = (new URL(document.location)).searchParams;
+  let name = params.get("name");
+  document.getElementById("username-textfield").innerText = name;
+  document.getElementById("username-textfield").style.textTransform = "capitalize";
+}
+
 function checkIfSubmitted(){
   if(window.event.keyCode == 13){
     document.getElementsByClassName("search-box")[0].style.width = "0rem";
