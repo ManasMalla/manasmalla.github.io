@@ -3,12 +3,19 @@ var isCollapsed = false;
 var isTextEmpty = true;
 
 function checkIfTextIsEmpty(){
-
   var input = document.getElementById("search-box").value;
    if(input != ""){
      document.getElementById("clear-text").style.visibility = "visible";
   }else{
     document.getElementById("clear-text").style.visibility = "hidden";
+  }
+}
+
+function checkIfSubmitted(){
+  if(window.event.keyCode == 13){
+    document.getElementsByClassName("search-box")[0].style.width = "0rem";
+    document.getElementById("search-icon").style.width = "24px";
+    document.getElementById("search-box").value = "";
   }
 }
 
