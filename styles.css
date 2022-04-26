@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#portfolio{
+    width: 26%;
+    height: 100vh;
+    background-color: #dceeef;
+}
+#garland{
+    position: fixed;
+    top: -7.4vh;
+    left: 25.5%;
+    z-index: 1;
+    height: 37.5vh;
+}
+.border-leaves{
+    height: 21.3vh;
+    bottom: -1.01759259259259259vh;
+    position: fixed;
+    z-index: -1;
+}
+
+.border-leaves#left{
+    left: 25.4vw;
+}
+.border-leaves#right{
+    left: 89.5vw;
+}
+#border{
+    height: 31.666666666666667vh;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -2;
+}
