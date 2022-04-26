@@ -1,0 +1,8 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 27" width="23" height="27">
+	<title>Layer</title>
+	<style>
+		.s0 { fill: none;stroke: #229198;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3 } 
+	</style>
+	<path id="Layer" class="s0" d="m21 12c0 7-9 13-9 13 0 0-9-6-9-13 0-2.4 0.9-4.7 2.6-6.4 1.7-1.7 4-2.6 6.4-2.6 2.4 0 4.7 0.9 6.4 2.6 1.7 1.7 2.6 4 2.6 6.4z"/>
+	<circle id="Layer" class="s0" cx="12" cy="12" r="3"/>
+</svg>
