@@ -227,3 +227,75 @@ h4{
   justify-content: space-between;
   align-items: flex-end;
 }
+.content{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 74vw;
+  height: 100vh;
+}
+.mahabharat-div{
+  background-color: #f9dcdb;
+  height: 36.112vh;
+  margin-top: 15.7407407407407vh;
+}
+
+.mahabharat-div h4{
+  color: #d96561;
+}
+
+#force-for-change{
+  box-sizing: border-box;
+  position: fixed;
+  top: 28.5%;
+  right: -16vh;
+  width: 36vh;
+  transform: rotate(270deg);
+  text-transform: uppercase;
+}
+
+.indian-princess{
+  position: fixed;
+  height: 15.740740740740741vh;
+  top: 31vh;
+  right: 3vw;
+}
+.mahabharat-div h3{
+  color: #e17a77;
+  font-size: 1.5rem;
+  position: fixed;
+  left: 56%;
+  top: 22%;
+}
+h5{
+  color: rgba(231,142,139,1);
+  font-weight: 500;
+}
+#krishna{
+  color: rgba(231,142,139,0.7);
+  position: fixed;
+  right: 3vw;
+  top: 48vh;
+}
+.krishna-message{
+  position: fixed;
+  width: 31.5%;
+  left: 56%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  top: 25.5%;
+}
+.sahanavavatu{
+  position: fixed;
+  width: 31.5%;
+  left: 56%;
+  font-size: 1.2rem;
+  top: 36%;
+}
+
+.the-divine-couple{
+  position: fixed;
+  height: 42.962962962962963vh;
+  top: 8.95vh;
+  left: 26vw;
+}
