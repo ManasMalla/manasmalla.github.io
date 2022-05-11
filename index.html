@@ -4,10 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Manas Malla</title>
+    <title>Manas's Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
-
-    <link rel="icon" type="image/ico" href="favicon.ico" />
   </head>
   <body>
     <img class="border-leaves" id="left" src="assets/border-leaves-left.png" />
@@ -17,95 +15,82 @@
       src="assets/border-leaves-right.png"
     />
     <img src="assets/border-right.png" alt="" id="border" />
-    <div id="portfolio">
-      <img
-        src="assets/manas-malla.png"
-        alt="Doodle of Manas Malla"
-        class="profile-picture-doodle"
-      />
-      <img src="assets/more-vertical-icon.svg" alt="More" class="more-vert" />
-      <div id="below-profile">
-        <h1 id="title">Manas Malla</h1>
-        <div class="row" id="subtitle">
-          <h3>17years</h3>
-          <h3>&nbsp;|&nbsp;</h3>
-          <img src="assets/location.svg" alt="location" />
-          <h3>Visakhapatnam</h3>
-        </div>
-        <div class="row" id="emoji-folio">
-          <img src="assets/emoji-student.svg" alt="Student" class="emoji" />
-          <img
-            src="assets/emoji-technologist.svg"
-            alt="Developer"
-            class="emoji"
-          />
-          <img src="assets/emoji-artist.svg" alt="Artist" class="emoji" />
-        </div>
-        <div class="row" id="accomplishments">
-          <div class="data">
-            <h2>15</h2>
-            <h3>Projects</h3>
-          </div>
-          <div class="data">
-            <h2>6yr</h2>
-            <h3>Experience</h3>
-          </div>
-          <div class="data" onclick="location='awards.html'">
-            <h2>15</h2>
-            <h3>Awards</h3>
-          </div>
-        </div>
-        <h4>WWDC20 Swift Student Challenge Scholar</h4>
-        <div class="row" id="social-row">
-          <img
-            class="social"
-            src="assets/mail-icon.svg"
-            onclick="location='mailto:manasmalla.dev@gmail.com'"
-          />
-          <img
-            class="social"
-            src="assets/instagram-icon.svg"
-            onclick="location='https:\/\/instagram.com/manas_malla'"
-          />
-          <img
-            class="social"
-            src="assets/github-icon.svg"
-            onclick="location='https:\/\/github.com/manasmalla'"
-          />
-          <img
-            class="social"
-            src="assets/twitter-icon.svg"
-            onclick="location='https:\/\/twitter.com/manas_malla_'"
-          />
-          <img
-            class="social"
-            src="assets/linkedin-icon.svg"
-            onclick="location='https:\/\/linkedin.com/in/manasmalla'"
-          />
-        </div>
-      </div>
-    </div>
-    <div class="content">
-      <div class="mahabharat-div">
+    <div class="navbar">
+      <div class="row branding">
         <img
-          src="assets/indian-princess-illustration.png"
-          alt="Indian Princess Dancing"
-          class="indian-princess"
+          src="assets/more-vertical-icon.svg"
+          id="logo"
+          onclick="location.href='#'"
         />
-        <h5 id="krishna">~Lord Krishna, Mahabharata</h5>
-        <h3>Life is too short and beautiful !</h3>
-        <h5 class="krishna-message">
-          Keep making miracles and let’s enjoy what life throws at us, the lows
-          and the highs with the same enthusiastic spirit and a bright smile !
-        </h5>
-        <h5 class="sahanavavatu">
-          ॐ सह नाववतु । सह नौ भुनक्तु ।</br>सह वीर्यं करवावहै । तेजस्वि नावधीतमस्तु
-          मा विद्विषावहै ।</br>ॐ शान्तिः शान्तिः शान्तिः ॥
-        </h5>
-        <h4 id="force-for-change">Being A Force for Change</h4>
-        <img src="assets/lord-vishnu-mata-lakshmi.png" alt="Lord Vishnu and Mata Lakshmi" class="the-divine-couple">
+      </div>
+      <div class="profile-picture" onclick="location.href='manas_malla.html'">
+        <img src="assets/manas-malla.png" />
+      </div>
+      <h2>Manas Malla</h2>
+      <div class="row" id="subtitle">
+        <h3>17years</h3>
+        <h3>&nbsp;|&nbsp;</h3>
+        <img src="assets/location.svg" alt="location" />
+
+        <h3>&nbsp;</h3>
+        <h3>Visakhapatnam</h3>
+      </div>
+      <div class="row" id="emoji-folio">
+        <img src="assets/emoji-student.svg" alt="Student" class="emoji" />
+        <img
+          src="assets/emoji-technologist.svg"
+          alt="Developer"
+          class="emoji"
+        />
+        <img src="assets/emoji-artist.svg" alt="Artist" class="emoji" />
+      </div>
+      <div class="row" id="user-metrics">
+        <div>
+          <p>20</p>
+          <p>Projects</p>
+        </div>
+        <div class="clickable">
+          <p>6yr</p>
+          <p>Experience</p>
+        </div>
+        <div class="clickable">
+          <p>15</p>
+          <p>Awards</p>
+        </div>
+      </div>
+      <div class="row"><h4>WWDC20 Swift Student Challenge Scholar</h4></div>
+
+      <div class="row" id="social-row">
+        <img
+          class="social"
+          src="assets/mail-icon.svg"
+          onclick="location='mailto:manasmalla.dev@gmail.com'"
+        />
+        <img
+          class="social"
+          src="assets/instagram-icon.svg"
+          onclick="location='https:\/\/instagram.com/manas_malla'"
+        />
+        <img
+          class="social"
+          src="assets/github-icon.svg"
+          onclick="location='https:\/\/github.com/manasmalla'"
+        />
+        <img
+          class="social"
+          src="assets/twitter-icon.svg"
+          onclick="location='https:\/\/twitter.com/manas_malla_'"
+        />
+        <img
+          class="social"
+          src="assets/linkedin-icon.svg"
+          onclick="location='https:\/\/linkedin.com/in/manasmalla'"
+        />
       </div>
     </div>
+
+    <div class="content" id="main-content"></div>
+
     <img id="garland" src="assets/flower-garland.png" />
   </body>
 </html>

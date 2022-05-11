@@ -1,218 +1,334 @@
 @font-face {
-    font-family: "gilroy";
-    src: url("../fonts/gilroy-black-italic-webfont.woff2") format("woff2"),
-      url("../fonts/gilroy-black-italic-webfont.woff") format("woff");
-    font-weight: 900;
-    font-style: italic;
-  }
-  
-  @font-face {
-    font-family: "gilroy";
-    src: url("fonts/gilroy-black-webfont.woff2") format("woff2"),
-      url("fonts/gilroy-black-webfont.woff") format("woff");
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "gilroy";
-    src: url("fonts/gilroy-bold-italic-webfont.woff2") format("woff2"),
-      url("fonts/gilroy-bold-italic-webfont.woff") format("woff");
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  @font-face {
-    font-family: "gilroy";
-    src: url("fonts/gilroy-bold-webfont.woff2") format("woff2"),
-      url("fonts/gilroy-bold-webfont.woff") format("woff");
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "gilroy";
-    src: url("fonts/gilroy-italic-webfont.woff2") format("woff2"),
-      url("fonts/gilroy-italic-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: italic;
-  }
-  
-  @font-face {
-    font-family: "gilroy";
-    src: url("fonts/gilroy-light-italic-webfont.woff2") format("woff2"),
-      url("fonts/gilroy-light-italic-webfont.woff") format("woff");
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  @font-face {
-    font-family: "gilroy";
-    src: url("fonts/gilroy-light-webfont.woff2") format("woff2"),
-      url("fonts/gilroy-light-webfont.woff") format("woff");
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "gilroy";
-    src: url("fonts/gilroy-medium-italic-webfont.woff2") format("woff2"),
-      url("fonts/gilroy-medium-italic-webfont.woff") format("woff");
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  @font-face {
-    font-family: "gilroy";
-    src: url("fonts/gilroy-medium-webfont.woff2") format("woff2"),
-      url("fonts/gilroy-medium-webfont.woff") format("woff");
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "gilroy";
-    src: url("fonts/gilroy-regular-webfont.woff2") format("woff2"),
-      url("fonts/gilroy-regular-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "gilroy";
-    src: url("fonts/gilroy-thin-italic-webfont.woff2") format("woff2"),
-      url("fonts/gilroy-thin-italic-webfont.woff") format("woff");
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  @font-face {
-    font-family: "gilroy";
-    src: url("fonts/gilroy-thin-webfont.woff2") format("woff2"),
-      url("fonts/gilroy-thin-webfont.woff") format("woff");
-    font-weight: 100;
-    font-style: normal;
-  }
-
-*{
-    margin: 0;
-    padding: 0;
-    --primary-color: #229198;
-    font-family: 'gilroy';
-}
-#portfolio{
-    width: 26%;
-    height: 100vh;
-    background-color: #dceeef;
-}
-#garland{
-    position: fixed;
-    top: -7.4vh;
-    left: 25.5%;
-    z-index: 1;
-    height: 37.5vh;
-}
-.border-leaves{
-    height: 21.3vh;
-    bottom: -1.01759259259259259vh;
-    position: fixed;
-    z-index: -1;
+  font-family: "gilroy";
+  src: url("../fonts/gilroy-black-italic-webfont.woff2") format("woff2"),
+    url("../fonts/gilroy-black-italic-webfont.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
 }
 
-.border-leaves#left{
-    left: 25.4vw;
-}
-.border-leaves#right{
-    right: -0.7vw;
-}
-#border{
-    height: 31.666666666666667vh;
-    bottom: 0;
-    right: 0;
-    position: fixed;
-    z-index: -2;
-}
-.profile-picture-doodle{
-    height: 36.5740740740741vh;
-    position: fixed;
-    top: 16.7vh;
-    left: calc(13% - 15.273062414266129vh);
-    cursor: pointer;
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-black-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-black-webfont.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
 }
 
-.more-vert{
-    position: absolute;
-    height: 3.3vh;
-    top: 3vh;
-    left: 24%;
-    cursor: pointer;
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-bold-italic-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-bold-italic-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
 }
 
-h1{
-    color: var(--primary-color);
-    font-weight: normal;
-    font-size: 5.925925925925926vh;
-    cursor: default;
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-bold-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
 }
 
-
-#below-profile{
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    height: 37.962962962962963vh;
-    width: 26%;
-    bottom: 4.166666666666667vh;
-    align-items: center;
-}
-.row{
-    width: 100%;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-}
-#subtitle{
-    height: 2.777777777777778vh;
-}
-h3{
-    color: var(--primary-color);
-    font-weight: 500;
-}
-.emoji{
-    height: 4.5vh;
-}
-
-#emoji-folio{
-    margin-top: 3.33vh;
-    justify-content: space-between;
-    width: 36%;
-}
-
-#accomplishments{
-    justify-content: space-around;
-}
-#accomplishments .data{
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-    cursor: pointer;
-}
-
-h2{
-  color: var(--primary-color);
-  font-weight: bold;
-  margin-top: 1.5vh;
-}
-.data h3{
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-italic-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-italic-webfont.woff") format("woff");
   font-weight: normal;
+  font-style: italic;
 }
-h4{
+
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-light-italic-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-light-italic-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-light-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-light-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-medium-italic-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-medium-italic-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-medium-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-medium-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-regular-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-thin-italic-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-thin-italic-webfont.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/gilroy-thin-webfont.woff2") format("woff2"),
+    url("fonts/gilroy-thin-webfont.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@media only screen and (max-width: 720px) {
+  .navbar {
+    width: 100vw;
+  }
+  .content {
+  }
+  #social-row {
+    margin-top: 10vh;
+    padding-bottom: 4.2vh;
+    margin-left: calc(50% - (75% / 2));
+  }
+  #garland {
+    width: 20vw;
+    top: -12.2vw;
+    
+  }
+
+.border-leaves#left {
+  width: 0px;
+}
+}
+
+@media only screen and (min-width: 720px) and (max-width: 1080px) {
+  .navbar {
+    position: fixed;
+    width: 32vw;
+    z-index: 2;
+  }
+  .content {
+    top: 0;
+    width: 68vw;
+    position: absolute;
+    left: 32vw;
+    z-index: 1000;
+  }
+  #social-row {
+    position: absolute;
+    bottom: 4vh;
+    left: calc(50% - (75% / 2));
+  }
+  #garland {
+    left: 31.2vw;
+    width: 6.7vw;
+    top: -4.1vw;
+  }
+
+.border-leaves#left {
+  left: 31.2vw;
+}
+}
+
+@media only screen and (min-width: 1080px) {
+  .navbar {
+    position: fixed;
+    width: 26vw;
+    z-index: 2;
+  }
+  .content {
+    top: 0;
+    width: 74vw;
+    position: absolute;
+    left: 26vw;
+    z-index: 1000;
+  }
+  #social-row {
+    position: absolute;
+    bottom: 4vh;
+    left: calc(50% - (75% / 2));
+  }
+  #garland {
+    left: 25.4vw;
+    top: -4.1vw;
+    width: 6.7vw;
+  }
+
+.border-leaves#left {
+  left: 25.4vw;
+}
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  --primary-color: #229198;
+  box-sizing: border-box;
+  font-family: "gilroy";
+}
+
+/* #garland{
+  position: fixed;
+  top: -7.4vh;
+  left: 25.5%;
+  z-index: 2000;
+  height: 37.5vh;
+} */
+
+#garland {
+  position: absolute;
+  z-index: 2000;
+}
+.border-leaves {
+  height: 21.3vh;
+  bottom: -1.01759259259259259vh;
+  position: fixed;
+  z-index: 2000;
+}
+
+.border-leaves#right {
+  right: -0.7vw;
+}
+#border {
+  height: 31.666666666666667vh;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1500;
+}
+
+.navbar {
+  height: 100%;
+  background-color: #dceeef;
+  transition: transform 1s;
+  color: var(--primary-color);
+}
+.content {
+  height: 100vh;
+  background-color: #fff;
+  box-shadow: -16px 0px 5px rgba(0, 0, 0, 0.015);
+  border-radius: 1rem 0 0 1rem;
+  transition: transform 1s, width 1s;
+  padding: 1.5rem;
+}
+.hide-navbar {
+  position: fixed;
+  height: 40px;
+  width: 40px;
+  left: 275px;
+  bottom: 75px;
+  border-radius: 50%;
+  box-shadow: -10px 0px 5px rgba(0, 0, 0, 0.015);
+  background-color: #fff;
+  z-index: 1200;
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+.navbar #logo {
+  width: 1.2%;
+  height: 1.2%;
+  margin-right: 24px;
+  cursor: pointer;
+}
+
+.navbar #brand {
+  height: 25px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+#logo-content {
+  height: 100%;
+  margin-right: 10px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+#brand-content {
+  height: 100%;
+  margin-top: 4px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.branding-content {
+  width: 0px;
+  height: 0px;
+  margin-top: 0px;
+  transition: width, height 500ms;
+}
+
+.row {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-picture {
+  width: 60%;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.profile-picture img {
+  width: 100%;
+}
+
+.navbar .profile-picture {
+  margin-top: 80px;
+  margin-left: 20%;
+}
+
+h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 6vh;
+}
+
+.emoji {
+  height: 4.5vh;
+}
+
+#emoji-folio {
+  margin-top: 3.33vh;
+  justify-content: space-between;
+  width: 36%;
+  margin-left: 32%;
+}
+
+h3 {
+  color: var(--primary-color);
+  font-weight: 500;
+  text-align: center;
+}
+
+h4 {
   color: #187d83;
   font-weight: bold;
   margin-top: 1vh;
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
-.social{
+
+.social {
   width: 2.96vh;
   height: 2.96vh;
   cursor: pointer;
@@ -221,81 +337,77 @@ h4{
 .social:hover {
   transform: scale(1.5);
 }
-#social-row{
+#social-row {
   width: 75%;
-  height: 100%;
   justify-content: space-between;
-  align-items: flex-end;
 }
-.content{
+
+#subtitle {
+  height: 2.7vh;
+}
+
+.verified {
+  margin-left: 10px;
+  height: 1.25rem;
+}
+
+.branding {
+  justify-content: end;
+  margin-right: 10px;
+  padding-top: 20px;
+}
+
+#user-metrics {
+  justify-content: space-around;
+  margin-top: 1.2rem;
+}
+
+#user-metric div {
+  cursor: pointer;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+#user-metrics p {
+  font-weight: bold;
+  font-size: 1.4em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#user-metrics p:last-of-type {
+  font-weight: normal;
+  font-size: 1.1em;
+}
+
+.nav {
+  width: calc(100% - 40px);
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-content {
   position: fixed;
-  top: 0;
-  right: 0;
-  width: 74vw;
+  bottom: 0px;
+  width: 100vw;
   height: 100vh;
 }
-.mahabharat-div{
-  background-color: #f9dcdb;
-  height: 36.112vh;
-  margin-top: 15.7407407407407vh;
+
+.story-icon .profile-picture {
+  width: 72px;
+  height: 72px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  flex-shrink: 0;
 }
 
-.mahabharat-div h4{
-  color: #d96561;
-}
-
-#force-for-change{
-  box-sizing: border-box;
-  position: fixed;
-  top: 28.5%;
-  right: -16vh;
-  width: 36vh;
-  transform: rotate(270deg);
-  text-transform: uppercase;
-}
-
-.indian-princess{
-  position: fixed;
-  height: 15.740740740740741vh;
-  top: 31vh;
-  right: 3vw;
-}
-.mahabharat-div h3{
-  color: #e17a77;
-  font-size: 1.5rem;
-  position: fixed;
-  left: 56%;
-  top: 22%;
-}
-h5{
-  color: rgba(231,142,139,1);
-  font-weight: 500;
-}
-#krishna{
-  color: rgba(231,142,139,0.7);
-  position: fixed;
-  right: 3vw;
-  top: 48vh;
-}
-.krishna-message{
-  position: fixed;
-  width: 31.5%;
-  left: 56%;
-  font-size: 1.2rem;
-  font-weight: 500;
-  top: 25.5%;
-}
-.sahanavavatu{
-  position: fixed;
-  width: 31.5%;
-  left: 56%;
-  font-size: 1.2rem;
-  top: 36%;
-}
-
-.the-divine-couple{
-  position: fixed;
-  height: 42.962962962962963vh;
-  top: 8.95vh;
-  left: 26vw;
+::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }

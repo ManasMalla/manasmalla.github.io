@@ -1,0 +1,305 @@
+@font-face {
+    font-family: "gilroy";
+    src: url("../fonts/gilroy-black-italic-webfont.woff2") format("woff2"),
+      url("../fonts/gilroy-black-italic-webfont.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "gilroy";
+    src: url("fonts/gilroy-black-webfont.woff2") format("woff2"),
+      url("fonts/gilroy-black-webfont.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "gilroy";
+    src: url("fonts/gilroy-bold-italic-webfont.woff2") format("woff2"),
+      url("fonts/gilroy-bold-italic-webfont.woff") format("woff");
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "gilroy";
+    src: url("fonts/gilroy-bold-webfont.woff2") format("woff2"),
+      url("fonts/gilroy-bold-webfont.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "gilroy";
+    src: url("fonts/gilroy-italic-webfont.woff2") format("woff2"),
+      url("fonts/gilroy-italic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "gilroy";
+    src: url("fonts/gilroy-light-italic-webfont.woff2") format("woff2"),
+      url("fonts/gilroy-light-italic-webfont.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "gilroy";
+    src: url("fonts/gilroy-light-webfont.woff2") format("woff2"),
+      url("fonts/gilroy-light-webfont.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "gilroy";
+    src: url("fonts/gilroy-medium-italic-webfont.woff2") format("woff2"),
+      url("fonts/gilroy-medium-italic-webfont.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "gilroy";
+    src: url("fonts/gilroy-medium-webfont.woff2") format("woff2"),
+      url("fonts/gilroy-medium-webfont.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "gilroy";
+    src: url("fonts/gilroy-regular-webfont.woff2") format("woff2"),
+      url("fonts/gilroy-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "gilroy";
+    src: url("fonts/gilroy-thin-italic-webfont.woff2") format("woff2"),
+      url("fonts/gilroy-thin-italic-webfont.woff") format("woff");
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "gilroy";
+    src: url("fonts/gilroy-thin-webfont.woff2") format("woff2"),
+      url("fonts/gilroy-thin-webfont.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    --primary-color: #229198;
+    font-family: 'gilroy';
+}
+#portfolio{
+    width: 26%;
+    height: 100vh;
+    background-color: #dceeef;
+}
+#garland{
+    position: fixed;
+    top: -7.4vh;
+    left: 25.5%;
+    z-index: 1;
+    height: 37.5vh;
+}
+.border-leaves{
+    height: 21.3vh;
+    bottom: -1.01759259259259259vh;
+    position: fixed;
+    z-index: -1;
+}
+
+.border-leaves#left{
+    left: 25.4vw;
+}
+.border-leaves#right{
+    right: -0.7vw;
+}
+#border{
+    height: 31.666666666666667vh;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -2;
+}
+.profile-picture-doodle{
+    height: 36.5740740740741vh;
+    cursor: pointer;
+}
+
+#profile-holder{
+  width: 100%;
+  height: 36.5740740740741vh;
+  margin-top: 10.3vh;
+  align-items: center;
+}
+
+.more-vert{
+    position: fixed;
+    height: 3.3vh;
+    top: 3vh;
+    left: 24%;
+    cursor: pointer;
+}
+
+h1{
+    color: var(--primary-color);
+    font-weight: normal;
+    font-size: 5.925925925925926vh;
+    cursor: default;
+}
+
+
+#below-profile{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    height: 37.962962962962963vh;
+    width: 26%;
+    bottom: 4.166666666666667vh;
+    align-items: center;
+}
+.row{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+#subtitle{
+    height: 2.777777777777778vh;
+}
+h3{
+    color: var(--primary-color);
+    font-weight: 500;
+}
+.emoji{
+    height: 4.5vh;
+}
+
+#emoji-folio{
+    margin-top: 3.33vh;
+    justify-content: space-between;
+    width: 36%;
+}
+
+#accomplishments{
+    justify-content: space-around;
+}
+#accomplishments .data{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+h2{
+  color: var(--primary-color);
+  font-weight: bold;
+  margin-top: 1.5vh;
+}
+.data h3{
+  font-weight: normal;
+}
+h4{
+  color: #187d83;
+  font-weight: bold;
+  margin-top: 1vh;
+}
+.social{
+  width: 2.96vh;
+  height: 2.96vh;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+.social:hover {
+  transform: scale(1.5);
+}
+#social-row{
+  width: 75%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.content{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 74vw;
+  height: 100vh;
+}
+.mahabharat-div{
+  background-color: #f9dcdb;
+  height: 36.112vh;
+  margin-top: 15.7407407407407vh;
+}
+
+.mahabharat-div h4{
+  color: #d96561;
+}
+
+#force-for-change{
+  box-sizing: border-box;
+  position: fixed;
+  top: 28.5%;
+  right: -16vh;
+  width: 36vh;
+  transform: rotate(270deg);
+  text-transform: uppercase;
+}
+
+.indian-princess{
+  position: fixed;
+  height: 15.740740740740741vh;
+  top: 31vh;
+  right: 3vw;
+}
+.mahabharat-div h3{
+  color: #e17a77;
+  font-size: 1.5rem;
+  position: fixed;
+  left: 56%;
+  top: 22%;
+}
+h5{
+  color: rgba(231,142,139,1);
+  font-weight: 500;
+}
+#krishna{
+  color: rgba(231,142,139,0.7);
+  position: fixed;
+  right: 3vw;
+  top: 48vh;
+}
+.krishna-message{
+  position: fixed;
+  width: 31.5%;
+  left: 56%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  top: 25.5%;
+}
+.sahanavavatu{
+  position: fixed;
+  width: 31.5%;
+  left: 56%;
+  font-size: 1.2rem;
+  top: 36%;
+}
+
+.the-divine-couple{
+  position: fixed;
+  height: 42.962962962962963vh;
+  top: 8.95vh;
+  left: 26vw;
+}
