@@ -2,6 +2,97 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: "Ambit";
+  font-weight: 900;
+  src: url("/fonts/Ambit-Black.otf");
+}
+
+@font-face {
+  font-family: "Ambit";
+  font-weight: 900;
+  font-style: italic;
+  src: url("/fonts/Ambit-BlackItalic.otf");
+}
+
+@font-face {
+  font-family: "Ambit";
+  font-weight: 700;
+  src: url("/fonts/Ambit-Bold.otf");
+}
+
+@font-face {
+  font-family: "Ambit";
+  font-weight: 700;
+  font-style: italic;
+  src: url("/fonts/Ambit-BoldItalic.otf");
+}
+
+@font-face {
+  font-family: "Ambit";
+  font-weight: 200;
+  src: url("/fonts/Ambit-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "Ambit";
+  font-weight: 200;
+  font-style: italic;
+  src: url("/fonts/Ambit-ExtraLightItalic.ttf");
+}
+
+@font-face {
+  font-family: "Ambit";
+  font-style: italic;
+  src: url("/fonts/Ambit-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Ambit";
+  font-weight: 300;
+  src: url("/fonts/Ambit-Light.ttf");
+}
+
+@font-face {
+  font-family: "Ambit";
+  font-weight: 300;
+  font-style: italic;
+  src: url("/fonts/Ambit-LightItalic.ttf");
+}
+
+@font-face {
+  font-family: "Ambit";
+  font-weight: 600;
+  src: url("/fonts/Ambit-SemiBold.otf");
+}
+
+@font-face {
+  font-family: "Ambit";
+  font-weight: 600;
+  font-style: italic;
+  src: url("/fonts/Ambit-SemiBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Ambit";
+  font-weight: 100;
+  src: url("/fonts/Ambit-Thin.ttf");
+}
+
+@font-face {
+  font-family: "Ambit";
+  font-weight: 100;
+  font-style: italic;
+  src: url("/fonts/Ambit-ThinItalic.ttf");
+}
+
+@font-face {
+  font-family: "Ambit";
+  src: url("/fonts/Ambit-Regular.ttf");
+}
+
+
 * {
   box-sizing: border-box;
   padding: 0;
