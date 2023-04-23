@@ -1,10 +1,5 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
-
+import Head from "next/head";
+import Image from "next/image";
 export default function Home() {
   return (
     <>
@@ -14,110 +9,56 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>src/pages/index.tsx</code>
-          </p>
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{' '}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
+      <main>
+        <div className="w-[56%] text-center mx-auto">
+          <div className="mx-auto w-24 aspect-square rounded-full bg-[#005AC1] bg-opacity-10">
+            <img src="/memoji.png" className="mx-1 mt-2 p-1" />
           </div>
+          <h3 className="mb-5 mt-10">Hi, I'm Manas Malla</h3>
+          <h1 className="text-6xl leading-[1.3em]">
+            <span className="underline decoration-[#005AC1]/20 decoration-dashed">
+              Building
+            </span>{" "}
+            solutions
+            <br />
+            is my ikigai.
+          </h1>
+          <h2 className="text-2xl font-light mb-14 mt-10">
+            <span className="font-semibold">
+              a Designer, Developer, Speaker, Student and Tech Geek
+            </span>
+            <br />I specialise in Swift Development, UI/UX design, Android
+            development, Flutter Development and open-source contribtion
+          </h2>
+          <button className="bg-black text-white px-12 py-3 rounded-full uppercase">
+            Connect with Me
+          </button>
         </div>
+        <div className="my-28">
+          <div className="flex gap-6">
 
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-          <div className={styles.thirteen}>
-            <Image
-              src="/thirteen.svg"
-              alt="13"
-              width={40}
-              height={31}
-              priority
-            />
+            <div className="w-[40%] aspect-[0.974137931034483] h-max">
+              <img src="asj-manas.jpg" className="w-full aspect-[2.1] object-cover object-top mb-5 rounded-md shadow-[0_4px_32px_4px_rgba(0,0,0,0.16)]"/>
+              <img src="gds-manas.jpg" className="w-full aspect-[2.025089605734767] object-cover rounded-md shadow-[0_4px_32px_4px_rgba(0,0,0,0.16)]" />
+            </div>
+
+            <img src="image-main.jpg" className="w-[27%] h-max rounded-md shadow-[0_4px_32px_4px_rgba(0,0,0,0.16)]" />
+
+            <div className="w-[34%] aspect-[square] h-max">
+              <img src="https://pbs.twimg.com/media/FVB8pcGagAAun41?format=jpg&name=4096x4096" className="w-full aspect-[1.385] object-cover mb-5 rounded-md shadow-[0_4px_32px_4px_rgba(0,0,0,0.16)]" />
+              <img src="dare-to-be-fearless.jpg" className="w-full aspect-[2.36] object-cover rounded-md object-[0%,10%] shadow-[0_4px_32px_4px_rgba(0,0,0,0.16)]" />
+            </div>
+
           </div>
-        </div>
+          <div className="flex gap-6 mt-4">
+            
+            <img src="iwd-manas.jpg" className="w-[60%] aspect-[3.3] object-cover rounded-md object-top shadow-[0_4px_32px_4px_rgba(0,0,0,0.16)]" />
+             <img src="wed-manas.jpeg" className="w-[18%] aspect-[1.8] object-cover rounded-md shadow-[0_4px_32px_4px_rgba(0,0,0,0.16)]" />
+            <img src="temple-manas.jpg" className="w-[22%] aspect-[1.6] object-cover rounded-md shadow-[0_4px_32px_4px_rgba(0,0,0,0.16)]" />
+          </div>
 
-        <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Docs <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
-          </a>
         </div>
       </main>
     </>
-  )
+  );
 }
