@@ -14,7 +14,7 @@ export default function Home() {
           <div className="mx-auto w-24 aspect-square rounded-full bg-[#005AC1] bg-opacity-10">
             <img src="/memoji.png" className="mx-1 mt-2 p-1" />
           </div>
-          <h3 className="mb-5 mt-10">Hi, I'm Manas Malla</h3>
+          <h3 className="mb-5 mt-10">Hi, I&apos;m Manas Malla</h3>
           <h1 className="text-6xl leading-[1.3em]">
             <span className="underline decoration-[#005AC1]/20 decoration-dashed">
               Building
