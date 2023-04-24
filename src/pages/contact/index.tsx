@@ -22,7 +22,7 @@ export default function Contact() {
         <span className="underline leading-[1.3em] decoration-[#FBBC04]/20">
           Hello!
         </span>{" "}
-        We've been
+        We&apos;ve been
         <br />
         waiting for you.
       </h1>

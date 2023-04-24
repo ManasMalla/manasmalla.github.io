@@ -231,9 +231,9 @@ export default function Home() {
               <div className="right-16 top-48 absolute">
                 <h3 className="text-2xl text-[#6DA0A4]">Connect</h3>
                 <h3 className="text-2xl">Got a project</h3>
-                <a href="/contact" className="underline text-2xl font-bold">
+                <Link href="/contact" className="underline text-2xl font-bold">
                   Lets Talk!
-                </a>
+                </Link>
               </div>
             </div>
           </div>
