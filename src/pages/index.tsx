@@ -20,14 +20,14 @@ export default function Home() {
       <main>
         <Hero />
         <Gallery />
-        <div className="mx-20">
+        <div className="mx-8 lg:mx-20">
           <Services />
           <section id="resume">
             <div>
               <h2 className="text-4xl py-16">Resume</h2>
-              <div className="flex justify-between">
+              <div className="flex justify-between lg:flex-row flex-col">
                 <div>
-                  <h3 className="text-3xl font-semibold mt-6">
+                  <h3 className="text-3xl font-semibold lg:mt-6">
                     Work Experience
                   </h3>
                   <div className="my-11">
@@ -66,7 +66,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-3xl font-semibold mt-6">Education</h3>
+                  <h3 className="text-3xl font-semibold lg:mt-6">Education</h3>
                   <div className="my-11 flex flex-col gap-6">
                     <div>
                       <div className="flex">
@@ -131,10 +131,10 @@ export default function Home() {
                 <div />
               </div>
 
-              <h3 className="text-3xl font-semibold mt-6">
+              <h3 className="text-3xl font-semibold lg:mt-6">
                 Community Experience
               </h3>
-              <div className="flex my-11 justify-between">
+              <div className="flex my-11 justify-between lg:flex-row flex-col gap-4 lg:gap-0">
                 <div>
                   <div>
                     <div className="flex">
@@ -214,10 +214,10 @@ export default function Home() {
                 </div>
                 <div className="w-36" />
               </div>
-              <div className="flex">
+              <div className="flex lg:flex-row flex-col">
                 <div className="w-full flex-grow">
-                  <h3 className="text-3xl font-semibold mt-6">Skills</h3>
-                  <div className="flex my-11 justify-between">
+                  <h3 className="text-3xl font-semibold lg:mt-6">Skills</h3>
+                  <div className="flex lg:flex-row flex-col my-11 justify-between">
                     <div className="flex-grow">
                       <h4 className="text-xl pb-4">Languages</h4>
                       <ul className="grid grid-cols-2 gap-x-16 my-4 gap-y-4">
@@ -380,12 +380,12 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="flex">
+              <div className="flex lg:flex-row flex-col">
                 <div className="w-full">
-                  <h3 className="text-3xl font-semibold mt-6">Tools</h3>
+                  <h3 className="text-3xl font-semibold lg:mt-6">Tools</h3>
                   <div className="flex my-6">
                     <div>
-                      <ul className="grid grid-cols-3 gap-x-6 my-4 gap-y-4">
+                      <ul className="grid grid-cols-2 lg:grid-cols-3 gap-x-6 my-4 gap-y-4">
                         <li>
                           Figma
                           <Link href="" className="ml-1">
@@ -507,7 +507,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="w-3/4">
-                  <h3 className="text-3xl font-semibold mt-6">
+                  <h3 className="text-3xl font-semibold mt-3 lg:mt-6">
                     Online Courses
                   </h3>
                   <div className="my-11 flex flex-col gap-6">
@@ -643,13 +643,19 @@ export default function Home() {
           </section>
           <div className="my-20 overflow-y-clip h-[32rem]">
             <div className="relative">
-              <div className="bg-[#EAF9FA] w-1/3 aspect-square absolute -right-36 rounded-full" />
-              <div className="border-[#93CED2] border-2 w-1/3 aspect-square absolute -right-8 top-16 rounded-full border-dashed" />
-              <img src="party-memoji.png" className="w-48 right-44 absolute" />
-              <div className="right-16 top-48 absolute">
-                <h3 className="text-2xl text-[#6DA0A4]">Connect</h3>
-                <h3 className="text-2xl">Got a project</h3>
-                <Link href="/contact" className="underline text-2xl font-bold">
+              <div className="bg-[#EAF9FA] w-3/4 lg:w-1/3 aspect-square absolute -right-16 lg:-right-36 rounded-full" />
+              <div className="border-[#93CED2] border-2 w-3/4 lg:w-1/3 aspect-square absolute -right-0 lg:-right-8 top-16 rounded-full border-dashed" />
+              <img
+                src="party-memoji.png"
+                className="w-32 lg:w-48 right-28 lg:right-44 absolute"
+              />
+              <div className="right-8 lg:right-16 top-28 lg:top-48 absolute">
+                <h3 className="text-lg lg:text-2xl text-[#6DA0A4]">Connect</h3>
+                <h3 className="text-lg lg:text-2xl">Got a project</h3>
+                <Link
+                  href="/contact"
+                  className="underline text-lg lg:text-2xl font-bold"
+                >
                   Lets Talk!
                 </Link>
               </div>
