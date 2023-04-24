@@ -218,9 +218,10 @@ export default function Home() {
                 <div className="w-full flex-grow">
                   <h3 className="text-3xl font-semibold mt-6">Skills</h3>
                   <div className="flex my-11 justify-between">
-                    <div>
+                    <div className="flex-grow">
                       <h4 className="text-xl pb-4">Languages</h4>
                       <ul className="grid grid-cols-2 gap-x-16 my-4 gap-y-2">
+                        <li>Bash</li>
                         <li>
                           C
                           <Link
@@ -230,60 +231,17 @@ export default function Home() {
                             <ArrowUpRight className="py-[0.4rem] inline" />
                           </Link>
                         </li>
+                        <li>
+                          C#
+                          <Link
+                            href="https://www.peoriapublicschools.org/northmoor"
+                            className="ml-1"
+                          >
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
                         <li>C++</li>
-                        <li>
-                          Java
-                          <Link
-                            href="https://www.peoriapublicschools.org/northmoor"
-                            className="ml-1"
-                          >
-                            <ArrowUpRight className="py-[0.4rem] inline" />
-                          </Link>
-                        </li>
-                        <li>
-                          Swift
-                          <Link
-                            href="https://www.peoriapublicschools.org/northmoor"
-                            className="ml-1"
-                          >
-                            <ArrowUpRight className="py-[0.4rem] inline" />
-                          </Link>
-                        </li>
-                        <li>
-                          Kotlin
-                          <Link
-                            href="https://www.peoriapublicschools.org/northmoor"
-                            className="ml-1"
-                          >
-                            <ArrowUpRight className="py-[0.4rem] inline" />
-                          </Link>
-                        </li>
-                        <li>HTML</li>
-                        <li>TypeScript</li>
-                        <li>JavaScript</li>
                         <li>CSS/SCSS</li>
-                        <li>Rust</li>
-                        <li>
-                          GoLang
-                          <Link
-                            href="https://www.peoriapublicschools.org/northmoor"
-                            className="ml-1"
-                          >
-                            <ArrowUpRight className="py-[0.4rem] inline" />
-                          </Link>
-                        </li>
-                        <li>C#</li>
-                        <li>
-                          Python
-                          <Link
-                            href="https://www.peoriapublicschools.org/northmoor"
-                            className="ml-1"
-                          >
-                            <ArrowUpRight className="py-[0.4rem] inline" />
-                          </Link>
-                        </li>
-                        <li>XML</li>
-                        <li>SQL</li>
                         <li>
                           Dart
                           <Link
@@ -293,20 +251,71 @@ export default function Home() {
                             <ArrowUpRight className="py-[0.4rem] inline" />
                           </Link>
                         </li>
-                        <li>XAML</li>
-                        <li>Objective-C</li>
                         <li>Elixir</li>
-                        <li>PhP</li>
-                        <li>Scratch</li>
+                        <li>
+                          GoLang
+                          <Link
+                            href="https://www.peoriapublicschools.org/northmoor"
+                            className="ml-1"
+                          >
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>HTML</li>
+                        <li>
+                          Java
+                          <Link
+                            href="https://www.peoriapublicschools.org/northmoor"
+                            className="ml-1"
+                          >
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>JavaScript</li>
+                        <li>
+                          Kotlin
+                          <Link
+                            href="https://www.peoriapublicschools.org/northmoor"
+                            className="ml-1"
+                          >
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
                         <li>LOGO</li>
-                        <li>Turtle</li>
-                        <li>Visual Basic</li>
+                        <li>Objective-C</li>
+                        <li>PhP</li>
+                        <li>
+                          Python
+                          <Link
+                            href="https://www.peoriapublicschools.org/northmoor"
+                            className="ml-1"
+                          >
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
                         <li>QBasic</li>
+                        <li>Rust</li>
+                        <li>Scratch</li>
+                        <li>SQL</li>
+                        <li>
+                          Swift
+                          <Link
+                            href="https://www.peoriapublicschools.org/northmoor"
+                            className="ml-1"
+                          >
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>Turtle</li>
+                        <li>TypeScript</li>
+                        <li>Visual Basic</li>
+                        <li>XAML</li>
+                        <li>XML</li>
                       </ul>
                     </div>
-                    <div>
+                    <div className="flex-grow">
                       <h4 className="text-xl pb-4">Frameworks</h4>
-                      <ul className="grid grid-cols-1 gap-x-16 my-4 gap-y-2">
+                      <ul className="grid grid-cols-2 gap-x-16 my-4 gap-y-2">
                         <li>
                           Jetpack Compose
                           <Link
@@ -388,6 +397,47 @@ export default function Home() {
                       </ul>
                     </div>
                     <div />
+                  </div>
+                </div>
+              </div>
+              <div className="flex">
+                <div className="w-full">
+                  <h3 className="text-3xl font-semibold mt-6">Tools</h3>
+                  <div className="flex my-6">
+                    <div>
+                      <ul className="grid grid-cols-3 gap-x-8 my-4 gap-y-2">
+                        <li>Figma</li>
+                        <li>Adobe XD</li>
+                        <li>Sketch</li>
+                        <li>Android Studio</li>
+                        <li>Swift Playgrounds</li>
+                        <li>Material</li>
+                        <li>Vercel</li>
+                        <li>ChatGPT</li>
+                        <li>Dall-E</li>
+                        <li>Amazon Web Services</li>
+                        <li>Google Cloud</li>
+                        <li>Firebase</li>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>Postman</li>
+                        <li>Xcode</li>
+                        <li>VirtualBox</li>
+                        <li>Fusion 360</li>
+                        <li>Blender</li>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Illustrator</li>
+                        <li>Adobe Character Animator</li>
+                        <li>Adobe After Effects</li>
+                        <li>Adobe Media Encoder</li>
+                        <li>Adobe Audition</li>
+                        <li>Raspberry Pi</li>
+                        <li>Gradle</li>
+                        <li>CMake</li>
+                        <li>ec2</li>
+                        <li>Node.Js</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
                 <div className="w-3/4">
@@ -513,47 +563,6 @@ export default function Home() {
                       </h5>
                       <p className="text-md opacity-50">Aug 2011 - May 2020</p>
                     </div> */}
-                  </div>
-                </div>
-              </div>
-              <div className="flex">
-                <div className="w-full">
-                  <h3 className="text-3xl font-semibold mt-6">Tools</h3>
-                  <div className="flex my-6">
-                    <div>
-                      <ul className="grid grid-cols-3 gap-x-8 my-4 gap-y-2">
-                        <li>Figma</li>
-                        <li>Adobe XD</li>
-                        <li>Sketch</li>
-                        <li>Android Studio</li>
-                        <li>Swift Playgrounds</li>
-                        <li>Material</li>
-                        <li>Vercel</li>
-                        <li>ChatGPT</li>
-                        <li>Dall-E</li>
-                        <li>Amazon Web Services</li>
-                        <li>Google Cloud</li>
-                        <li>Firebase</li>
-                        <li>Git</li>
-                        <li>GitHub</li>
-                        <li>Postman</li>
-                        <li>Xcode</li>
-                        <li>VirtualBox</li>
-                        <li>Fusion 360</li>
-                        <li>Blender</li>
-                        <li>Adobe Photoshop</li>
-                        <li>Adobe Illustrator</li>
-                        <li>Adobe Character Animator</li>
-                        <li>Adobe After Effects</li>
-                        <li>Adobe Media Encoder</li>
-                        <li>Adobe Audition</li>
-                        <li>Raspberry Pi</li>
-                        <li>Gradle</li>
-                        <li>CMake</li>
-                        <li>ec2</li>
-                        <li>Node.Js</li>
-                      </ul>
-                    </div>
                   </div>
                 </div>
               </div>
