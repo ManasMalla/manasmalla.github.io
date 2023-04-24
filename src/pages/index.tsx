@@ -642,7 +642,7 @@ export default function Home() {
               </Link>
             </div>
           </section>
-          <div className="my-20 overflow-y-clip h-[32rem]">
+          <div className="my-20 overflow-y-visible h-[0rem] -translate-y-[16rem]">
             <div className="relative">
               <div className="bg-[#EAF9FA] w-3/4 lg:w-1/3 aspect-square absolute -right-16 lg:-right-36 rounded-full" />
               <div className="border-[#93CED2] border-2 w-3/4 lg:w-1/3 aspect-square absolute -right-0 lg:-right-8 top-16 rounded-full border-dashed" />
@@ -655,7 +655,7 @@ export default function Home() {
                 <h3 className="text-lg lg:text-2xl">Got a project</h3>
                 <Link
                   href="/contact"
-                  className="underline text-lg lg:text-2xl font-bold"
+                  className="underline text-lg lg:text-2xl font-bold underline-offset-8"
                 >
                   Lets Talk!
                 </Link>

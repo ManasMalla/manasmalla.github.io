@@ -1,14 +1,32 @@
 import Link from "next/link";
-import { GitHub, Instagram, Linkedin, Mail, Twitter } from "react-feather";
+import {
+  GitHub,
+  Instagram,
+  Linkedin,
+  Mail,
+  Twitter,
+  Youtube,
+} from "react-feather";
 
 export default function Footer() {
   return (
     <div className="py-16 px-36 border-t-[0.05em] flex justify-between">
       <div className="flex gap-12">
-        <Instagram className="stroke-[1.5] w-5 h-5" />
-        <Twitter className="stroke-[1.5] w-5 h-5" />
-        <Linkedin className="stroke-[1.5] w-5 h-5" />
-        <GitHub className="stroke-[1.5] w-5 h-5" />
+        <Link href="https://instagram.com/manas_malla">
+          <Instagram className="stroke-[1.5] w-5 h-5" />
+        </Link>
+        <Link href="https://twitter.com/manas_malla_">
+          <Twitter className="stroke-[1.5] w-5 h-5" />
+        </Link>
+        <Link href="https://www.linkedin.com/in/manasmalla">
+          <Linkedin className="stroke-[1.5] w-5 h-5" />
+        </Link>
+        <Link href="https://github.com/ManasMalla">
+          <GitHub className="stroke-[1.5] w-5 h-5" />
+        </Link>
+        <Link href="https://youtube.com/@MallaManas">
+          <Youtube className="stroke-[1.5] w-5 h-5" />
+        </Link>
       </div>
       <div className="flex gap-4">
         <Link href="mailto:manasmalla.dev@gmail.com">
