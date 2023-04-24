@@ -40,22 +40,21 @@ export default function Contact() {
           id="standard-basic"
           label="What's your name?"
           variant="standard"
-          className="w-full my-2"
-          sx={{ fontFamily: "Ambit", margin: "0 0.5rem" }}
+          className="w-full"
         />
+        <div className="h-4" />
         <TextField
           id="standard-basic"
           label="Your email"
           variant="standard"
-          className="w-full my-2"
-          sx={{ fontFamily: "Ambit", margin: "0 1.5rem" }}
+          className="w-full"
         />
+        <div className="h-4" />
         <TextField
           id="standard-basic"
           label="Tell me about your project"
           variant="standard"
-          className="w-full my-2"
-          sx={{ fontFamily: "Ambit", margin: "0 0.5rem" }}
+          className="w-full"
         />
       </ThemeProvider>
       <button
