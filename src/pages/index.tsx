@@ -214,6 +214,145 @@ export default function Home() {
                 </div>
                 <div className="w-36" />
               </div>
+              <div className="flex">
+                <div className="w-full">
+                  <h3 className="text-3xl font-semibold mt-6">Skills</h3>
+                  <div className="flex my-11 justify-between">
+                    <div>
+                      <h4 className="text-2xl">Design</h4>
+                      <ul className="grid grid-cols-2 gap-x-8 my-4 gap-y-2">
+                        <li>SwiftUI</li>
+                        <li>Jetpack Compose</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="text-2xl">Development</h4>
+                      <ul className="grid grid-cols-2 gap-x-8 my-4 gap-y-2">
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                      </ul>
+                    </div>
+                    <div />
+                  </div>
+                </div>
+                <div className="w-full">
+                  <h3 className="text-3xl font-semibold mt-6">
+                    Online Courses
+                  </h3>
+                  <div className="my-11 flex flex-col gap-6">
+                    <div>
+                      <div className="flex">
+                        <h4 className="text-xl">Udemy</h4>
+                        <Link
+                          href="https://www.peoriapublicschools.org/northmoor"
+                          className=" ml-2"
+                        >
+                          <ArrowUpRight className="p-1" />
+                        </Link>
+                      </div>
+                      <h5 className="text-md font-semibold">Preschool-1st</h5>
+                      <p className="text-md opacity-50">Sept 2009 - Jun 2011</p>
+                    </div>
+                    <div>
+                      <div className="flex">
+                        <h4 className="text-xl">Google Developer Training</h4>
+                        {/* <Link
+                          href="https://productexperts.withgoogle.com/"
+                          className=" ml-2"
+                        >
+                          <ArrowUpRight className="p-1" />
+                        </Link> */}
+                      </div>
+                      <div className="flex mt-2">
+                        <h5 className="text-md font-semibold">
+                          Android Basics with Compose
+                        </h5>
+                        <Link
+                          href="https://developer.android.com/teach"
+                          className="ml-1"
+                        >
+                          <ArrowUpRight className="p-[0.32rem]" />
+                        </Link>
+                      </div>
+                      <p className="text-md opacity-50">Jan 2023 - Present</p>
+                      <div className="flex mt-2">
+                        <h5 className="text-md font-semibold">
+                          Android Basics with Kotlin
+                        </h5>
+                        <Link
+                          href="https://developer.android.com/teach"
+                          className="ml-1"
+                        >
+                          <ArrowUpRight className="p-[0.32rem]" />
+                        </Link>
+                      </div>
+                      <p className="text-md opacity-50">Jun 2022 - Present</p>
+                    </div>
+                    {/* <div>
+                      <div className="flex">
+                        <h4 className="text-xl">Google Developers Training</h4>
+                        <Link
+                          href="https://developer.android.com/courses"
+                          className=" ml-2"
+                        >
+                          <ArrowUpRight className="p-1" />
+                        </Link>
+                      </div>
+                      <h5 className="text-md font-semibold">
+                        Android Basics with Compose
+                      </h5>
+                      <p className="text-md opacity-50">Aug 2011 - May 2020</p>
+                      <h5 className="text-md font-semibold">
+                        Android Basics with Kotlin
+                      </h5>
+                      <p className="text-md opacity-50">Aug 2011 - May 2020</p>
+                    </div> */}
+                  </div>
+                </div>
+              </div>
+              <div className="flex">
+                <div className="w-full">
+                  <h3 className="text-3xl font-semibold mt-6">Tools</h3>
+                  <div className="flex my-6">
+                    <div>
+                      <ul className="grid grid-cols-2 gap-x-8 my-4 gap-y-2">
+                        <li>Figma</li>
+                        <li>Android Studio</li>
+                        <li>Swift Playgrounds</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                        <li>SwiftUI</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <Link href="">
                 <div className="flex items-center text-[#B31412]">
                   <FileText />
