@@ -220,76 +220,60 @@ export default function Home() {
                   <div className="flex my-11 justify-between">
                     <div className="flex-grow">
                       <h4 className="text-xl pb-4">Languages</h4>
-                      <ul className="grid grid-cols-2 gap-x-16 my-4 gap-y-2">
+                      <ul className="grid grid-cols-2 gap-x-16 my-4 gap-y-4">
                         <li>Bash</li>
                         <li>
                           C
-                          <Link
-                            href="https://www.peoriapublicschools.org/northmoor"
-                            className="ml-1"
-                          >
+                          <Link href="" className="ml-1">
                             <ArrowUpRight className="py-[0.4rem] inline" />
                           </Link>
                         </li>
                         <li>
                           C#
-                          <Link
-                            href="https://www.peoriapublicschools.org/northmoor"
-                            className="ml-1"
-                          >
+                          <Link href="" className="ml-1">
                             <ArrowUpRight className="py-[0.4rem] inline" />
                           </Link>
                         </li>
                         <li>C++</li>
                         <li>CSS/SCSS</li>
-                        <li>
+                        <li className="font-semibold">
                           Dart
-                          <Link
-                            href="https://www.peoriapublicschools.org/northmoor"
-                            className="ml-1"
-                          >
+                          <Link href="" className="ml-1">
                             <ArrowUpRight className="py-[0.4rem] inline" />
                           </Link>
                         </li>
                         <li>Elixir</li>
-                        <li>
+
+                        <li className="font-semibold">
                           GoLang
-                          <Link
-                            href="https://www.peoriapublicschools.org/northmoor"
-                            className="ml-1"
-                          >
+                          <Link href="" className="ml-1">
                             <ArrowUpRight className="py-[0.4rem] inline" />
                           </Link>
                         </li>
-                        <li>HTML</li>
-                        <li>
+
+                        <li className="font-semibold">HTML</li>
+
+                        <li className="font-semibold">
                           Java
-                          <Link
-                            href="https://www.peoriapublicschools.org/northmoor"
-                            className="ml-1"
-                          >
+                          <Link href="" className="ml-1">
                             <ArrowUpRight className="py-[0.4rem] inline" />
                           </Link>
                         </li>
                         <li>JavaScript</li>
-                        <li>
+
+                        <li className="font-semibold">
                           Kotlin
-                          <Link
-                            href="https://www.peoriapublicschools.org/northmoor"
-                            className="ml-1"
-                          >
+                          <Link href="" className="ml-1">
                             <ArrowUpRight className="py-[0.4rem] inline" />
                           </Link>
                         </li>
                         <li>LOGO</li>
                         <li>Objective-C</li>
                         <li>PhP</li>
-                        <li>
+
+                        <li className="font-semibold">
                           Python
-                          <Link
-                            href="https://www.peoriapublicschools.org/northmoor"
-                            className="ml-1"
-                          >
+                          <Link href="" className="ml-1">
                             <ArrowUpRight className="py-[0.4rem] inline" />
                           </Link>
                         </li>
@@ -297,12 +281,10 @@ export default function Home() {
                         <li>Rust</li>
                         <li>Scratch</li>
                         <li>SQL</li>
-                        <li>
+
+                        <li className="font-semibold">
                           Swift
-                          <Link
-                            href="https://www.peoriapublicschools.org/northmoor"
-                            className="ml-1"
-                          >
+                          <Link href="" className="ml-1">
                             <ArrowUpRight className="py-[0.4rem] inline" />
                           </Link>
                         </li>
@@ -315,63 +297,48 @@ export default function Home() {
                     </div>
                     <div className="flex-grow">
                       <h4 className="text-xl pb-4">Frameworks</h4>
-                      <ul className="grid grid-cols-2 gap-x-16 my-4 gap-y-2">
-                        <li>
+                      <ul className="grid grid-cols-2 gap-x-16 my-4 gap-y-4">
+                        <li className="font-semibold">
                           Jetpack Compose
-                          <Link
-                            href="https://www.peoriapublicschools.org/northmoor"
-                            className="ml-1"
-                          >
+                          <Link href="" className="ml-1">
                             <ArrowUpRight className="py-[0.4rem] inline" />
                           </Link>
                         </li>
-                        <li>
+
+                        <li className="font-semibold">
                           SwiftUI
-                          <Link
-                            href="https://www.peoriapublicschools.org/northmoor"
-                            className="ml-1"
-                          >
+                          <Link href="" className="ml-1">
                             <ArrowUpRight className="py-[0.4rem] inline" />
                           </Link>
                         </li>
                         <li>
                           TailwindCSS
-                          <Link
-                            href="https://www.peoriapublicschools.org/northmoor"
-                            className="ml-1"
-                          >
+                          <Link href="" className="ml-1">
                             <ArrowUpRight className="py-[0.4rem] inline" />
                           </Link>
                         </li>
                         <li>
                           Next.Js
-                          <Link
-                            href="https://www.peoriapublicschools.org/northmoor"
-                            className="ml-1"
-                          >
+                          <Link href="" className="ml-1">
                             <ArrowUpRight className="py-[0.4rem] inline" />
                           </Link>
                         </li>
                         <li>
                           React/ React Native
-                          <Link
-                            href="https://www.peoriapublicschools.org/northmoor"
-                            className="ml-1"
-                          >
+                          <Link href="" className="ml-1">
                             <ArrowUpRight className="py-[0.4rem] inline" />
                           </Link>
                         </li>
-                        <li>
+
+                        <li className="font-semibold">
                           Parse
-                          <Link
-                            href="https://www.peoriapublicschools.org/northmoor"
-                            className="ml-1"
-                          >
+                          <Link href="" className="ml-1">
                             <ArrowUpRight className="py-[0.4rem] inline" />
                           </Link>
                         </li>
                         <li>Mongo</li>
-                        <li>
+
+                        <li className="font-semibold">
                           Flutter
                           <Link href="/skills/flutter" className="ml-1">
                             <ArrowUpRight className="py-[0.4rem] inline" />
@@ -380,20 +347,33 @@ export default function Home() {
                         <li>.NET</li>
                         <li>
                           Unity
-                          <Link
-                            href="https://www.peoriapublicschools.org/northmoor"
-                            className="ml-1"
-                          >
+                          <Link href="" className="ml-1">
                             <ArrowUpRight className="py-[0.4rem] inline" />
                           </Link>
                         </li>
-                        <li>TensorFlow</li>
-                        <li>Pandas</li>
+
+                        <li className="font-semibold">
+                          TensorFlow
+                          <Link href="" className="ml-1">
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>
+                          Pandas
+                          <Link href="" className="ml-1">
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
                         <li>Matplotlib</li>
                         <li>Numpy</li>
                         <li>Seaborn</li>
                         <li>SciLearn</li>
-                        <li>JSON</li>
+                        <li>
+                          JSON
+                          <Link href="" className="ml-1">
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
                       </ul>
                     </div>
                     <div />
@@ -405,37 +385,123 @@ export default function Home() {
                   <h3 className="text-3xl font-semibold mt-6">Tools</h3>
                   <div className="flex my-6">
                     <div>
-                      <ul className="grid grid-cols-3 gap-x-8 my-4 gap-y-2">
-                        <li>Figma</li>
-                        <li>Adobe XD</li>
+                      <ul className="grid grid-cols-3 gap-x-6 my-4 gap-y-4">
+                        <li>
+                          Figma
+                          <Link href="" className="ml-1">
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>
+                          Adobe XD
+                          <Link href="" className="ml-1">
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
                         <li>Sketch</li>
-                        <li>Android Studio</li>
-                        <li>Swift Playgrounds</li>
-                        <li>Material</li>
+                        <li>
+                          Android Studio
+                          <Link href="" className="ml-1">
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>
+                          Swift Playgrounds
+                          <Link href="" className="ml-1">
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>
+                          Material
+                          <Link href="" className="ml-1">
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
                         <li>Vercel</li>
-                        <li>ChatGPT</li>
+                        <li>
+                          ChatGPT
+                          <Link href="" className="ml-1">
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
                         <li>Dall-E</li>
                         <li>Amazon Web Services</li>
-                        <li>Google Cloud</li>
-                        <li>Firebase</li>
+                        <li>
+                          Google Cloud
+                          <Link href="" className="ml-1">
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>
+                          Firebase
+                          <Link href="" className="ml-1">
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
                         <li>Git</li>
-                        <li>GitHub</li>
+                        <li>
+                          GitHub
+                          <Link href="" className="ml-1">
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
                         <li>Postman</li>
-                        <li>Xcode</li>
+                        <li>
+                          Xcode
+                          <Link href="" className="ml-1">
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
                         <li>VirtualBox</li>
-                        <li>Fusion 360</li>
+                        <li>
+                          Fusion 360
+                          <Link href="" className="ml-1">
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
                         <li>Blender</li>
-                        <li>Adobe Photoshop</li>
-                        <li>Adobe Illustrator</li>
-                        <li>Adobe Character Animator</li>
-                        <li>Adobe After Effects</li>
+                        <li>
+                          Adobe Photoshop
+                          <Link href="" className="ml-1">
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>
+                          Adobe Illustrator
+                          <Link href="" className="ml-1">
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>
+                          Adobe Character Animator
+                          <Link href="" className="ml-1">
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>
+                          Adobe After Effects
+                          <Link href="" className="ml-1">
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
                         <li>Adobe Media Encoder</li>
-                        <li>Adobe Audition</li>
-                        <li>Raspberry Pi</li>
+                        <li>
+                          Adobe Audition
+                          <Link href="" className="ml-1">
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>
+                          Raspberry Pi
+                          <Link href="" className="ml-1">
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
                         <li>Gradle</li>
                         <li>CMake</li>
                         <li>ec2</li>
                         <li>Node.Js</li>
+                        <li>Visual Studio Code</li>
                       </ul>
                     </div>
                   </div>
@@ -485,7 +551,7 @@ export default function Home() {
                       <div className="flex">
                         <h4 className="text-xl">Udemy</h4>
                         <Link
-                          href="https://www.peoriapublicschools.org/northmoor"
+                          href=""
                           className=" ml-2"
                         >
                           <ArrowUpRight className="p-1" />
