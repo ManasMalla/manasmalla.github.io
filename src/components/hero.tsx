@@ -1,4 +1,7 @@
+import { useRouter } from "next/router";
+
 export default function Hero() {
+  const router = useRouter();
   return (
     <div className="mx-20 w-[56%] text-center mx-auto">
       <div className="mx-auto w-24 aspect-square rounded-full bg-[#005AC1] bg-opacity-10">
@@ -20,7 +23,12 @@ export default function Hero() {
         <br />I specialise in Swift Development, UI/UX design, Android
         development, Flutter Development and open-source contribtion
       </h2>
-      <button className="bg-black text-white px-12 py-3 rounded-full uppercase">
+      <button
+        onClick={() => {
+          router.push("/contact");
+        }}
+        className="bg-black text-white px-12 py-3 rounded-full uppercase"
+      >
         Connect with Me
       </button>
     </div>

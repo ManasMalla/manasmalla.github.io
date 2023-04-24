@@ -22,211 +22,218 @@ export default function Home() {
         <Gallery />
         <div className="mx-20">
           <Services />
-          <div>
-            <h2 className="text-4xl py-16">Resume</h2>
-            <div className="flex justify-between">
-              <div>
-                <h3 className="text-3xl font-semibold mt-6">Work Experience</h3>
-                <div className="my-11">
-                  <div className="flex">
-                    <h4 className="text-xl">Spotmies LLP</h4>
-                    <Link href="https://www.spotmies.com/" className=" ml-2">
-                      <ArrowUpRight className="p-1" />
-                    </Link>
+          <section id="resume">
+            <div>
+              <h2 className="text-4xl py-16">Resume</h2>
+              <div className="flex justify-between">
+                <div>
+                  <h3 className="text-3xl font-semibold mt-6">
+                    Work Experience
+                  </h3>
+                  <div className="my-11">
+                    <div className="flex">
+                      <h4 className="text-xl">Spotmies LLP</h4>
+                      <Link href="https://www.spotmies.com/" className=" ml-2">
+                        <ArrowUpRight className="p-1" />
+                      </Link>
+                    </div>
+                    <h5 className="text-md font-semibold">Flutter Intern</h5>
+                    <p className="text-md opacity-50">Dec 2021 - Mar 2023</p>
                   </div>
-                  <h5 className="text-md font-semibold">Flutter Intern</h5>
-                  <p className="text-md opacity-50">Dec 2021 - Mar 2023</p>
-                </div>
-                <h3 className="text-3xl font-semibold mt-6">
-                  Leadership Experience
-                </h3>
+                  <h3 className="text-3xl font-semibold mt-6">
+                    Leadership Experience
+                  </h3>
 
-                <div className="my-11 flex flex-col gap-6">
-                  <div>
-                    <div className="flex">
-                      <h4 className="text-xl">
-                        EcoClub, Visakha Valley School
-                      </h4>
+                  <div className="my-11 flex flex-col gap-6">
+                    <div>
+                      <div className="flex">
+                        <h4 className="text-xl">
+                          EcoClub, Visakha Valley School
+                        </h4>
+                      </div>
+                      <h5 className="text-md font-semibold">President</h5>
+                      <p className="text-md opacity-50">May 2018 - May 2020</p>
                     </div>
-                    <h5 className="text-md font-semibold">President</h5>
-                    <p className="text-md opacity-50">May 2018 - May 2020</p>
-                  </div>
-                  <div>
-                    <div className="flex">
-                      <h4 className="text-xl">
-                        Maths Club, Visakha Valley School
-                      </h4>
+                    <div>
+                      <div className="flex">
+                        <h4 className="text-xl">
+                          Maths Club, Visakha Valley School
+                        </h4>
+                      </div>
+                      <h5 className="text-md font-semibold">Representative</h5>
+                      <p className="text-md opacity-50">May 2019 - May 2020</p>
                     </div>
-                    <h5 className="text-md font-semibold">Representative</h5>
-                    <p className="text-md opacity-50">May 2019 - May 2020</p>
                   </div>
                 </div>
+                <div>
+                  <h3 className="text-3xl font-semibold mt-6">Education</h3>
+                  <div className="my-11 flex flex-col gap-6">
+                    <div>
+                      <div className="flex">
+                        <h4 className="text-xl">
+                          Northmoor Edison Primary School
+                        </h4>
+                        <Link
+                          href="https://www.peoriapublicschools.org/northmoor"
+                          className=" ml-2"
+                        >
+                          <ArrowUpRight className="p-1" />
+                        </Link>
+                      </div>
+                      <h5 className="text-md font-semibold">Preschool-1st</h5>
+                      <p className="text-md opacity-50">Sept 2009 - Jun 2011</p>
+                    </div>
+                    <div>
+                      <div className="flex">
+                        <h4 className="text-xl">Visakha Valley School</h4>
+                        <Link
+                          href="https://www.visakhavalleyschool.com/"
+                          className=" ml-2"
+                        >
+                          <ArrowUpRight className="p-1" />
+                        </Link>
+                      </div>
+                      <h5 className="text-md font-semibold">1st-10th</h5>
+                      <p className="text-md opacity-50">Aug 2011 - May 2020</p>
+                    </div>
+                    <div>
+                      <div className="flex">
+                        <h4 className="text-xl">
+                          M.P. & E.V. English Medium School
+                        </h4>
+                      </div>
+                      <h5 className="text-md font-semibold">11th-12th</h5>
+                      <p className="text-md opacity-50">Jun 2020 - Jul 2022</p>
+                    </div>
+                    <div>
+                      <div className="flex items-end">
+                        <h4 className="text-xl">
+                          Gandhi Institute of
+                          <br />
+                          Technology and Management
+                        </h4>
+                        <Link
+                          href="https://www.gitam.edu/"
+                          className=" ml-2 mb-1"
+                        >
+                          <ArrowUpRight className="p-1" />
+                        </Link>
+                      </div>
+                      <h5 className="text-md font-semibold">
+                        Bachelor&apos;s degree, Information Technology
+                      </h5>
+                      <p className="text-md opacity-50">
+                        Sept 2022 - Sept 2026
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div />
               </div>
-              <div>
-                <h3 className="text-3xl font-semibold mt-6">Education</h3>
-                <div className="my-11 flex flex-col gap-6">
+
+              <h3 className="text-3xl font-semibold mt-6">
+                Community Experience
+              </h3>
+              <div className="flex my-11 justify-between">
+                <div>
                   <div>
                     <div className="flex">
-                      <h4 className="text-xl">
-                        Northmoor Edison Primary School
-                      </h4>
+                      <h4 className="text-xl">Google</h4>
                       <Link
-                        href="https://www.peoriapublicschools.org/northmoor"
+                        href="https://productexperts.withgoogle.com/"
                         className=" ml-2"
                       >
                         <ArrowUpRight className="p-1" />
                       </Link>
                     </div>
-                    <h5 className="text-md font-semibold">Preschool-1st</h5>
-                    <p className="text-md opacity-50">Sept 2009 - Jun 2011</p>
-                  </div>
-                  <div>
-                    <div className="flex">
-                      <h4 className="text-xl">Visakha Valley School</h4>
+                    <h5 className="text-md font-semibold mt-2">
+                      Google Product Expert
+                      <span className="ml-4 text-[0.7em] font-normal italic">
+                        Android • WearOS by Google • Google Play Console
+                      </span>
+                    </h5>
+                    <p className="text-md opacity-50">Jan 2023 - Present</p>
+                    <div className="flex mt-2">
+                      <h5 className="text-md font-semibold">
+                        Android Study Jams Facilitator
+                      </h5>
                       <Link
-                        href="https://www.visakhavalleyschool.com/"
+                        href="https://developer.android.com/teach"
+                        className="ml-1"
+                      >
+                        <ArrowUpRight className="p-[0.32rem]" />
+                      </Link>
+                    </div>
+                    <p className="text-md opacity-50">Jun 2022 - Present</p>
+                  </div>
+                  <div className="mt-6">
+                    <div className="flex">
+                      <h4 className="text-xl">
+                        Google Developer Student Clubs
+                      </h4>
+                      <Link
+                        href="https://gdsc.community.dev/gandhi-institute-of-technology-and-management-gitam-visakhapatnam/"
                         className=" ml-2"
                       >
                         <ArrowUpRight className="p-1" />
                       </Link>
                     </div>
-                    <h5 className="text-md font-semibold">1st-10th</h5>
-                    <p className="text-md opacity-50">Aug 2011 - May 2020</p>
+                    <h5 className="text-md font-semibold">Volunteer, GITAM</h5>
+                    <p className="text-md opacity-50">Feb 2022 - Present</p>
                   </div>
+                </div>
+                <div>
                   <div>
                     <div className="flex">
                       <h4 className="text-xl">
-                        M.P. & E.V. English Medium School
-                      </h4>
-                    </div>
-                    <h5 className="text-md font-semibold">11th-12th</h5>
-                    <p className="text-md opacity-50">Jun 2020 - Jul 2022</p>
-                  </div>
-                  <div>
-                    <div className="flex items-end">
-                      <h4 className="text-xl">
-                        Gandhi Institute of
-                        <br />
-                        Technology and Management
+                        Google Developer Groups, Vizag
                       </h4>
                       <Link
-                        href="https://www.gitam.edu/"
-                        className=" ml-2 mb-1"
+                        href="https://gdg.community.dev/gdg-vizag/"
+                        className=" ml-2"
                       >
                         <ArrowUpRight className="p-1" />
                       </Link>
                     </div>
-                    <h5 className="text-md font-semibold">
-                      Bachelor&apos;s degree, Information Technology
-                    </h5>
-                    <p className="text-md opacity-50">Sept 2022 - Sept 2026</p>
+                    <h5 className="text-md font-semibold">Core Contributor</h5>
+                    <p className="text-md opacity-50">Jan 2022 - Present</p>
+                  </div>
+                  <div className="mt-6">
+                    <div className="flex">
+                      <h4 className="text-xl">Women TechMakers, Vizag</h4>
+                      <Link
+                        href="https://developers.google.com/womentechmakers"
+                        className=" ml-2"
+                      >
+                        <ArrowUpRight className="p-1" />
+                      </Link>
+                    </div>
+                    <h5 className="text-md font-semibold">Core Contributor</h5>
+                    <p className="text-md opacity-50">Jan 2022 - Present</p>
                   </div>
                 </div>
+                <div className="w-36" />
               </div>
-              <div />
+              <Link href="">
+                <div className="flex items-center text-[#B31412]">
+                  <FileText />
+                  <h4 className="mx-6 mt-1">View as PDF</h4>
+                  <ArrowRight className="p-1" />
+                </div>
+              </Link>
             </div>
-
-            <h3 className="text-3xl font-semibold mt-6">
-              Community Experience
-            </h3>
-            <div className="flex my-11 justify-between">
-              <div>
-                <div>
-                  <div className="flex">
-                    <h4 className="text-xl">Google</h4>
-                    <Link
-                      href="https://productexperts.withgoogle.com/"
-                      className=" ml-2"
-                    >
-                      <ArrowUpRight className="p-1" />
-                    </Link>
-                  </div>
-                  <h5 className="text-md font-semibold mt-2">
-                    Google Product Expert
-                    <span className="ml-4 text-[0.7em] font-normal italic">
-                      Android • WearOS by Google • Google Play Console
-                    </span>
-                  </h5>
-                  <p className="text-md opacity-50">Jan 2023 - Present</p>
-                  <div className="flex mt-2">
-                    <h5 className="text-md font-semibold">
-                      Android Study Jams Facilitator
-                    </h5>
-                    <Link
-                      href="https://developer.android.com/teach"
-                      className="ml-1"
-                    >
-                      <ArrowUpRight className="p-[0.32rem]" />
-                    </Link>
-                  </div>
-                  <p className="text-md opacity-50">Jun 2022 - Present</p>
-                </div>
-                <div className="mt-6">
-                  <div className="flex">
-                    <h4 className="text-xl">Google Developer Student Clubs</h4>
-                    <Link
-                      href="https://gdsc.community.dev/gandhi-institute-of-technology-and-management-gitam-visakhapatnam/"
-                      className=" ml-2"
-                    >
-                      <ArrowUpRight className="p-1" />
-                    </Link>
-                  </div>
-                  <h5 className="text-md font-semibold">Volunteer, GITAM</h5>
-                  <p className="text-md opacity-50">Feb 2022 - Present</p>
-                </div>
-              </div>
-              <div>
-                <div>
-                  <div className="flex">
-                    <h4 className="text-xl">Google Developer Groups, Vizag</h4>
-                    <Link
-                      href="https://gdg.community.dev/gdg-vizag/"
-                      className=" ml-2"
-                    >
-                      <ArrowUpRight className="p-1" />
-                    </Link>
-                  </div>
-                  <h5 className="text-md font-semibold">Core Contributor</h5>
-                  <p className="text-md opacity-50">Jan 2022 - Present</p>
-                </div>
-                <div className="mt-6">
-                  <div className="flex">
-                    <h4 className="text-xl">Women TechMakers, Vizag</h4>
-                    <Link
-                      href="https://developers.google.com/womentechmakers"
-                      className=" ml-2"
-                    >
-                      <ArrowUpRight className="p-1" />
-                    </Link>
-                  </div>
-                  <h5 className="text-md font-semibold">Core Contributor</h5>
-                  <p className="text-md opacity-50">Jan 2022 - Present</p>
-                </div>
-              </div>
-              <div className="w-36" />
-            </div>
-            <Link href="">
-              <div className="flex items-center text-[#B31412]">
-                <FileText />
-                <h4 className="mx-6 mt-1">View as PDF</h4>
-                <ArrowRight className="p-1" />
-              </div>
-            </Link>
-            <div className="my-20 overflow-y-clip h-[32rem]">
-              <div className="relative">
-                <div className="bg-[#EAF9FA] w-1/3 aspect-square absolute -right-36 rounded-full" />
-                <div className="border-[#93CED2] border-2 w-1/3 aspect-square absolute -right-8 top-16 rounded-full border-dashed" />
-                <img
-                  src="party-memoji.png"
-                  className="w-48 right-44 absolute"
-                />
-                <div className="right-16 top-48 absolute">
-                  <h3 className="text-2xl text-[#6DA0A4]">Connect</h3>
-                  <h3 className="text-2xl">Got a project</h3>
-                  <a href="" className="underline text-2xl font-bold">
-                    Lets Talk!
-                  </a>
-                </div>
+          </section>
+          <div className="my-20 overflow-y-clip h-[32rem]">
+            <div className="relative">
+              <div className="bg-[#EAF9FA] w-1/3 aspect-square absolute -right-36 rounded-full" />
+              <div className="border-[#93CED2] border-2 w-1/3 aspect-square absolute -right-8 top-16 rounded-full border-dashed" />
+              <img src="party-memoji.png" className="w-48 right-44 absolute" />
+              <div className="right-16 top-48 absolute">
+                <h3 className="text-2xl text-[#6DA0A4]">Connect</h3>
+                <h3 className="text-2xl">Got a project</h3>
+                <a href="/contact" className="underline text-2xl font-bold">
+                  Lets Talk!
+                </a>
               </div>
             </div>
           </div>

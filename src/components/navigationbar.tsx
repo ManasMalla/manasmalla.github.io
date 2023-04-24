@@ -11,8 +11,10 @@ export default function NavigationBar() {
         </div>
       </Link>
       <div className="flex gap-14">
-        <a className="text-[#005AC1]">Home</a>
-        <a>Resume</a>
+        <a href="/" className="text-[#005AC1]">
+          Home
+        </a>
+        <a href="/#resume">Resume</a>
         <a>Achievements</a>
         <a>Work</a>
         <a>Stories</a>
