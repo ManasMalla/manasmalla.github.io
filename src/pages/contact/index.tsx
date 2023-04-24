@@ -59,7 +59,7 @@ export default function Contact() {
       </ThemeProvider>
       <button
         onClick={() => {}}
-        className="bg-black text-white px-12 py-3 rounded-full uppercase my-8"
+        className="bg-black text-white px-12 py-3 rounded-full uppercase my-12"
       >
         Submit
       </button>

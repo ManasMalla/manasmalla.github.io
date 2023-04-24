@@ -219,7 +219,7 @@ export default function Home() {
                   <h3 className="text-3xl font-semibold lg:mt-6">Skills</h3>
                   <div className="flex lg:flex-row flex-col my-11 justify-between">
                     <div className="flex-grow">
-                      <h4 className="text-xl pb-4">Languages</h4>
+                      <h4 className="text-xl pb-4 font-semibold">Languages</h4>
                       <ul className="grid grid-cols-2 gap-x-16 my-4 gap-y-4">
                         <li>Bash</li>
                         <li>
@@ -296,7 +296,7 @@ export default function Home() {
                       </ul>
                     </div>
                     <div className="flex-grow">
-                      <h4 className="text-xl pb-4">Frameworks</h4>
+                      <h4 className="text-xl pb-4 font-semibold">Frameworks</h4>
                       <ul className="grid grid-cols-2 gap-x-16 my-4 gap-y-4">
                         <li className="font-semibold">
                           Jetpack Compose
