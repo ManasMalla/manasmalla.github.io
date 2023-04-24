@@ -1,10 +1,11 @@
 import Gallery from "@/components/gallery";
 import Hero from "@/components/hero";
+import RecommendationSection from "@/components/recommendations";
 import Services from "@/components/services";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, ArrowUpRight, FileText } from "react-feather";
+import { ArrowLeft, ArrowRight, ArrowUpRight, FileText } from "react-feather";
 export default function Home() {
   return (
     <>
@@ -661,6 +662,7 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <RecommendationSection />
         </div>
       </main>
     </>
