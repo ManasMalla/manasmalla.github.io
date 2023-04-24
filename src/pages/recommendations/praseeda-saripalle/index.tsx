@@ -51,10 +51,10 @@ export default function PraseedaAkkaTestimonial() {
             are to the peaks. And lot more to learn from him technically!
             <br />
             <br />
-            As the famous saying goes, "Peer-Pressure is Poisonous,
-            Peer-Learning is Precious", Manas has always been that person who is
-            anytime approachable to anyone. He is so down to earth, he is always
-            ever-ready to help his peers or whoever approaches him with a
+            As the famous saying goes, &quot;Peer-Pressure is Poisonous,
+            Peer-Learning is Precious&quot;, Manas has always been that person
+            who is anytime approachable to anyone. He is so down to earth, he is
+            always ever-ready to help his peers or whoever approaches him with a
             similar interest. His passion for teaching and making peer learning
             happen in the community, has made this happen- He was selected as
             Android Study Jams Facilitator for the community. With that, he has
