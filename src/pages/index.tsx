@@ -218,155 +218,175 @@ export default function Home() {
                 <div className="w-full flex-grow">
                   <h3 className="text-3xl font-semibold mt-6">Skills</h3>
                   <div className="flex my-11 justify-between">
-                    <ul className="grid grid-cols-3 gap-x-16 my-4 gap-y-2">
-                      <li>
-                        C
-                        <Link
-                          href="https://www.peoriapublicschools.org/northmoor"
-                          className="ml-1"
-                        >
-                          <ArrowUpRight className="py-[0.4rem] inline" />
-                        </Link>
-                      </li>
-                      <li>C++</li>
-                      <li>
-                        Java
-                        <Link
-                          href="https://www.peoriapublicschools.org/northmoor"
-                          className="ml-1"
-                        >
-                          <ArrowUpRight className="py-[0.4rem] inline" />
-                        </Link>
-                      </li>
-                      <li>
-                        Swift
-                        <Link
-                          href="https://www.peoriapublicschools.org/northmoor"
-                          className="ml-1"
-                        >
-                          <ArrowUpRight className="py-[0.4rem] inline" />
-                        </Link>
-                      </li>
-                      <li>
-                        Kotlin
-                        <Link
-                          href="https://www.peoriapublicschools.org/northmoor"
-                          className="ml-1"
-                        >
-                          <ArrowUpRight className="py-[0.4rem] inline" />
-                        </Link>
-                      </li>
-                      <li>
-                        Jetpack Compose
-                        <Link
-                          href="https://www.peoriapublicschools.org/northmoor"
-                          className="ml-1"
-                        >
-                          <ArrowUpRight className="py-[0.4rem] inline" />
-                        </Link>
-                      </li>
-                      <li>
-                        SwiftUI
-                        <Link
-                          href="https://www.peoriapublicschools.org/northmoor"
-                          className="ml-1"
-                        >
-                          <ArrowUpRight className="py-[0.4rem] inline" />
-                        </Link>
-                      </li>
-                      <li>HTML</li>
-                      <li>TypeScript</li>
-                      <li>JavaScript</li>
-                      <li>CSS/SCSS</li>
-                      <li>
-                        TailwindCSS
-                        <Link
-                          href="https://www.peoriapublicschools.org/northmoor"
-                          className="ml-1"
-                        >
-                          <ArrowUpRight className="py-[0.4rem] inline" />
-                        </Link>
-                      </li>
-                      <li>Rust</li>
-                      <li>
-                        GoLang
-                        <Link
-                          href="https://www.peoriapublicschools.org/northmoor"
-                          className="ml-1"
-                        >
-                          <ArrowUpRight className="py-[0.4rem] inline" />
-                        </Link>
-                      </li>
-                      <li>C#</li>
-                      <li>
-                        Python
-                        <Link
-                          href="https://www.peoriapublicschools.org/northmoor"
-                          className="ml-1"
-                        >
-                          <ArrowUpRight className="py-[0.4rem] inline" />
-                        </Link>
-                      </li>
-                      <li>
-                        Next.Js
-                        <Link
-                          href="https://www.peoriapublicschools.org/northmoor"
-                          className="ml-1"
-                        >
-                          <ArrowUpRight className="py-[0.4rem] inline" />
-                        </Link>
-                      </li>
-                      <li>
-                        React/ React Native
-                        <Link
-                          href="https://www.peoriapublicschools.org/northmoor"
-                          className="ml-1"
-                        >
-                          <ArrowUpRight className="py-[0.4rem] inline" />
-                        </Link>
-                      </li>
-                      <li>XML</li>
-                      <li>
-                        Parse
-                        <Link
-                          href="https://www.peoriapublicschools.org/northmoor"
-                          className="ml-1"
-                        >
-                          <ArrowUpRight className="py-[0.4rem] inline" />
-                        </Link>
-                      </li>
-                      <li>SQL</li>
-                      <li>Mongo</li>
-                      <li>
-                        Flutter
-                        <Link
-                          href="https://www.peoriapublicschools.org/northmoor"
-                          className="ml-1"
-                        >
-                          <ArrowUpRight className="py-[0.4rem] inline" />
-                        </Link>
-                      </li>
-                      <li>
-                        Dart
-                        <Link
-                          href="https://www.peoriapublicschools.org/northmoor"
-                          className="ml-1"
-                        >
-                          <ArrowUpRight className="py-[0.4rem] inline" />
-                        </Link>
-                      </li>
-                      <li>XAML</li>
-                      <li>.NET</li>
-                      <li>
-                        Unity
-                        <Link
-                          href="https://www.peoriapublicschools.org/northmoor"
-                          className="ml-1"
-                        >
-                          <ArrowUpRight className="py-[0.4rem] inline" />
-                        </Link>
-                      </li>
-                    </ul>
+                    <div>
+                      <h4 className="text-xl pb-4">Languages</h4>
+                      <ul className="grid grid-cols-2 gap-x-16 my-4 gap-y-2">
+                        <li>
+                          C
+                          <Link
+                            href="https://www.peoriapublicschools.org/northmoor"
+                            className="ml-1"
+                          >
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>C++</li>
+                        <li>
+                          Java
+                          <Link
+                            href="https://www.peoriapublicschools.org/northmoor"
+                            className="ml-1"
+                          >
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>
+                          Swift
+                          <Link
+                            href="https://www.peoriapublicschools.org/northmoor"
+                            className="ml-1"
+                          >
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>
+                          Kotlin
+                          <Link
+                            href="https://www.peoriapublicschools.org/northmoor"
+                            className="ml-1"
+                          >
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>HTML</li>
+                        <li>TypeScript</li>
+                        <li>JavaScript</li>
+                        <li>CSS/SCSS</li>
+                        <li>Rust</li>
+                        <li>
+                          GoLang
+                          <Link
+                            href="https://www.peoriapublicschools.org/northmoor"
+                            className="ml-1"
+                          >
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>C#</li>
+                        <li>
+                          Python
+                          <Link
+                            href="https://www.peoriapublicschools.org/northmoor"
+                            className="ml-1"
+                          >
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>XML</li>
+                        <li>SQL</li>
+                        <li>
+                          Dart
+                          <Link
+                            href="https://www.peoriapublicschools.org/northmoor"
+                            className="ml-1"
+                          >
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>XAML</li>
+                        <li>Objective-C</li>
+                        <li>Elixir</li>
+                        <li>PhP</li>
+                        <li>Scratch</li>
+                        <li>LOGO</li>
+                        <li>Turtle</li>
+                        <li>Visual Basic</li>
+                        <li>QBasic</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="text-xl pb-4">Frameworks</h4>
+                      <ul className="grid grid-cols-1 gap-x-16 my-4 gap-y-2">
+                        <li>
+                          Jetpack Compose
+                          <Link
+                            href="https://www.peoriapublicschools.org/northmoor"
+                            className="ml-1"
+                          >
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>
+                          SwiftUI
+                          <Link
+                            href="https://www.peoriapublicschools.org/northmoor"
+                            className="ml-1"
+                          >
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>
+                          TailwindCSS
+                          <Link
+                            href="https://www.peoriapublicschools.org/northmoor"
+                            className="ml-1"
+                          >
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>
+                          Next.Js
+                          <Link
+                            href="https://www.peoriapublicschools.org/northmoor"
+                            className="ml-1"
+                          >
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>
+                          React/ React Native
+                          <Link
+                            href="https://www.peoriapublicschools.org/northmoor"
+                            className="ml-1"
+                          >
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>
+                          Parse
+                          <Link
+                            href="https://www.peoriapublicschools.org/northmoor"
+                            className="ml-1"
+                          >
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>Mongo</li>
+                        <li>
+                          Flutter
+                          <Link href="/skills/flutter" className="ml-1">
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>.NET</li>
+                        <li>
+                          Unity
+                          <Link
+                            href="https://www.peoriapublicschools.org/northmoor"
+                            className="ml-1"
+                          >
+                            <ArrowUpRight className="py-[0.4rem] inline" />
+                          </Link>
+                        </li>
+                        <li>TensorFlow</li>
+                        <li>Pandas</li>
+                        <li>Matplotlib</li>
+                        <li>Numpy</li>
+                        <li>Seaborn</li>
+                        <li>SciLearn</li>
+                        <li>JSON</li>
+                      </ul>
+                    </div>
                     <div />
                   </div>
                 </div>
@@ -376,6 +396,42 @@ export default function Home() {
                   </h3>
                   <div className="my-11 flex flex-col gap-6">
                     <div>
+                      <div className="flex">
+                        <h4 className="text-xl">Udemy</h4>
+                        {/* <Link
+                          href="https://productexperts.withgoogle.com/"
+                          className=" ml-2"
+                        >
+                          <ArrowUpRight className="p-1" />
+                        </Link> */}
+                      </div>
+                      <div className="flex mt-2">
+                        <h5 className="text-md font-semibold">
+                          The Complete Android N Developer Course
+                        </h5>
+                        <Link
+                          href="https://www.udemy.com/course/complete-android-n-developer-course/"
+                          className="ml-1"
+                        >
+                          <ArrowUpRight className="p-[0.32rem]" />
+                        </Link>
+                      </div>
+                      <p className="text-md opacity-50">Mar 2018 - Aug 2018</p>
+                      <div className="flex mt-2">
+                        <h5 className="text-md font-semibold">
+                          The Complete iOS 12 & Swift Developer Course - Build
+                          28 Apps
+                        </h5>
+                        <Link
+                          href="https://www.udemy.com/course/ios-12-developer-course"
+                          className="ml-1"
+                        >
+                          <ArrowUpRight className="p-[0.32rem]" />
+                        </Link>
+                      </div>
+                      <p className="text-md opacity-50">Jan 2019 - May 2022</p>
+                    </div>
+                    {/* <div>
                       <div className="flex">
                         <h4 className="text-xl">Udemy</h4>
                         <Link
@@ -389,7 +445,8 @@ export default function Home() {
                         The Complete Android N Developer Course
                       </h5>
                       <p className="text-md opacity-50">Mar 2018 - Aug 2018</p>
-                    </div>
+                      <h5>The Complete iOS 13 & Swift Developer Course</h5>
+                    </div> */}
                     <div>
                       <div className="flex">
                         <h4 className="text-xl">Google Developer Training</h4>
@@ -405,25 +462,37 @@ export default function Home() {
                           Android Basics with Compose
                         </h5>
                         <Link
-                          href="https://developer.android.com/teach"
+                          href="https://developer.android.com/courses/android-basics-compose/course"
                           className="ml-1"
                         >
                           <ArrowUpRight className="p-[0.32rem]" />
                         </Link>
                       </div>
-                      <p className="text-md opacity-50">Jan 2023 - Present</p>
+                      <p className="text-md opacity-50">Jan 2023 - Apr 2023</p>
                       <div className="flex mt-2">
                         <h5 className="text-md font-semibold">
-                          Android Basics with Kotlin
+                          Compose Pathway
                         </h5>
                         <Link
-                          href="https://developer.android.com/teach"
+                          href="https://developer.android.com/courses/pathways/compose"
                           className="ml-1"
                         >
                           <ArrowUpRight className="p-[0.32rem]" />
                         </Link>
                       </div>
-                      <p className="text-md opacity-50">Jun 2022 - Present</p>
+                      <p className="text-md opacity-50">May 2022 - Jun 2022</p>
+                      <div className="flex mt-2">
+                        <h5 className="text-md font-semibold">
+                          Android Basics in Kotlin
+                        </h5>
+                        <Link
+                          href="https://developer.android.com/courses/android-basics-kotlin/course"
+                          className="ml-1"
+                        >
+                          <ArrowUpRight className="p-[0.32rem]" />
+                        </Link>
+                      </div>
+                      <p className="text-md opacity-50">Dec 2021 - Jan 2021</p>
                     </div>
                     {/* <div>
                       <div className="flex">
@@ -452,19 +521,37 @@ export default function Home() {
                   <h3 className="text-3xl font-semibold mt-6">Tools</h3>
                   <div className="flex my-6">
                     <div>
-                      <ul className="grid grid-cols-2 gap-x-8 my-4 gap-y-2">
+                      <ul className="grid grid-cols-3 gap-x-8 my-4 gap-y-2">
                         <li>Figma</li>
+                        <li>Adobe XD</li>
+                        <li>Sketch</li>
                         <li>Android Studio</li>
                         <li>Swift Playgrounds</li>
-                        <li>SwiftUI</li>
-                        <li>SwiftUI</li>
-                        <li>SwiftUI</li>
-                        <li>SwiftUI</li>
-                        <li>SwiftUI</li>
-                        <li>SwiftUI</li>
-                        <li>SwiftUI</li>
-                        <li>SwiftUI</li>
-                        <li>SwiftUI</li>
+                        <li>Material</li>
+                        <li>Vercel</li>
+                        <li>ChatGPT</li>
+                        <li>Dall-E</li>
+                        <li>Amazon Web Services</li>
+                        <li>Google Cloud</li>
+                        <li>Firebase</li>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>Postman</li>
+                        <li>Xcode</li>
+                        <li>VirtualBox</li>
+                        <li>Fusion 360</li>
+                        <li>Blender</li>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Illustrator</li>
+                        <li>Adobe Character Animator</li>
+                        <li>Adobe After Effects</li>
+                        <li>Adobe Media Encoder</li>
+                        <li>Adobe Audition</li>
+                        <li>Raspberry Pi</li>
+                        <li>Gradle</li>
+                        <li>CMake</li>
+                        <li>ec2</li>
+                        <li>Node.Js</li>
                       </ul>
                     </div>
                   </div>
