@@ -77,7 +77,7 @@ export default function Gallery() {
                   href="https://www.youtube.com/watch?v=MBZ4UmXvStM"
                   className="bg-white h-max z-20 rounded-full px-8 py-2 font-bold"
                 >
-                  @International Women's Day
+                  @International Women&apos;s Day
                   <span className="font-normal">, 2023</span>
                 </Link>
               </div>
@@ -97,7 +97,7 @@ export default function Gallery() {
                 href="https://iwdvizag.vercel.app"
                 className="bg-white h-max z-20 rounded-full px-8 py-2 font-bold"
               >
-                @International Women's Day: Vizag
+                @International Women&apos;s Day: Vizag
                 <span className="font-normal">, 2023</span>
               </Link>
             </div>

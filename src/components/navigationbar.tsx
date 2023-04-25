@@ -15,8 +15,8 @@ export default function NavigationBar() {
           Home
         </Link>
         <Link href="/#resume">Resume</Link>
-        <a>Achievements</a>
-        <a>Work</a>
+        <Link href="/#achievements">Achievements</Link>
+        <Link href="/#work">Work</Link>
         <a>Stories</a>
         <a>Blogs</a>
       </div>

@@ -663,6 +663,26 @@ export default function Home() {
             </div>
           </div>
           <RecommendationSection />
+
+          <section id="achievements" className=" mb-16">
+            <h2 className="text-4xl py-12 underline decoration-[#FBBC04]/20 decoration-2 underline-offset-[12px]">
+              Achievements
+            </h2>
+          </section>
+          <section id="work" className=" mb-16">
+            <h2 className="text-4xl py-12 ">
+              The {}
+              <span className="underline decoration-blue-200 decoration-2 underline-offset-[12px]">
+                Work
+              </span>
+              {} I do
+            </h2>
+            <div className="flex mr-24 gap-24">
+              <div className="w-1/2 aspect-[765/856] bg-[#f5fcfd]"></div>
+
+              <div className="w-1/2 aspect-[765/856] bg-[#fff8f3]"></div>
+            </div>
+          </section>
         </div>
       </main>
     </>
