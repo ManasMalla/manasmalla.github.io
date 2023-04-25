@@ -21,7 +21,7 @@ export default function Home() {
       <main>
         <Hero />
         <Gallery />
-        <div className="mx-8 lg:mx-20">
+        <div className="mx-8 lg:mx-28">
           <Services />
           <section id="resume">
             <div>
@@ -669,7 +669,7 @@ export default function Home() {
               Achievements
             </h2>
           </section>
-          <section id="work" className=" mb-16">
+          <section id="work" className="mb-16">
             <h2 className="text-4xl py-12 ">
               The {}
               <span className="underline decoration-blue-200 decoration-2 underline-offset-[12px]">
@@ -678,9 +678,46 @@ export default function Home() {
               {} I do
             </h2>
             <div className="flex mr-24 gap-24">
-              <div className="w-1/2 aspect-[765/856] bg-[#f5fcfd]"></div>
-
-              <div className="w-1/2 aspect-[765/856] bg-[#fff8f3]"></div>
+              <div className="w-1/2">
+                <div className="aspect-[765/856] bg-[#D2E3FC]/30"></div>
+                <h4 className="text-2xl my-6 font-semibold">
+                  ASquare Gokarting
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aliquam sit amet odio ut turpis vulputate molestie vitae at
+                  sapien. Vivamus.{" "}
+                </p>
+              </div>
+              <div className="w-1/2 mt-24">
+                <div className="aspect-[765/856] bg-[#FEF7E0]/50"></div>
+                <h4 className="text-2xl my-6 font-semibold">Nandikrushi</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aliquam sit amet odio ut turpis vulputate molestie vitae at
+                  sapien. Vivamus.{" "}
+                </p>
+              </div>
+            </div>
+            <div className="flex mr-24 gap-24 -translate-y-6">
+              <div className="w-1/2">
+                <div className="aspect-[765/856] bg-[#FCE8E6]/30"></div>
+                <h4 className="text-2xl my-6 font-semibold">BeCoronaReady</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aliquam sit amet odio ut turpis vulputate molestie vitae at
+                  sapien. Vivamus.{" "}
+                </p>
+              </div>
+              <div className="w-1/2 mt-24">
+                <div className="aspect-[765/856] bg-[#CEEAD6]/30"></div>
+                <h4 className="text-2xl my-6 font-semibold">EcoFun</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aliquam sit amet odio ut turpis vulputate molestie vitae at
+                  sapien. Vivamus.{" "}
+                </p>
+              </div>
             </div>
           </section>
         </div>
