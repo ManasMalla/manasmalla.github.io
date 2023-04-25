@@ -18,7 +18,7 @@ export default function RecommendationSection() {
       name: "Praseeda Saripalle",
       designation: "Lead @ GDSC GVPCEW",
       image:
-        "https://raw.githubusercontent.com/ManasMalla/gdg-resources/main/praseeda.png",
+        "https://media.licdn.com/dms/image/D5603AQEdL5JK-XDSfQ/profile-displayphoto-shrink_800_800/0/1669657636236?e=1687996800&v=beta&t=tDF-7Ae7JJVZtsSRreLdXINeyajfOfmxMLEFWLwvm3w",
       recomm_short:
         "If the driving factor itself is you, one could imagine how much energy is contained in you! And, the person who is so apt to resemble this analogy is Manas Malla. Being a creative designer by passion, and an Android Developer by profession, Manas has been highly excelling in any field given! Though I am ahead of him almost by 3 years of age, I never consider myself a senior to him when it comes to excelling in the amount of knowledge that he has in this field of development.",
       title: "There is always something that drives us and keeps us inspired.",
@@ -59,7 +59,7 @@ export default function RecommendationSection() {
           <div className="h-96 w-[22rem] bg-[#f5fcfd] absolute -z-20 right-12 top-12 rounded-[0.325rem]"></div>
           <img
             src={recommendations[index].image}
-            className="h-96 w-[22rem] rounded-[0.325rem] object-cover object-top"
+            className="h-96 w-[22rem] rounded-[0.325rem] object-cover"
           />
         </div>
         <div className="flex flex-col shrink px-16 justify-center pb-12">
