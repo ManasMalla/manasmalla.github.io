@@ -22,6 +22,9 @@ export default function Hero() {
         </span>
         <br />I specialise in Swift Development, UI/UX design, Android
         development, Flutter Development and open-source contribtion
+        <h3 className="mt-4 font-mono text-gray-400">
+          #BeingAForceForChange <span className="opacity-50">|</span>
+        </h3>
       </h2>
       <button
         onClick={() => {

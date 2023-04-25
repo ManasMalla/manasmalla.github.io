@@ -5,8 +5,10 @@ import Services from "@/components/services";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { ArrowLeft, ArrowRight, ArrowUpRight, FileText } from "react-feather";
 export default function Home() {
+  const router = useRouter();
   return (
     <>
       <Head>
@@ -665,8 +667,12 @@ export default function Home() {
           <RecommendationSection />
 
           <section id="achievements" className=" mb-16">
-            <h2 className="text-4xl py-12 underline decoration-[#FBBC04]/20 decoration-2 underline-offset-[12px]">
-              Achievements
+            <h2 className="text-4xl py-12">
+              I am{" "}
+              <span className="underline decoration-[#FBBC04]/20 decoration-2 underline-offset-[12px]">
+                remarkable
+              </span>{" "}
+              because...
             </h2>
           </section>
           <section id="work" className="mb-16">
@@ -683,7 +689,7 @@ export default function Home() {
                 <h4 className="text-2xl my-6 font-semibold">
                   ASquare Gokarting
                 </h4>
-                <p>
+                <p className="opacity-60">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam sit amet odio ut turpis vulputate molestie vitae at
                   sapien. Vivamus.{" "}
@@ -692,18 +698,18 @@ export default function Home() {
               <div className="w-1/2 mt-24">
                 <div className="aspect-[765/856] bg-[#FEF7E0]/50"></div>
                 <h4 className="text-2xl my-6 font-semibold">Nandikrushi</h4>
-                <p>
+                <p className="opacity-60">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam sit amet odio ut turpis vulputate molestie vitae at
                   sapien. Vivamus.{" "}
                 </p>
               </div>
             </div>
-            <div className="flex mr-24 gap-24 -translate-y-6">
+            <div className="flex mr-24 gap-24 -translate-y-8">
               <div className="w-1/2">
                 <div className="aspect-[765/856] bg-[#FCE8E6]/30"></div>
                 <h4 className="text-2xl my-6 font-semibold">BeCoronaReady</h4>
-                <p>
+                <p className="opacity-60">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam sit amet odio ut turpis vulputate molestie vitae at
                   sapien. Vivamus.{" "}
@@ -712,14 +718,34 @@ export default function Home() {
               <div className="w-1/2 mt-24">
                 <div className="aspect-[765/856] bg-[#CEEAD6]/30"></div>
                 <h4 className="text-2xl my-6 font-semibold">EcoFun</h4>
-                <p>
+                <p className="opacity-60">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam sit amet odio ut turpis vulputate molestie vitae at
                   sapien. Vivamus.{" "}
                 </p>
               </div>
             </div>
+            <button
+              onClick={() => {
+                router.push("https://github.com/ManasMalla?tab=repositories");
+              }}
+              className="px-12 py-4 bg-black text-white font-light rounded-full -translate-y-16"
+            >
+              <span className="font-normal">@ManasMalla</span> on GitHub
+            </button>
           </section>
+          <div className="w-max mx-auto mb-24">
+            <h2 className="text-5xl w-[18ch] font-semibold">
+              Let me know if you want to talk about a potential collaboration.
+              I&apos;m available for freelance work.
+            </h2>
+            <Link href="/contact" className="flex my-12">
+              <h3 className="text-3xl text-[#B06000]/40 underline decoration-2 underline-offset-8">
+                Let's build good things together
+              </h3>{" "}
+              <ArrowUpRight className="text-[#B06000]/30 w-8 h-8 ml-2" />
+            </Link>
+          </div>
         </div>
       </main>
     </>
