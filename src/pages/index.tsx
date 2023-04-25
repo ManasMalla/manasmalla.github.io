@@ -741,7 +741,7 @@ export default function Home() {
             </h2>
             <Link href="/contact" className="flex my-12">
               <h3 className="text-3xl text-[#B06000]/40 underline decoration-2 underline-offset-8">
-                Let's build good things together
+                Let&apos;s build good things together
               </h3>{" "}
               <ArrowUpRight className="text-[#B06000]/30 w-8 h-8 ml-2" />
             </Link>
