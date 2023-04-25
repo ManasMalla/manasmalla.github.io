@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Gallery() {
   return (
-    <div className="my-28">
+    <div className="my-28 text-black">
       <div className="flex gap-6">
         <div className="w-[40%] aspect-[0.974137931034483] h-max">
           <div className="w-full aspect-[2.1] mb-5 rounded-r-md shadow-[0_4px_32px_4px_rgba(0,0,0,0.16)] relative">

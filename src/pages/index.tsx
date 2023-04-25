@@ -646,8 +646,8 @@ export default function Home() {
           </section>
           <div className="my-20 overflow-y-visible h-[0rem] -translate-y-[16rem]">
             <div className="relative">
-              <div className="bg-[#EAF9FA] w-3/4 lg:w-1/3 aspect-square absolute -right-16 lg:-right-36 rounded-full" />
-              <div className="border-[#93CED2] border-2 w-3/4 lg:w-1/3 aspect-square absolute -right-0 lg:-right-8 top-16 rounded-full border-dashed" />
+              <div className="bg-[#EAF9FA] dark:bg-opacity-10 w-3/4 lg:w-1/3 aspect-square absolute -right-16 lg:-right-36 rounded-full" />
+              <div className="border-[#93CED2] dark:opacity-30 border-2 w-3/4 lg:w-1/3 aspect-square absolute -right-0 lg:-right-8 top-16 rounded-full border-dashed" />
               <img
                 src="party-memoji.png"
                 className="w-32 lg:w-48 right-28 lg:right-44 absolute"
@@ -685,7 +685,7 @@ export default function Home() {
             </h2>
             <div className="flex lg:flex-row flex-col lg:mr-24 gap-12 lg:gap-24">
               <div className="w-full lg:w-1/2">
-                <div className="aspect-[765/856] bg-[#D2E3FC]/30"></div>
+                <div className="aspect-[765/856] bg-[#D2E3FC]/30 dark:bg-[#D2E3FC]/80"></div>
                 <h4 className="text-2xl my-6 font-semibold">
                   ASquare Gokarting
                 </h4>
@@ -696,7 +696,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="w-full lg:w-1/2 lg:mt-24">
-                <div className="aspect-[765/856] bg-[#FEF7E0]/50"></div>
+                <div className="aspect-[765/856] bg-[#FEF7E0]/50 dark:bg-[#FEF7E0]/80"></div>
                 <h4 className="text-2xl my-6 font-semibold">Nandikrushi</h4>
                 <p className="opacity-60">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -707,7 +707,7 @@ export default function Home() {
             </div>
             <div className="flex lg:flex-row flex-col lg:mr-24 gap-12 lg:gap-24 lg:-translate-y-8 mt-12 lg:mt-0">
               <div className="w-full lg:w-1/2">
-                <div className="aspect-[765/856] bg-[#FCE8E6]/30"></div>
+                <div className="aspect-[765/856] bg-[#FCE8E6]/30 dark:bg-[#FCE8E6]/80"></div>
                 <h4 className="text-2xl my-6 font-semibold">BeCoronaReady</h4>
                 <p className="opacity-60">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -716,7 +716,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="w-full lg:w-1/2 lg:mt-24">
-                <div className="aspect-[765/856] bg-[#CEEAD6]/30"></div>
+                <div className="aspect-[765/856] bg-[#CEEAD6]/30 dark:bg-[#CEEAD6]/80"></div>
                 <h4 className="text-2xl my-6 font-semibold">EcoFun</h4>
                 <p className="opacity-60">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -729,7 +729,7 @@ export default function Home() {
               onClick={() => {
                 router.push("https://github.com/ManasMalla?tab=repositories");
               }}
-              className="px-12 py-4 bg-black text-white font-light rounded-full lg:-translate-y-16 mt-4 lg:mt-0"
+              className="px-12 py-4 bg-black dark:bg-white text-white dark:text-black font-light rounded-full lg:-translate-y-16 mt-4 lg:mt-0"
             >
               <span className="font-normal">@ManasMalla</span> on GitHub
             </button>
@@ -749,10 +749,10 @@ export default function Home() {
               I&apos;m available for freelance work.
             </h2>
             <Link href="/contact" className="flex my-12">
-              <h3 className="text-lg lg:text-3xl text-[#B06000]/40 underline decoration-2 underline-offset-8">
+              <h3 className="text-lg lg:text-3xl text-[#B06000]/40 dark:text-[#FDE293]/80 underline decoration-2 underline-offset-8">
                 Let&apos;s build good things together
               </h3>{" "}
-              <ArrowUpRight className="text-[#B06000]/30 w-8 h-8 ml-2" />
+              <ArrowUpRight className="text-[#B06000]/30 w-8 h-8 ml-2 dark:text-[#FDE293]/80" />
             </Link>
           </div>
         </div>

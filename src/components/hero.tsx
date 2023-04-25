@@ -4,7 +4,7 @@ export default function Hero() {
   const router = useRouter();
   return (
     <div className="mx-auto lg:mx-20 lg:w-[56%] text-center lg:mx-auto">
-      <div className="mx-auto w-24 aspect-square rounded-full bg-[#005AC1] bg-opacity-10">
+      <div className="mx-auto w-24 aspect-square rounded-full bg-[#005AC1] dark:bg-[#D2E3FC] bg-opacity-10 dark:bg-opacity-10">
         <img src="/memoji.png" className="mx-1 mt-2 p-1" />
       </div>
       <h3 className="mb-5 mt-10">Hi, I&apos;m Manas Malla</h3>
@@ -31,7 +31,7 @@ export default function Hero() {
         onClick={() => {
           router.push("/contact");
         }}
-        className="bg-black text-white px-12 py-3 rounded-full uppercase"
+        className="bg-black dark:bg-white text-white dark:text-black px-12 py-3 rounded-full uppercase"
       >
         Connect with Me
       </button>

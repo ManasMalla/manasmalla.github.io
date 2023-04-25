@@ -14,12 +14,12 @@ export default function Contact() {
     },
   });
   return (
-    <div className="mx-96 flex flex-col items-center">
-      <div className="mx-auto w-20 aspect-square rounded-full bg-[#005AC1] bg-opacity-10 mb-12">
+    <div className="mx-8 lg:mx-96 flex flex-col items-center">
+      <div className="mx-auto w-20 aspect-square rounded-full bg-[#005AC1] dark:bg-[#D2E3FC] bg-opacity-10 dark:bg-opacity-10 mb-12">
         <img src="/wink-memoji.png" className="p-2" />
       </div>
-      <h1 className="text-5xl text-center">
-        <span className="underline leading-[1.3em] decoration-[#FBBC04]/20">
+      <h1 className="text-4xl lg:text-5xl text-center">
+        <span className="underline leading-[1.3em] decoration-[#FBBC04]/20 dark:decoration-[#FBBC04]/40">
           Hello!
         </span>{" "}
         We&apos;ve been
@@ -59,7 +59,7 @@ export default function Contact() {
       </ThemeProvider>
       <button
         onClick={() => {}}
-        className="bg-black text-white px-12 py-3 rounded-full uppercase my-12"
+        className="bg-black dark:bg-white text-white dark:text-black px-12 py-3 rounded-full uppercase my-12"
       >
         Submit
       </button>
