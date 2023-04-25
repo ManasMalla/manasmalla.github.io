@@ -53,20 +53,20 @@ export default function RecommendationSection() {
           about me
         </span>
       </h2>
-      <div className="flex mt-8">
-        <div className="flex-shrink-0 h-[27rem] w-[22rem] relative">
-          <div className="h-96 w-[22rem] bg-[#eaf9fa] absolute -z-10 right-6 top-6 rounded-[0.325rem]"></div>
-          <div className="h-96 w-[22rem] bg-[#f5fcfd] absolute -z-20 right-12 top-12 rounded-[0.325rem]"></div>
+      <div className="flex mt-8 lg:flex-row flex-col">
+        <div className="flex-shrink-0 h-[21rem] lg:h-[27rem] w-[16rem] lg:mx-0 ml-auto mb-4 lg:mb-0 mr-6 lg:w-[22rem] relative">
+          <div className="h-72 lg:h-96 w-[16rem] lg:w-[22rem] bg-[#eaf9fa] absolute -z-10 right-6 top-6 rounded-[0.325rem]"></div>
+          <div className="h-72 lg:h-96 w-[16rem] lg:w-[22rem] bg-[#f5fcfd] absolute -z-20 right-12 top-12 rounded-[0.325rem]"></div>
           <img
             src={recommendations[index].image}
-            className="h-96 w-[22rem] rounded-[0.325rem] object-cover"
+            className="h-72 lg:h-96 w-[16rem] lg:w-[22rem] rounded-[0.325rem] object-cover"
           />
         </div>
-        <div className="flex flex-col shrink px-16 justify-center pb-12">
-          <h3 className="text-lg font-semibold mb-8 w-[33rem]">
+        <div className="flex flex-col shrink lg:px-16 justify-center pb-12">
+          <h3 className="text-lg font-semibold mb-8 w-[20rem] lg:w-[33rem]">
             {recommendations[index].title}
           </h3>
-          <p className="w-[33rem]">
+          <p className="lg:w-[33rem]">
             {recommendations[index].recomm_short}
             <span>
               ..{" "}

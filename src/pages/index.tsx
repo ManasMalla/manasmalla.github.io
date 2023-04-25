@@ -683,8 +683,8 @@ export default function Home() {
               </span>
               {} I do
             </h2>
-            <div className="flex mr-24 gap-24">
-              <div className="w-1/2">
+            <div className="flex lg:flex-row flex-col lg:mr-24 gap-12 lg:gap-24">
+              <div className="w-full lg:w-1/2">
                 <div className="aspect-[765/856] bg-[#D2E3FC]/30"></div>
                 <h4 className="text-2xl my-6 font-semibold">
                   ASquare Gokarting
@@ -695,7 +695,7 @@ export default function Home() {
                   sapien. Vivamus.{" "}
                 </p>
               </div>
-              <div className="w-1/2 mt-24">
+              <div className="w-full lg:w-1/2 lg:mt-24">
                 <div className="aspect-[765/856] bg-[#FEF7E0]/50"></div>
                 <h4 className="text-2xl my-6 font-semibold">Nandikrushi</h4>
                 <p className="opacity-60">
@@ -705,8 +705,8 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="flex mr-24 gap-24 -translate-y-8">
-              <div className="w-1/2">
+            <div className="flex lg:flex-row flex-col lg:mr-24 gap-12 lg:gap-24 lg:-translate-y-8 mt-12 lg:mt-0">
+              <div className="w-full lg:w-1/2">
                 <div className="aspect-[765/856] bg-[#FCE8E6]/30"></div>
                 <h4 className="text-2xl my-6 font-semibold">BeCoronaReady</h4>
                 <p className="opacity-60">
@@ -715,7 +715,7 @@ export default function Home() {
                   sapien. Vivamus.{" "}
                 </p>
               </div>
-              <div className="w-1/2 mt-24">
+              <div className="w-full lg:w-1/2 lg:mt-24">
                 <div className="aspect-[765/856] bg-[#CEEAD6]/30"></div>
                 <h4 className="text-2xl my-6 font-semibold">EcoFun</h4>
                 <p className="opacity-60">
@@ -729,18 +729,27 @@ export default function Home() {
               onClick={() => {
                 router.push("https://github.com/ManasMalla?tab=repositories");
               }}
-              className="px-12 py-4 bg-black text-white font-light rounded-full -translate-y-16"
+              className="px-12 py-4 bg-black text-white font-light rounded-full lg:-translate-y-16 mt-4 lg:mt-0"
             >
               <span className="font-normal">@ManasMalla</span> on GitHub
             </button>
+            <button
+              onClick={() => {
+                router.push("https://github.com/ManasMalla?tab=repositories");
+              }}
+              className="px-4 lg:px-12 py-4 font-light rounded-full lg:-translate-y-16 mt-4 lg:mt-0"
+            >
+              <span className="font-normal inline-flex">View All</span>
+              <ArrowRight className="inline-flex w-4 h-4 ml-4" />
+            </button>
           </section>
           <div className="w-max mx-auto mb-24">
-            <h2 className="text-5xl w-[18ch] font-semibold">
+            <h2 className="text-2xl lg:text-5xl w-[18ch] font-semibold">
               Let me know if you want to talk about a potential collaboration.
               I&apos;m available for freelance work.
             </h2>
             <Link href="/contact" className="flex my-12">
-              <h3 className="text-3xl text-[#B06000]/40 underline decoration-2 underline-offset-8">
+              <h3 className="text-lg lg:text-3xl text-[#B06000]/40 underline decoration-2 underline-offset-8">
                 Let&apos;s build good things together
               </h3>{" "}
               <ArrowUpRight className="text-[#B06000]/30 w-8 h-8 ml-2" />

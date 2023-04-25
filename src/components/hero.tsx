@@ -22,8 +22,9 @@ export default function Hero() {
         </span>
         <br />I specialise in Swift Development, UI/UX design, Android
         development, Flutter Development and open-source contribtion
-        <h3 className="mt-4 font-mono text-gray-400">
-          #BeingAForceForChange <span className="opacity-50">|</span>
+        <h3 className="mt-4 text-gray-400">
+          <div className="typing font-mono">#BeingAForceForChange</div>
+          <div className="inline-flex opacity-50 ml-1 blinking">|</div>
         </h3>
       </h2>
       <button

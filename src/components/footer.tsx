@@ -10,7 +10,7 @@ import {
 
 export default function Footer() {
   return (
-    <div className="py-16 px-36 border-t-[0.05em] flex justify-between">
+    <div className="py-16 px-8 lg:px-36 border-t-[0.05em] flex lg:flex-row flex-col gap-12 lg:gap-0 justify-between">
       <div className="flex gap-12">
         <Link href="https://instagram.com/manas_malla">
           <Instagram className="stroke-[1.5] w-5 h-5" />
