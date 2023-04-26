@@ -2,12 +2,16 @@ import { Chip } from "@mui/material";
 import { useState } from "react";
 import {
   ArrowRight,
+  Award,
+  Box,
   Code,
   Codesandbox,
   Compass,
+  Cpu,
   Figma,
   Globe,
   Smartphone,
+  Twitch,
 } from "react-feather";
 
 export default function Work() {
@@ -148,6 +152,56 @@ export default function Work() {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
         color: "",
       },
+      {
+        name: "Jetsurvey",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+
+      {
+        name: "Jetchat",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+
+      {
+        name: "WhatsApp",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "Yojana",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "Portfolio-o-Matic",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "WiggleSlider",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "Activity Recognition Transition",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "Space Travel",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
     ],
     [
       {
@@ -200,6 +254,136 @@ export default function Work() {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
         color: "",
       },
+      {
+        name: "Dash's Playgrounds",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "video_player",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "Instagram",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "DevFest 2022: Vizag",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "StockZ",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "Themeify",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "NewsBizKoot",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "Certificate Generator",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "Landmarks",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "TransactionTime",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "NotifyMe",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "Course-o-Pedia",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "ParnerDetails",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "Order Trackr",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+
+      {
+        name: "ServiceReview",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "The Sorting Hat Ceremony",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "Ducks in a Row",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+
+      {
+        name: "Thathaya's Birthday Bash",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "FlutteResume",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+
+      {
+        name: "PortFlutterIO",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+
+      {
+        name: "SpellRight",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
     ],
     [
       {
@@ -214,7 +398,36 @@ export default function Work() {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
         color: "",
       },
+      {
+        name: "Explore California",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
     ],
+    [
+      {
+        name: "Namasthe Python",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "Namasthe Lokam",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "Hello Replit",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+    ],
+    [],
+    [],
+    [],
   ];
   return (
     <div className="my-24 mx-8 lg:mx-24">
@@ -265,6 +478,38 @@ export default function Work() {
           }}
           icon={index == 4 ? <Globe className="p-1" /> : <div />}
         />
+        <Chip
+          label="Replits"
+          variant={index == 5 ? "filled" : "outlined"}
+          onClick={() => {
+            setIndex(5);
+          }}
+          icon={index == 5 ? <Codesandbox className="p-1" /> : <div />}
+        />
+        <Chip
+          label="Robotics"
+          variant={index == 6 ? "filled" : "outlined"}
+          onClick={() => {
+            setIndex(6);
+          }}
+          icon={index == 6 ? <Cpu className="p-1" /> : <div />}
+        />
+        <Chip
+          label="Science"
+          variant={index == 7 ? "filled" : "outlined"}
+          onClick={() => {
+            setIndex(7);
+          }}
+          icon={index == 7 ? <Award className="p-1" /> : <div />}
+        />
+        <Chip
+          label="Libraries"
+          variant={index == 8 ? "filled" : "outlined"}
+          onClick={() => {
+            setIndex(8);
+          }}
+          icon={index == 8 ? <Box className="p-1" /> : <div />}
+        />
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-8 py-8">
         {work[index].map((value) => {
@@ -277,7 +522,7 @@ export default function Work() {
                 onClick={() => {
                   //   router.push("/work");
                 }}
-                className="py-4 font-light rounded-full"
+                className="py-4 font-light rounded-full text-blue-500 dark:text-blue-400"
               >
                 {/* <Compass className="inline-flex w-4 h-4 mr-4" /> */}
                 <span className="font-normal inline-flex">Explore</span>
