@@ -270,7 +270,7 @@ export default function Work() {
         {work[index].map((value) => {
           return (
             <div key={value.name}>
-              <div className="w-full lg:w-96 h-64 lg:h-80 bg-blue-100 rounded-md"></div>
+              <div className="w-full lg:w-96 h-64 lg:h-80 bg-blue-50 dark:bg-slate-900 rounded-md"></div>
               <h4 className="text-2xl my-6 font-semibold">{value.name}</h4>
               <p className="opacity-60 lg:w-96">{value.description}</p>
               <button

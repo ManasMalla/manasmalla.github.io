@@ -120,5 +120,12 @@ body {
 
     margin-bottom: -1px;
   }
+  .css-1qfr5sv-MuiButtonBase-root-MuiChip-root{
+    color: white
+  }
+  .css-nz3zgg-MuiButtonBase-root-MuiChip-root{
+    color: white;
+    background-color: rgba(255,255,255,0.12)
+  }
 }
 
