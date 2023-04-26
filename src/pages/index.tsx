@@ -735,7 +735,7 @@ export default function Home() {
             </button>
             <button
               onClick={() => {
-                router.push("https://github.com/ManasMalla?tab=repositories");
+                router.push("/work");
               }}
               className="px-4 lg:px-12 py-4 font-light rounded-full lg:-translate-y-16 mt-4 lg:mt-0"
             >
