@@ -116,6 +116,10 @@ body {
     color: white;
     border-bottom: 1px solid white;
   }
+  .MuiInput-input{
+    color: white;
+    border-bottom: 1px solid white;
+  }
   .css-1x51dt5-MuiInputBase-input-MuiInput-input:focus{
 
     margin-bottom: -1px;
