@@ -217,14 +217,14 @@ export default function Work() {
     ],
   ];
   return (
-    <div className="my-24 mx-24">
+    <div className="my-24 mx-8 lg:mx-24">
       <h2 className="text-4xl">
         Explore my{" "}
         <span className="underline decoration-blue-200 decoration-2 underline-offset-[12px]">
           portfolio
         </span>
       </h2>
-      <div className="my-8 flex gap-4">
+      <div className="my-8 gap-4 grid grid-cols-3 lg:flex">
         <Chip
           label="Design"
           variant={index == 0 ? "filled" : "outlined"}
@@ -266,13 +266,13 @@ export default function Work() {
           icon={index == 4 ? <Globe className="p-1" /> : <div />}
         />
       </div>
-      <div className="grid grid-cols-3 gap-y-8 py-8">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-8 py-8">
         {work[index].map((value) => {
           return (
             <div key={value.name}>
-              <div className="w-96 h-80 bg-blue-100 rounded-md"></div>
+              <div className="w-full lg:w-96 h-64 lg:h-80 bg-blue-100 rounded-md"></div>
               <h4 className="text-2xl my-6 font-semibold">{value.name}</h4>
-              <p className="opacity-60 w-96">{value.description}</p>
+              <p className="opacity-60 lg:w-96">{value.description}</p>
               <button
                 onClick={() => {
                   //   router.push("/work");
