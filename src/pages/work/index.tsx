@@ -12,8 +12,8 @@ import {
 
 export default function Work() {
   const [index, setIndex] = useState(0);
-  const work = {
-    0: [
+  const work = [
+    [
       {
         name: "balavemulakonda.dev",
         description:
@@ -123,7 +123,7 @@ export default function Work() {
         color: "",
       },
     ],
-    1: [
+    [
       {
         name: "EcoFun",
         description:
@@ -149,7 +149,7 @@ export default function Work() {
         color: "",
       },
     ],
-    2: [
+    [
       {
         name: "BeCoronaReady",
         description:
@@ -181,7 +181,7 @@ export default function Work() {
         color: "",
       },
     ],
-    3: [
+    [
       {
         name: "WTM Vizag: IWD'23",
         description:
@@ -201,7 +201,7 @@ export default function Work() {
         color: "",
       },
     ],
-    4: [
+    [
       {
         name: "manasmalla.dev",
         description:
@@ -215,7 +215,7 @@ export default function Work() {
         color: "",
       },
     ],
-  };
+  ];
   return (
     <div className="my-24 mx-24">
       <h2 className="text-4xl">
