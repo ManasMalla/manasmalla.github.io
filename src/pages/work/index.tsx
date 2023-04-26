@@ -269,7 +269,7 @@ export default function Work() {
       <div className="grid grid-cols-3 gap-y-8 py-8">
         {work[index].map((value) => {
           return (
-            <div>
+            <div key={value.name}>
               <div className="w-96 h-80 bg-blue-100 rounded-md"></div>
               <h4 className="text-2xl my-6 font-semibold">{value.name}</h4>
               <p className="opacity-60 w-96">{value.description}</p>
