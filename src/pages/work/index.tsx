@@ -165,7 +165,12 @@ export default function Work() {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
         color: "",
       },
-
+      {
+        name: "Jetnews",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
       {
         name: "WhatsApp",
         description:
@@ -198,6 +203,12 @@ export default function Work() {
       },
       {
         name: "Space Travel",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "LeoMath",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
         color: "",
@@ -400,6 +411,26 @@ export default function Work() {
       },
       {
         name: "Explore California",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+      {
+        name: "IndieSkullSyndicate",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+
+      {
+        name: "Calculator",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        color: "",
+      },
+
+      {
+        name: "Notes",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
         color: "",
