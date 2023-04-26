@@ -436,21 +436,18 @@ export default function Work() {
     [
       {
         name: "EcoWorld",
-        subtitle: "A solution to the pollution",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
         color: "",
       },
       {
         name: "Svasth360",
-        subtitle: "A 360° health care solution",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
         color: "",
       },
       {
         name: "Quantum Walk",
-        subtitle: "Breakthrough at achieving efficiency",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
         color: "",
@@ -554,7 +551,6 @@ export default function Work() {
               <div className="w-full lg:w-96 h-64 lg:h-80 bg-blue-50 dark:bg-slate-900 rounded-md"></div>
               <div className="my-6">
                 <h4 className="text-2xl font-semibold">{value.name}</h4>
-                <h5 className="opacity-40 text-blue-500">{value.subtitle}</h5>
               </div>
               <p className="opacity-60 lg:w-96">{value.description}</p>
               <button
