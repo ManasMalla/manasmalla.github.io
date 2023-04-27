@@ -3,6 +3,7 @@ import { useState } from "react";
 import {
   ArrowRight,
   Award,
+  Book,
   Box,
   Code,
   Codesandbox,
@@ -26,115 +27,118 @@ export default function Work() {
         name: "balavemulakonda.dev",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Spotmies LLP",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "SSV Classes",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Dhee",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "cvkmohan.com",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Nandikrushi",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image:
+          "https://scontent.fhyd11-1.fna.fbcdn.net/v/t15.5256-10/131859617_145586717356568_4034980417731693137_n.jpg?stp=dst-jpg_p180x540&_nc_cat=102&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=eSDFuI_zkncAX9Sdmrj&_nc_ht=scontent.fhyd11-1.fna&oh=00_AfB4XPHyJ_dz3ct1U6LoXhRTtXQw7WQgtpMkiHyCVHrVQg&oe=644F40F2",
       },
       {
         name: "Campus Ride",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "VMN",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Vidyadhara Kaksha",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image:
+          "https://scontent.fhyd11-1.fna.fbcdn.net/v/t39.30808-6/327993221_909089597174090_5987559992396668573_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8024bb&_nc_ohc=zX6x6Ty3Px4AX8HWnBi&_nc_ht=scontent.fhyd11-1.fna&oh=00_AfAulc3m-YAtSJmjdEA9Z45ORwA4VaIbCkDwgE7M98wbvA&oe=644FAF76",
       },
       {
         name: "Vishrambh",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Gurujada",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Tech Schemax",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Nandan Yoga Center",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "International Women's Day 2023: Vizag",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Booktique",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Dr. Aarogya's Health Record",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Progression",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Asquare Gokarting",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image:
+          "https://mir-s3-cdn-cf.behance.net/projects/404/e0054c167045523.Y3JvcCw3OTksNjI1LDI1Nyww.png",
       },
       {
         name: "AutoSmith",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
     ],
     [
@@ -142,92 +146,92 @@ export default function Work() {
         name: "EcoFun",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Aham Svastha",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "BeCoronaReady",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Dr. Aarogya's Health Record",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Jetsurvey",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
 
       {
         name: "Jetchat",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Jetnews",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "WhatsApp",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Yojana",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Portfolio-o-Matic",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "WiggleSlider",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Activity Recognition Transition",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Space Travel",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "LeoMath",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Vedic Ganith",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
     ],
     [
@@ -235,31 +239,31 @@ export default function Work() {
         name: "BeCoronaReady",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "CodeUrHealth",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "CheMystery",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "EcoFun",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Progression",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
     ],
     [
@@ -267,149 +271,163 @@ export default function Work() {
         name: "WTM Vizag: IWD'23",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "ASquare Gokarting",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Nandikrushi",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Dash's Playgrounds",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "video_player",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Instagram",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "DevFest 2022: Vizag",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "StockZ",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Themeify",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "NewsBizKoot",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Certificate Generator",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Landmarks",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "TransactionTime",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "NotifyMe",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Course-o-Pedia",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "ParnerDetails",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Order Trackr",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
 
       {
         name: "ServiceReview",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "The Sorting Hat Ceremony",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Ducks in a Row",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
 
       {
         name: "Thathaya's Birthday Bash",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "FlutteResume",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
 
       {
         name: "PortFlutterIO",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
 
       {
         name: "SpellRight",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
+      },
+
+      {
+        name: "Spotmies LLP",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        image: "",
+      },
+
+      {
+        name: "Spotmies Partner App",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        image: "",
       },
     ],
     [
@@ -417,39 +435,39 @@ export default function Work() {
         name: "manasmalla.dev",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "IWD Vizag",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Explore California",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "IndieSkullSyndicate",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
 
       {
         name: "Calculator",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
 
       {
         name: "Notes",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
     ],
     [
@@ -457,19 +475,19 @@ export default function Work() {
         name: "Namasthe Python",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Namasthe Lokam",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Hello Replit",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
     ],
     [
@@ -477,7 +495,7 @@ export default function Work() {
         name: "EcoOreoBot",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
     ],
     [
@@ -485,19 +503,19 @@ export default function Work() {
         name: "EcoWorld",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Svasth360",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
       {
         name: "Quantum Walk",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image: "",
       },
     ],
     [
@@ -505,7 +523,16 @@ export default function Work() {
         name: "Neardrop",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        color: "",
+        image:
+          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Nearby_CHROME_PIXEL-02.max-1000x1000.png",
+      },
+    ],
+    [
+      {
+        name: "Cancer",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        image: "",
       },
     ],
   ];
@@ -913,6 +940,14 @@ export default function Work() {
           icon={index == 4 ? <Globe className="p-1" /> : <div />}
         />
         <Chip
+          label="Machine Learning"
+          variant={index == 11 ? "filled" : "outlined"}
+          onClick={() => {
+            setIndex(11);
+          }}
+          icon={index == 11 ? <Book className="p-1" /> : <div />}
+        />
+        <Chip
           label="Replits"
           variant={index == 5 ? "filled" : "outlined"}
           onClick={() => {
@@ -962,11 +997,20 @@ export default function Work() {
         />
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-8 py-8">
-        {index < 9
-          ? work[index].map((value) => {
+        {index < 9 || index == 11
+          ? work[index == 11 ? 9 : index].map((value) => {
               return (
                 <div key={value.name}>
-                  <div className="w-full lg:w-96 h-64 lg:h-80 bg-blue-50 dark:bg-slate-900 rounded-md"></div>
+                  <div className="w-full lg:w-96 h-64 lg:h-80 bg-blue-50 dark:bg-slate-900 rounded-md">
+                    {value.image != "" ? (
+                      <img
+                        src={value.image}
+                        className="w-full h-full object-cover rounded-md"
+                      />
+                    ) : (
+                      <div />
+                    )}
+                  </div>
                   <div className="my-6">
                     <h4 className="text-2xl font-semibold">{value.name}</h4>
                   </div>

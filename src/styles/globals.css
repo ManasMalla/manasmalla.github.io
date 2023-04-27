@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .pause {
+    animation-play-state: paused;
+  }
+}
+
 
 @font-face {
   font-family: "Ambit";
@@ -148,3 +154,28 @@ body {
   }
 }
 
+.carousel__list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    padding: 1rem 0 0;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+.carousel__item {
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-11.7rem * 12));
+    }
+}
