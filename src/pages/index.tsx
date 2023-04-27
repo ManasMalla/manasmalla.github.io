@@ -801,11 +801,8 @@ export default function Home() {
             <div className="flex gap-x-8 animate-[scroll_15s_linear_infinite] hover:pause">
               {awards.map((item) => {
                 return (
-                  <Link href="">
-                    <div
-                      key={item.title}
-                      className="px-8 py-4 bg-slate-900/70 flex gap-6 items-center rounded-lg shrink-0 cursor-pointer"
-                    >
+                  <Link key={item.title} href="">
+                    <div className="px-8 py-4 bg-slate-900/70 flex gap-6 items-center rounded-lg shrink-0 cursor-pointer">
                       {item.image == "" ? (
                         <Award className="px-3 w-10 h-10 rounded-full bg-slate-800" />
                       ) : (
