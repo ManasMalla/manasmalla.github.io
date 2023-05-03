@@ -567,259 +567,280 @@ export default function Work() {
       name: "Siddhart's Birthday",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "/doodles/siddhu-bday.png",
       subtitle: "August 23, 2021",
     },
     {
       name: "Do you know about Navrathri?",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "/doodles/navrathri-know.jpg",
       subtitle: "August 23, 2021",
     },
     {
       name: "Pooja Akka's Birthday",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "/doodles/pooja-bday.jpg",
       subtitle: "August 23, 2021",
     },
     {
       name: "Halloween",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "/doodles/halloween.jpg",
       subtitle: "August 23, 2021",
     },
     {
       name: "I'm Vaccinated. Are you?",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "/doodles/covid-vaccinated.png",
       subtitle: "August 23, 2021",
     },
     {
       name: "#ProgressNotPerfection",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "/doodles/iwd22.png",
       subtitle: "August 23, 2021",
     },
     {
       name: "Webinar Fatigue",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "/doodles/iwd22-fatigue.png",
       subtitle: "August 23, 2021",
     },
     {
       name: "Switch to the all new learning",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "/doodles/iwd22-learning.png",
       subtitle: "August 23, 2021",
     },
     {
       name: "Meet & Network",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "/doodles/iwd22-meet.png",
       subtitle: "August 23, 2021",
     },
     {
       name: "Leveraging communities for career growth",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "/doodles/iwd22-usha.png",
+      subtitle: "August 23, 2021",
+    },
+    {
+      name: "Web Application Development",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "/doodles/iwd22-cvk-web.png",
+      subtitle: "August 23, 2021",
+    },
+    {
+      name: "Practical GIT Workshop",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "/doodles/iwd22-cvk-git.png",
+      subtitle: "August 23, 2021",
+    },
+    {
+      name: "Training an ML model using Flutter",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "/doodles/iwd22-bala-harish.png",
       subtitle: "August 23, 2021",
     },
     {
       name: "#AllTheBest",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "/doodles/all-the-best.jpg",
       subtitle: "August 23, 2021",
     },
     {
       name: "#TheBuildathon",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "/doodles/buildathon.jpg",
       subtitle: "August 23, 2021",
     },
     {
       name: "#ConcART",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "/doodles/concart.jpg",
       subtitle: "August 23, 2021",
     },
     {
       name: "#TheBuildathon - Hackathon",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "/doodles/hackathon-buildathon.jpg",
       subtitle: "August 23, 2021",
     },
     {
       name: "#BuddhamSharanamGachami",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "",
       subtitle: "August 23, 2021",
     },
     {
       name: "#WelcomeBack Chellama",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "",
       subtitle: "August 23, 2021",
     },
     {
       name: "Meenakshi's Birthday",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "",
       subtitle: "August 23, 2021",
     },
     {
       name: "Guruvarya's Birthday",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "",
       subtitle: "August 23, 2021",
     },
     {
       name: "Varshini's Birthday",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "",
       subtitle: "August 23, 2021",
     },
     {
       name: "Tejash's Birthday",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "",
       subtitle: "August 23, 2021",
     },
     {
       name: "Seshu's Birthday",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "",
       subtitle: "August 23, 2021",
     },
     {
       name: "Manasa's Birthday",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "",
       subtitle: "August 23, 2021",
     },
     {
       name: "Suraj's Birthday",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "",
       subtitle: "August 23, 2021",
     },
     {
       name: "Day 1: ",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "",
       subtitle: "August 23, 2021",
     },
     {
       name: "Siddharth: in the Multiverse of Love",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "",
       subtitle: "August 23, 2021",
     },
     {
       name: "Krishnastami",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "",
       subtitle: "August 23, 2021",
     },
     {
       name: "Ganesh Chaturthi",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "",
       subtitle: "August 23, 2021",
     },
     {
       name: "Maha Shivrathri",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "",
       subtitle: "August 23, 2021",
     },
     {
       name: "Svasth360",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "",
       subtitle: "August 23, 2021",
     },
     {
       name: "Instanalytics",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "",
       subtitle: "August 23, 2021",
     },
     {
       name: "Quantum Walk",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "",
       subtitle: "August 23, 2021",
     },
     {
       name: "Android 12",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "/doodles/concart.png",
       subtitle: "August 23, 2021",
     },
     {
       name: "Friendship Day 2022",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "",
       subtitle: "August 23, 2021",
     },
     {
       name: "Naraka Chaturdasi",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "",
       subtitle: "August 23, 2021",
     },
     {
       name: "Teacher's Day 2022",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "/doodles/biology-td.png",
       subtitle: "August 23, 2021",
     },
     {
       name: "Nidhi's Birthday",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "",
       subtitle: "August 23, 2021",
     },
     {
       name: "Android Study Jams are here",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "/doodles/asj-programme.jpg",
       subtitle: "August 23, 2021",
     },
     {
@@ -830,20 +851,35 @@ export default function Work() {
       subtitle: "August 15, 2022",
     },
     {
-      name: "Holi",
+      name: "Holi '23",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "",
       subtitle: "August 23, 2021",
     },
     {
       name: "RadhaKrishn",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      image: "/doodles/devfest2021.jpg",
+      image: "/doodles/radhakrishn.png",
+      subtitle: "August 23, 2021",
+    },
+    {
+      name: "Ugadhi",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "/doodles/ugadi.png",
+      subtitle: "August 23, 2021",
+    },
+    {
+      name: "Diwali Dhamaka",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "/doodles/diwali-dhamaka.png",
       subtitle: "August 23, 2021",
     },
   ];
+
   const videos = [
     {
       name: "Svasth360",
