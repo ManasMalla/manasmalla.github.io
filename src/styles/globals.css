@@ -176,6 +176,6 @@ body {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-11.7rem * 12));
+        transform: translateX(calc(-23.4rem * 11));
     }
 }

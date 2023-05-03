@@ -23,17 +23,17 @@ export default function Work() {
   const [index, setIndex] = useState(0);
   const work = [
     [
-      {
-        name: "balavemulakonda.dev",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
+      // {
+      //   name: "balavemulakonda.dev",
+      //   description:
+      //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      //   image: "",
+      // },
       {
         name: "Spotmies LLP",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
+        image: "/projects/spotmies.png",
       },
       {
         name: "SSV Classes",
@@ -45,13 +45,13 @@ export default function Work() {
         name: "Dhee",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
+        image: "projects/dhee.png",
       },
       {
         name: "cvkmohan.com",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
+        image: "/projects/cvkmohan.png",
       },
       {
         name: "Nandikrushi",
@@ -64,7 +64,13 @@ export default function Work() {
         name: "Campus Ride",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
+        image: "projects/campus-ride.png",
+      },
+      {
+        name: "Breach",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        image: "/projects/breach.png",
       },
       {
         name: "VMN",
@@ -76,32 +82,31 @@ export default function Work() {
         name: "Vidyadhara Kaksha",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image:
-          "https://scontent.fhyd11-1.fna.fbcdn.net/v/t39.30808-6/327993221_909089597174090_5987559992396668573_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8024bb&_nc_ohc=zX6x6Ty3Px4AX8HWnBi&_nc_ht=scontent.fhyd11-1.fna&oh=00_AfAulc3m-YAtSJmjdEA9Z45ORwA4VaIbCkDwgE7M98wbvA&oe=644FAF76",
+        image: "/projects/vidhyadhara_kaksha.png",
       },
       {
         name: "Vishrambh",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
+        image: "/projects/vishrambh.png",
       },
       {
         name: "Gurujada",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
+        image: "projects/gurujada.png",
       },
       {
         name: "Tech Schemax",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
+        image: "/projects/tech-schemax.png",
       },
       {
         name: "Nandan Yoga Center",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
+        image: "/projects/nandan-fitness-center.png",
       },
       {
         name: "International Women's Day 2023: Vizag",
@@ -113,7 +118,7 @@ export default function Work() {
         name: "Booktique",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
+        image: "projects/booktique.png",
       },
       {
         name: "Dr. Aarogya's Health Record",
@@ -138,7 +143,7 @@ export default function Work() {
         name: "AutoSmith",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
+        image: "projects/autosmith.png",
       },
     ],
     [

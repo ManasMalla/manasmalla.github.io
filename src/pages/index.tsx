@@ -1,5 +1,6 @@
 import Gallery from "@/components/gallery";
 import Hero from "@/components/hero";
+import IAmRemarkable from "@/components/iamremarkable";
 import RecommendationSection from "@/components/recommendations";
 import Services from "@/components/services";
 import Head from "next/head";
@@ -15,108 +16,6 @@ import {
   FileText,
 } from "react-feather";
 export default function Home() {
-  const awards = [
-    {
-      title: "1st Place - Seniors",
-      provider: "The Intl. Asc. of Lions Club",
-      subtitle:
-        "Mathematics, Analytical Thinking, District Level; Visakhapatnam",
-      image:
-        "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Lions_Clubs_International_logo.svg/1200px-Lions_Clubs_International_logo.svg.png",
-      padding: true,
-    },
-    {
-      title: "WWDC20 Swift Student Scholar",
-      provider: "Apple",
-      subtitle:
-        "I was selected in top 15 for the Apple's WorldWide Developer Conference 2020's Swift Student Challenge for my playground, BeCoronaReady!",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Apple_logo_white.svg/1724px-Apple_logo_white.svg.png",
-      padding: true,
-    },
-    {
-      title: "Top 40%",
-      provider: "Breakthrough Junior Challenge",
-      subtitle:
-        "The video scored in the Top 40 percent of all videos in the Peer-to-Peer judging.",
-      image: "",
-      padding: false,
-    },
-    {
-      title: "1st Place",
-      provider: "Bharat Art Gallery",
-      subtitle: "Conducted on the theme of 'Independence Day'!",
-      image: "",
-      padding: false,
-    },
-    {
-      title: "ConcART Finalist",
-      provider: "DevFest India '21",
-      subtitle:
-        "Choosing a technology and explaining it through art, either made digitally or free-hand. I submitted a digital artwork explaining and exploring the all new and the most personal Android OS ever, Android 12 with Material You!",
-      image:
-        "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/event_banners/Copy%20of%20DevFest2021-EventThumbnail_oxOuRYe.png",
-      padding: false,
-    },
-    {
-      title: "Resource Person and Mentor",
-      provider: "GMRIT Rajam",
-      subtitle: "#STEPCONE 2023 - Annual Technical Paper And Contest Expo",
-      image:
-        "https://scontent.fvtz1-2.fna.fbcdn.net/v/t39.30808-6/313997635_520857836721067_7363203990520852225_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=f_H5IpmwTIYAX-hL1js&_nc_ht=scontent.fvtz1-2.fna&oh=00_AfDx_WoSv90lHbesG3OEJlcOhrPmB2TGzGFAt0wtP7FQ8w&oe=6450893A",
-      padding: false,
-    },
-    {
-      title: "1st Place - Seniors",
-      provider: "The Intl. Asc. of Lions Club",
-      subtitle:
-        "Mathematics, Analytical Thinking, District Level; Visakhapatnam",
-      image:
-        "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Lions_Clubs_International_logo.svg/1200px-Lions_Clubs_International_logo.svg.png",
-      padding: true,
-    },
-    {
-      title: "WWDC20 Swift Student Scholar",
-      provider: "Apple",
-      subtitle:
-        "I was selected in top 15 for the Apple's WorldWide Developer Conference 2020's Swift Student Challenge for my playground, BeCoronaReady!",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Apple_logo_white.svg/1724px-Apple_logo_white.svg.png",
-      padding: true,
-    },
-    {
-      title: "Top 40%",
-      provider: "Breakthrough Junior Challenge",
-      subtitle:
-        "The video scored in the Top 40 percent of all videos in the Peer-to-Peer judging.",
-      image: "",
-      padding: false,
-    },
-    {
-      title: "1st Place",
-      provider: "Bharat Art Gallery",
-      subtitle: "Conducted on the theme of 'Independence Day'!",
-      image: "",
-      padding: false,
-    },
-    {
-      title: "ConcART Finalist",
-      provider: "DevFest India '21",
-      subtitle:
-        "Choosing a technology and explaining it through art, either made digitally or free-hand. I submitted a digital artwork explaining and exploring the all new and the most personal Android OS ever, Android 12 with Material You!",
-      image:
-        "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/event_banners/Copy%20of%20DevFest2021-EventThumbnail_oxOuRYe.png",
-      padding: false,
-    },
-    {
-      title: "Resource Person and Mentor",
-      provider: "GMRIT Rajam",
-      subtitle: "#STEPCONE 2023 - Annual Technical Paper And Contest Expo",
-      image:
-        "https://scontent.fvtz1-2.fna.fbcdn.net/v/t39.30808-6/313997635_520857836721067_7363203990520852225_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=f_H5IpmwTIYAX-hL1js&_nc_ht=scontent.fvtz1-2.fna&oh=00_AfDx_WoSv90lHbesG3OEJlcOhrPmB2TGzGFAt0wtP7FQ8w&oe=6450893A",
-      padding: false,
-    },
-  ];
   const router = useRouter();
   return (
     <>
@@ -778,64 +677,7 @@ export default function Home() {
           </div>
           <RecommendationSection />
 
-          <section id="achievements">
-            <div className="flex pb-12 items-center justify-between">
-              <h2 className="text-4xl">
-                I am{" "}
-                <span className="underline decoration-[#FBBC04]/20 decoration-2 underline-offset-[12px]">
-                  remarkable
-                </span>{" "}
-                because...
-              </h2>
-              <button
-                onClick={() => {
-                  router.push("/work");
-                }}
-                className="font-light rounded-full"
-              >
-                <span className="font-normal inline-flex">View All</span>
-                <ArrowRight className="inline-flex w-4 h-4 ml-4" />
-              </button>
-            </div>
-
-            <div className="flex gap-x-8 animate-[scroll_15s_linear_infinite] hover:pause">
-              {awards.map((item) => {
-                return (
-                  <Link key={item.title} href="">
-                    <div className="px-8 py-4 bg-slate-900/70 flex gap-6 items-center rounded-lg shrink-0 cursor-pointer">
-                      {item.image == "" ? (
-                        <Award className="px-3 w-10 h-10 rounded-full bg-slate-800" />
-                      ) : (
-                        <img
-                          src={item.image}
-                          className={
-                            item.padding
-                              ? "px-3 w-10 h-10 rounded-full bg-slate-800 object-contain"
-                              : "w-10 h-10 rounded-full bg-slate-800 object-contain"
-                          }
-                        />
-                      )}
-                      <div>
-                        <div className="flex gap-x-3 items-center">
-                          <h3 className="font-bold text-lg whitespace-nowrap">
-                            {item.title}
-                          </h3>
-                          <ChevronRight className="w-4 h-4" />
-                        </div>
-
-                        <h4 className="text-blue-300 whitespace-nowrap">
-                          {item.provider}
-                        </h4>
-                        <h4 className="text-xs w-[24ch] line-clamp-2 opacity-75">
-                          {item.subtitle}
-                        </h4>
-                      </div>
-                    </div>
-                  </Link>
-                );
-              })}
-            </div>
-          </section>
+          <IAmRemarkable />
           <section id="work" className="mb-16">
             <h2 className="text-4xl py-12 ">
               The {}

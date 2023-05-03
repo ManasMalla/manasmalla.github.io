@@ -32,8 +32,8 @@ export default function NavigationBar(props: { index: number }) {
         >
           Work
         </Link>
-        <a>Stories</a>
-        <a>Blogs</a>
+        <a href="/story">Stories</a>
+        <a href="https://blog.manasmalla.dev">Blogs</a>
       </div>
       <Menu className="flex lg:hidden w-5 h-5" />
     </div>
