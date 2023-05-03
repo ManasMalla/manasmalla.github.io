@@ -41,7 +41,7 @@ export default function Contact() {
             your response.
           </h1>
           <h2 className="my-6">
-            I'll get back to you real soon, probably in the next 24 hours!
+            I&apos;ll get back to you real soon, probably in the next 24 hours!
           </h2>
           <button
             onClick={async () => {
