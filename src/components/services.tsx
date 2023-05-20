@@ -9,21 +9,21 @@ export default function Services() {
           <div className="h-20 w-20 bg-gray-200" />
           <h3 className="text-2xl font-semibold mt-6">App Development</h3>
           <p className="w-3/4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Why just stop at one platform when you can build for many?
           </p>
         </div>
         <div className="bg-white  dark:bg-slate-950 p-8 shadow-[0_4px_32px_4px_rgba(0,0,0,0.03)]">
           <div className="h-20 w-20 bg-gray-200" />
           <h3 className="text-2xl font-semibold mt-6">Design UI/UX</h3>
           <p className="w-3/4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Creativity has always been my passion, why stop now?
           </p>
         </div>
-        <div className="bg-whit  dark:bg-slate-950 p-8 shadow-[0_4px_32px_4px_rgba(0,0,0,0.03)]">
+        <div className="bg-white  dark:bg-slate-950 p-8 shadow-[0_4px_32px_4px_rgba(0,0,0,0.03)]">
           <div className="h-20 w-20 bg-gray-200" />
           <h3 className="text-2xl font-semibold mt-6">Social & Media</h3>
-          <p className="">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          <p className="w-3/4">
+            Sharing is caring, creating is my calling, why not do them together?
           </p>
         </div>
       </div>

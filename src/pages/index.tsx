@@ -688,23 +688,29 @@ export default function Home() {
             </h2>
             <div className="flex lg:flex-row flex-col lg:mr-24 gap-12 lg:gap-24">
               <div className="w-full lg:w-1/2">
-                <div className="aspect-[765/856] bg-[#D2E3FC]/30 dark:bg-[#D2E3FC]/80"></div>
+                <div className="aspect-[765/856] bg-[#D2E3FC]/30 dark:bg-[#D2E3FC]/80">
+                  <img
+                    src="projects/asquaregokarting.png"
+                    className="w-full h-full object-cover object-top"
+                  />
+                </div>
                 <h4 className="text-2xl my-6 font-semibold">
                   ASquare Gokarting
                 </h4>
                 <p className="opacity-60">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam sit amet odio ut turpis vulputate molestie vitae at
-                  sapien. Vivamus.{" "}
+                  An adventurous theme park with a play arena, drive-in, and
+                  race track that is considered to be India's longest track.
+                  Come and test your skills on this route with your friends and
+                  family.
                 </p>
               </div>
               <div className="w-full lg:w-1/2 lg:mt-24">
                 <div className="aspect-[765/856] bg-[#FEF7E0]/50 dark:bg-[#FEF7E0]/80"></div>
                 <h4 className="text-2xl my-6 font-semibold">Nandikrushi</h4>
                 <p className="opacity-60">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam sit amet odio ut turpis vulputate molestie vitae at
-                  sapien. Vivamus.{" "}
+                  Nandikrushi is an e-commerce platform where certified natural
+                  farmers post their produce and consumers close to the farmer
+                  location will buy them.
                 </p>
               </div>
             </div>
@@ -713,18 +719,19 @@ export default function Home() {
                 <div className="aspect-[765/856] bg-[#FCE8E6]/30 dark:bg-[#FCE8E6]/80"></div>
                 <h4 className="text-2xl my-6 font-semibold">BeCoronaReady</h4>
                 <p className="opacity-60">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam sit amet odio ut turpis vulputate molestie vitae at
-                  sapien. Vivamus.{" "}
+                  Bringing awareness to people about the precautions,
+                  preventions and things to protect ourselves from COVID19 as
+                  well as preserve and enrich our health in a playful and
+                  interactive way for everyone.
                 </p>
               </div>
               <div className="w-full lg:w-1/2 lg:mt-24">
                 <div className="aspect-[765/856] bg-[#CEEAD6]/30 dark:bg-[#CEEAD6]/80"></div>
                 <h4 className="text-2xl my-6 font-semibold">EcoFun</h4>
                 <p className="opacity-60">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam sit amet odio ut turpis vulputate molestie vitae at
-                  sapien. Vivamus.{" "}
+                  Solving climate change — Nourish our Blue & Green Planet by
+                  helping us measure our carbon footprint, encourage us to grow
+                  trees and be eco friendly.
                 </p>
               </div>
             </div>

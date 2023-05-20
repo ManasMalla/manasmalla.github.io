@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ArrowLeft, ArrowRight } from "react-feather";
 
 export default function RecommendationSection() {
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(1);
   const recommendations = [
     {
       name: "Bala Tripura Sundari",
