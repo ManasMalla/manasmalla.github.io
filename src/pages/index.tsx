@@ -699,9 +699,9 @@ export default function Home() {
                 </h4>
                 <p className="opacity-60">
                   An adventurous theme park with a play arena, drive-in, and
-                  race track that is considered to be India's longest track.
-                  Come and test your skills on this route with your friends and
-                  family.
+                  race track that is considered to be India&apos;s longest
+                  track. Come and test your skills on this route with your
+                  friends and family.
                 </p>
               </div>
               <div className="w-full lg:w-1/2 lg:mt-24">
