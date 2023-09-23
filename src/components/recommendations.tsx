@@ -18,7 +18,7 @@ export default function RecommendationSection() {
       name: "Praseeda Saripalle",
       designation: "Lead @ GDSC GVPCEW",
       image:
-        "https://media.licdn.com/dms/image/D5603AQEdL5JK-XDSfQ/profile-displayphoto-shrink_800_800/0/1669657636236?e=1687996800&v=beta&t=tDF-7Ae7JJVZtsSRreLdXINeyajfOfmxMLEFWLwvm3w",
+        "https://media.licdn.com/dms/image/D5603AQEdL5JK-XDSfQ/profile-displayphoto-shrink_800_800/0/1669657636236?e=1700092800&v=beta&t=3yIUc4J52uHOAl7PFKAu-H3EtOR4SFWfLgLDbBjd1p8",
       recomm_short:
         "If the driving factor itself is you, one could imagine how much energy is contained in you! And, the person who is so apt to resemble this analogy is Manas Malla. Being a creative designer by passion, and an Android Developer by profession, Manas has been highly excelling in any field given! Though I am ahead of him almost by 3 years of age, I never consider myself a senior to him when it comes to excelling in the amount of knowledge that he has in this field of development.",
       title: "There is always something that drives us and keeps us inspired.",
@@ -27,7 +27,7 @@ export default function RecommendationSection() {
       name: "Sampath Balivada",
       designation: "SDE1 @ PayPal",
       image:
-        "https://media.licdn.com/dms/image/D5603AQEeemWpuZV8pw/profile-displayphoto-shrink_800_800/0/1679033640505?e=1687996800&v=beta&t=NbBtV058LdNZNsndgHMPE-t7GK5UQnile9C9BQ4mZmg",
+        "https://media.licdn.com/dms/image/D5603AQEeemWpuZV8pw/profile-displayphoto-shrink_800_800/0/1679033640505?e=2147483647&v=beta&t=Gy7YHw7NOikIdM-XvVZfB4Xc73MS6OFQRY7azTwD7Ak",
       recomm_short:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a quam sed lorem dapibus aliquet. Suspendisse pulvinar ligula sit amet dolor malesuada placerat. Proin enim elit, commodo et rutrum in, venenatis blandit lorem. Cras gravida pulvinar sapien et pharetra. Etiam a tortor in dolor feugiat faucibus. Vestibulum at laoreet turpis. Pellentesque nisi libero, venenatis sodales bibendum ac, euismod sit amet massa. Mauris tempor orci sed tellus luctus elementum. Duis sit amet urna accumsan, pellentesque ante eget, mattis ex. Donec posuere, nisl in condimentum tincidunt, erat massa viverra tellus, non fringilla. ",
       title:
@@ -37,7 +37,7 @@ export default function RecommendationSection() {
       name: "Rama Villuri",
       designation: "SW Architect @ Nokia",
       image:
-        "https://media.licdn.com/dms/image/C5603AQHXFnmNQtpGEQ/profile-displayphoto-shrink_800_800/0/1640529221286?e=2147483647&v=beta&t=SRuiL42D71Zzsuft3Yl2RTpsrhqnQsbHEBcMtIj_kwk",
+        "https://media.licdn.com/dms/image/D5603AQHbJKISNBljwQ/profile-displayphoto-shrink_800_800/0/1692009479097?e=1700092800&v=beta&t=MTT-H2MHzHVyZ0eLotszd1-yCBj4VcvdAc-Z1vk8-04",
       recomm_short:
         "Fusce varius, purus nec tincidunt sagittis, nunc nisl sollicitudin justo, et iaculis enim libero eget felis. Vestibulum tincidunt elementum sem eu rhoncus. Pellentesque ullamcorper condimentum mauris, tristique interdum arcu lobortis pretium. Proin porttitor eget purus laoreet interdum. Vestibulum maximus neque sit amet elit pulvinar, vitae viverra lorem molestie. In vulputate id dolor rhoncus bibendum. Donec vitae sapien ut est vestibulum rutrum. Vivamus vel massa porta.",
       title: "Nunc dictum ornare volutpat. Nunc cursus orci at nibh finibus. ",

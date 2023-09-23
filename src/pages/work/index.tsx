@@ -23,23 +23,39 @@ export default function Work() {
   const [index, setIndex] = useState(0);
   const work = [
     [
-      // {
-      //   name: "balavemulakonda.dev",
-      //   description:
-      //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-      //   image: "",
-      // },
+      {
+        name: "AutoSmith",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        image: "projects/autosmith.png",
+        link: "https://autosmith.theananta.in",
+      },
+      {
+        name: "balavemulakonda.dev",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        image: "/projects/balavemulakonda.png",
+        link: "https://balavemulakonda.dev",
+      },
+      {
+        name: "STEMQuest",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+        image: "/projects/stemquest.png",
+        link: "https://stemquest.theananta.in/stemquest",
+      },
       {
         name: "Spotmies LLP",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
         image: "/projects/spotmies.png",
+        link: "https://spotmies.com",
       },
       {
         name: "SSV Classes",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
+        image: "/projects/ssv-classes.png",
       },
       {
         name: "Dhee",
@@ -52,13 +68,13 @@ export default function Work() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
         image: "/projects/cvkmohan.png",
+        link: "https://cvkmohan.com",
       },
       {
         name: "Nandikrushi",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image:
-          "https://scontent.fhyd11-1.fna.fbcdn.net/v/t15.5256-10/131859617_145586717356568_4034980417731693137_n.jpg?stp=dst-jpg_p180x540&_nc_cat=102&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=eSDFuI_zkncAX9Sdmrj&_nc_ht=scontent.fhyd11-1.fna&oh=00_AfB4XPHyJ_dz3ct1U6LoXhRTtXQw7WQgtpMkiHyCVHrVQg&oe=644F40F2",
+        image: "/projects/nandikrushi.png",
       },
       {
         name: "Campus Ride",
@@ -124,13 +140,13 @@ export default function Work() {
         name: "Dr. Aarogya's Health Record",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
+        image: "/projects/aarogya-health-record.png",
       },
       {
         name: "Progression",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
+        image: "/projects/progression.png",
       },
       {
         name: "Asquare Gokarting",
@@ -138,12 +154,6 @@ export default function Work() {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
         image:
           "https://mir-s3-cdn-cf.behance.net/projects/404/e0054c167045523.Y3JvcCw3OTksNjI1LDI1Nyww.png",
-      },
-      {
-        name: "AutoSmith",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "projects/autosmith.png",
       },
     ],
     [
@@ -169,7 +179,7 @@ export default function Work() {
         name: "Dr. Aarogya's Health Record",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
+        image: "/projects/aarogya-health-record.png",
       },
       {
         name: "Jetsurvey",
@@ -288,7 +298,7 @@ export default function Work() {
         name: "Nandikrushi",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
+        image: "/projects/nandikrushi.png",
       },
       {
         name: "Dash's Playgrounds",
@@ -1063,7 +1073,9 @@ export default function Work() {
                     className="py-4 font-light rounded-full text-blue-500 dark:text-blue-400"
                   >
                     {/* <Compass className="inline-flex w-4 h-4 mr-4" /> */}
-                    <span className="font-normal inline-flex">Explore</span>
+                    <a href={value.link} className="font-normal inline-flex">
+                      Explore
+                    </a>
                     <ArrowRight className="inline-flex w-4 h-4 ml-4" />
                   </button>
                 </div>

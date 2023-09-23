@@ -14,6 +14,21 @@ export default function IAmRemarkable() {
       padding: true,
     },
     {
+      title: "SmartIDEAthon",
+      provider: "GITAM - Startup India",
+      subtitle: "Semi-finalists (Top 32) for our venture, STEMQuest",
+      image: "https://www.gitam.edu/sites/default/files/2022-09/GITAM-logo.jpg",
+      padding: false,
+    },
+    {
+      title: "BUILD",
+      provider: "ITIC",
+      subtitle:
+        "Finalists (Top 75) for our venture, STEMQuest with a grant of 1 Lakh",
+      image: "/logos/build.png",
+      padding: false,
+    },
+    {
       title: "Swift Student Scholar",
       provider: "Apple",
       subtitle: "Top 15 for my WWDC20 SSC playground, BeCoronaReady!",
@@ -25,16 +40,23 @@ export default function IAmRemarkable() {
       title: "Java Level 1 & 2",
       provider: "The Cambridge Cert. Auth.",
       subtitle: "VLSE Symposium: Poster Presentation - Quantum Walk",
-      image:
-        "https://bakkah.com/public/upload/thumb300/2022-01-11-22-33-02_iiba-cca_logo.png",
+      image: "/logos/the-cca.jpg",
       padding: false,
     },
     {
       title: "Swift Level 1 & 2",
       provider: "The Cambridge Cert. Auth.",
       subtitle: "VLSE Symposium: Poster Presentation - Quantum Walk",
-      image:
-        "https://bakkah.com/public/upload/thumb300/2022-01-11-22-33-02_iiba-cca_logo.png",
+      image: "/logos/the-cca.jpg",
+      padding: false,
+    },
+
+    {
+      title: "1st Place",
+      provider: "Internal SiH, GITAM",
+      subtitle:
+        "Earned 10K for our venture, AutoSmith in the 24 hour hackathon",
+      image: "/logos/sih.png",
       padding: false,
     },
     {
@@ -72,16 +94,14 @@ export default function IAmRemarkable() {
       title: "Resource Person and Mentor",
       provider: "GMRIT Rajam",
       subtitle: "#STEPCONE 2023 - Annual Technical Paper And Contest Expo",
-      image:
-        "https://scontent.fvtz1-2.fna.fbcdn.net/v/t39.30808-6/313997635_520857836721067_7363203990520852225_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=f_H5IpmwTIYAX-hL1js&_nc_ht=scontent.fvtz1-2.fna&oh=00_AfDx_WoSv90lHbesG3OEJlcOhrPmB2TGzGFAt0wtP7FQ8w&oe=6450893A",
+      image: "/logos/gmrit.png",
       padding: false,
     },
     {
       title: "1st Prize",
       provider: "World Ocean Science Congress",
-      subtitle: "Poster Presentation: EcoFun",
-      image:
-        "https://scontent.fhyd11-1.fna.fbcdn.net/v/t39.30808-6/326280787_1209244820027667_7124060490988934253_n.png?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=AQcpqbS-jk0AX8b4JlE&_nc_oc=AQmF7uZaf2NAb7Q7QzLds_vjL19vsl0KjEfiqtLxckROK7A2jw7InrRmc2mkl2QxsY0&_nc_ht=scontent.fhyd11-1.fna&oh=00_AfCLZpvrVEojytJ8OU5BGihu80tCH1rJN4UwkfKPhQ4WvQ&oe=644F5972",
+      subtitle: "Poster Presentation: EcoFun, an app to solve climate change",
+      image: "/logos/wosc.png",
       padding: false,
     },
 

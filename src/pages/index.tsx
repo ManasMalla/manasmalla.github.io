@@ -189,8 +189,10 @@ export default function Home() {
                         <ArrowUpRight className="p-1" />
                       </Link>
                     </div>
+                    <h5 className="text-md font-semibold">Lead, GITAM</h5>
+                    <p className="text-md opacity-50">Jul 2023 - Present</p>
                     <h5 className="text-md font-semibold">Volunteer, GITAM</h5>
-                    <p className="text-md opacity-50">Feb 2022 - Present</p>
+                    <p className="text-md opacity-50">Feb 2022 - Jul 2023</p>
                   </div>
                 </div>
                 <div>
