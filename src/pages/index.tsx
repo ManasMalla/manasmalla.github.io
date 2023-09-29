@@ -757,7 +757,12 @@ export default function Home() {
                 </p>
               </div> */}
               <div className="w-full lg:w-1/2 lg:mt-24">
-                <div className="aspect-[765/856] bg-[#CEEAD6]/30 dark:bg-[#CEEAD6]/80"></div>
+                <div className="aspect-[765/856] bg-[#CEEAD6]/30 dark:bg-[#CEEAD6]/80">
+                  <img
+                    src="projects/BeCoronaReady.png"
+                    className="w-full h-full object-cover object-top rounded-2xl"
+                  />
+                </div>
                 <h4 className="text-2xl my-6 font-semibold">BeCoronaReady</h4>
                 <p className="opacity-60">
                   Bringing awareness to people about the precautions,
