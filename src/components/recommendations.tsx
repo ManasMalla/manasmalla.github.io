@@ -42,6 +42,16 @@ export default function RecommendationSection() {
         "Fusce varius, purus nec tincidunt sagittis, nunc nisl sollicitudin justo, et iaculis enim libero eget felis. Vestibulum tincidunt elementum sem eu rhoncus. Pellentesque ullamcorper condimentum mauris, tristique interdum arcu lobortis pretium. Proin porttitor eget purus laoreet interdum. Vestibulum maximus neque sit amet elit pulvinar, vitae viverra lorem molestie. In vulputate id dolor rhoncus bibendum. Donec vitae sapien ut est vestibulum rutrum. Vivamus vel massa porta.",
       title: "Nunc dictum ornare volutpat. Nunc cursus orci at nibh finibus. ",
     },
+    {
+      name: "Sidharth Philkana",
+      designation: "Student, GITAM (Deemed to be University)",
+      image:
+        "https://psidh.vercel.app/_next/image?url=%2Fimages%2Fpfp.jpg&w=1080&q=100",
+      recomm_short:
+        "A passionate creative designer and a proficient Android Developer, he effortlessly excels in every field he ventures into. I vividly recall in the first week, we participated in a quiz competition and Manas was electric in his speed and accuracy. As we were classmates, I had an opportunity to interact with him on a daily basis. Since my inaugural day at university",
+      title:
+        "From the onset of my university journey, Manas Malla has embodied an unparalleled source of inspiration.",
+    },
   ];
   return (
     <section id="recommendations" className=" mb-16">
@@ -91,20 +101,21 @@ export default function RecommendationSection() {
             <p className={index == 1 ? "" : "opacity-30"}>•</p>
             <p className={index == 2 ? "" : "opacity-30"}>•</p>
             <p className={index == 3 ? "" : "opacity-30"}>•</p>
+            <p className={index == 4 ? "" : "opacity-30"}>•</p>
             <ArrowLeft
               className={index == 0 ? `opacity-30` : ``}
               onClick={() => {
                 if (index == 0) {
-                  setIndex(3);
+                  setIndex(4);
                 } else {
                   setIndex(index - 1);
                 }
               }}
             />
             <ArrowRight
-              className={index == 3 ? `opacity-30` : ``}
+              className={index == 4 ? `opacity-30` : ``}
               onClick={() => {
-                if (index == 3) {
+                if (index == 4) {
                   setIndex(0);
                 } else {
                   setIndex(index + 1);
