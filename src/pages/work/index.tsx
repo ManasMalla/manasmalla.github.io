@@ -1,5 +1,9 @@
 import { Chip } from "@mui/material";
 import { useState } from "react";
+
+import { saveAs } from "file-saver";
+
+import { useRouter } from "next/router";
 import {
   ArrowRight,
   Award,
@@ -18,538 +22,565 @@ import {
   Twitch,
   Video,
 } from "react-feather";
+import { WorkTag } from "./tag";
 
 export default function Work() {
+  const router = useRouter();
   const [index, setIndex] = useState(0);
+  const tagIndex: { [id: number]: WorkTag } = {
+    0: WorkTag.Design,
+    1: WorkTag.Android,
+    2: WorkTag.iOS,
+    3: WorkTag.Flutter,
+    11: WorkTag.MachineLearning,
+    4: WorkTag.Web,
+    5: WorkTag.Replits,
+    6: WorkTag.Robotics,
+    7: WorkTag.Science,
+    8: WorkTag.Library,
+  };
   const work = [
-    [
-      {
-        name: "AutoSmith",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "projects/autosmith.png",
-        link: "https://autosmith.theananta.in",
-      },
-      {
-        name: "balavemulakonda.dev",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "/projects/balavemulakonda.png",
-        link: "https://balavemulakonda.dev",
-      },
-      {
-        name: "STEMQuest",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "/projects/stemquest.png",
-        link: "https://stemquest.theananta.in/stemquest",
-      },
-      {
-        name: "Spotmies LLP",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "/projects/spotmies.png",
-        link: "https://spotmies.com",
-      },
-      {
-        name: "SSV Classes",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "/projects/ssv-classes.png",
-      },
-      {
-        name: "Dhee",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "projects/dhee.png",
-      },
-      {
-        name: "cvkmohan.com",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "/projects/cvkmohan.png",
-        link: "https://cvkmohan.com",
-      },
-      {
-        name: "Nandikrushi",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "/projects/nandikrushi.png",
-      },
-      {
-        name: "Campus Ride",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "projects/campus-ride.png",
-      },
-      {
-        name: "Breach",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "/projects/breach.png",
-      },
-      {
-        name: "VMN",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "Vidyadhara Kaksha",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "/projects/vidhyadhara_kaksha.png",
-      },
-      {
-        name: "Vishrambh",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "/projects/vishrambh.png",
-      },
-      {
-        name: "Gurujada",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "projects/gurujada.png",
-      },
-      {
-        name: "Tech Schemax",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "/projects/tech-schemax.png",
-      },
-      {
-        name: "Nandan Yoga Center",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "/projects/nandan-fitness-center.png",
-      },
-      {
-        name: "International Women's Day 2023: Vizag",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "Booktique",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "projects/booktique.png",
-      },
-      {
-        name: "Dr. Aarogya's Health Record",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "/projects/aarogya-health-record.png",
-      },
-      {
-        name: "Progression",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "/projects/progression.png",
-      },
-      {
-        name: "Asquare Gokarting",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image:
-          "https://mir-s3-cdn-cf.behance.net/projects/404/e0054c167045523.Y3JvcCw3OTksNjI1LDI1Nyww.png",
-      },
-    ],
-    [
-      {
-        name: "EcoFun",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "Aham Svastha",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "BeCoronaReady",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "Dr. Aarogya's Health Record",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "/projects/aarogya-health-record.png",
-      },
-      {
-        name: "Jetsurvey",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
+    {
+      name: "AutoSmith",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "projects/autosmith.png",
+      link: "https://autosmith.theananta.in",
+      tags: [WorkTag.Design, WorkTag.Flutter],
+    },
+    {
+      name: "balavemulakonda.dev",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "/projects/balavemulakonda.png",
+      link: "https://balavemulakonda.dev",
+      tags: [WorkTag.Design],
+    },
+    {
+      name: "STEMQuest",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "/projects/stemquest.png",
+      link: "https://stemquest.theananta.in/stemquest",
+      tags: [WorkTag.Design],
+    },
+    {
+      name: "Spotmies LLP",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "/projects/spotmies.png",
+      link: "https://spotmies.com",
+      tags: [WorkTag.Design, WorkTag.Flutter],
+    },
+    {
+      name: "SSV Classes",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "/projects/ssv-classes.png",
+      tags: [WorkTag.Design],
+    },
+    {
+      name: "Dhee",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "projects/dhee.png",
+      tags: [WorkTag.Design],
+    },
+    {
+      name: "cvkmohan.com",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "/projects/cvkmohan.png",
+      link: "https://cvkmohan.com",
+      tags: [WorkTag.Design],
+    },
+    {
+      name: "Nandikrushi",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "/projects/nandikrushi.png",
+      tags: [WorkTag.Design, WorkTag.Flutter],
+    },
+    {
+      name: "Campus Ride",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "projects/campus-ride.png",
+      tags: [WorkTag.Design],
+    },
+    {
+      name: "Breach",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "/projects/breach.png",
+      tags: [WorkTag.Design],
+    },
+    {
+      name: "VMN",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Design],
+    },
+    {
+      name: "Vidyadhara Kaksha",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "/projects/vidhyadhara_kaksha.png",
+      tags: [WorkTag.Design],
+    },
+    {
+      name: "Vishrambh",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "/projects/vishrambh.png",
+      tags: [WorkTag.Design],
+    },
+    {
+      name: "Gurujada",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "projects/gurujada.png",
+      tags: [WorkTag.Design],
+    },
+    {
+      name: "Tech Schemax",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "/projects/tech-schemax.png",
+      tags: [WorkTag.Design],
+    },
+    {
+      name: "Nandan Yoga Center",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "/projects/nandan-fitness-center.png",
+      tags: [WorkTag.Design],
+    },
+    {
+      name: "International Women's Day 2023: Vizag",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Design],
+    },
+    {
+      name: "Booktique",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "projects/booktique.png",
+      tags: [WorkTag.Design],
+    },
+    {
+      name: "Dr. Aarogya's Health Record",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "/projects/aarogya-health-record.png",
+      tags: [WorkTag.Design, WorkTag.Android],
+    },
+    {
+      name: "Progression",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "/projects/progression.png",
+      tags: [WorkTag.Design, WorkTag.iOS],
+    },
+    {
+      name: "Asquare Gokarting",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image:
+        "https://mir-s3-cdn-cf.behance.net/projects/404/e0054c167045523.Y3JvcCw3OTksNjI1LDI1Nyww.png",
 
-      {
-        name: "Jetchat",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "Jetnews",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "WhatsApp",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "Yojana",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "Portfolio-o-Matic",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "WiggleSlider",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "Activity Recognition Transition",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "Space Travel",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "LeoMath",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "Vedic Ganith",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-    ],
-    [
-      {
-        name: "BeCoronaReady",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "CodeUrHealth",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "CheMystery",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "EcoFun",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "Progression",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-    ],
-    [
-      {
-        name: "WTM Vizag: IWD'23",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "ASquare Gokarting",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "Nandikrushi",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "/projects/nandikrushi.png",
-      },
-      {
-        name: "Dash's Playgrounds",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "video_player",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "Instagram",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "DevFest 2022: Vizag",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "StockZ",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "Themeify",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "NewsBizKoot",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "Certificate Generator",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "Landmarks",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "TransactionTime",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "NotifyMe",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "Course-o-Pedia",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "ParnerDetails",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "Order Trackr",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
+      tags: [WorkTag.Design, WorkTag.Flutter],
+    },
+    {
+      name: "EcoFun",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Android, WorkTag.iOS],
+    },
+    {
+      name: "Aham Svastha",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Android],
+    },
+    {
+      name: "BeCoronaReady",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Android, WorkTag.iOS],
+    },
+    {
+      name: "Jetsurvey",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Android],
+    },
 
-      {
-        name: "ServiceReview",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "The Sorting Hat Ceremony",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "Ducks in a Row",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
+    {
+      name: "Jetchat",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Android],
+    },
+    {
+      name: "Jetnews",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Android],
+    },
+    {
+      name: "WhatsApp",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Android],
+    },
+    {
+      name: "Yojana",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Android],
+    },
+    {
+      name: "Portfolio-o-Matic",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Android],
+    },
+    {
+      name: "WiggleSlider",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Android],
+    },
+    {
+      name: "Activity Recognition Transition",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Android],
+    },
+    {
+      name: "Space Travel",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Android],
+    },
+    {
+      name: "LeoMath",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Android],
+    },
+    {
+      name: "Vedic Ganith",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Android],
+    },
+    {
+      name: "CodeUrHealth",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.iOS],
+    },
+    {
+      name: "CheMystery",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.iOS],
+    },
+    {
+      name: "WTM Vizag: IWD'23",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
+    {
+      name: "Dash's Playgrounds",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
+    {
+      name: "video_player",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
+    {
+      name: "Instagram",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
+    {
+      name: "DevFest 2022: Vizag",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
+    {
+      name: "StockZ",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
+    {
+      name: "Themeify",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
+    {
+      name: "NewsBizKoot",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
+    {
+      name: "Certificate Generator",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
+    {
+      name: "Landmarks",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
+    {
+      name: "TransactionTime",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
+    {
+      name: "NotifyMe",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
+    {
+      name: "Course-o-Pedia",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
+    {
+      name: "PartnerDetails",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
+    {
+      name: "Order Trackr",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
 
-      {
-        name: "Thathaya's Birthday Bash",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "FlutteResume",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
+    {
+      name: "ServiceReview",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
+    {
+      name: "The Sorting Hat Ceremony",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
+    {
+      name: "Ducks in a Row",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
 
-      {
-        name: "PortFlutterIO",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
+    {
+      name: "Thathaya's Birthday Bash",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
+    {
+      name: "FlutteResume",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
 
-      {
-        name: "SpellRight",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
+    {
+      name: "PortFlutterIO",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
 
-      {
-        name: "Spotmies LLP",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
+    {
+      name: "SpellRight",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
 
-      {
-        name: "Spotmies Partner App",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-    ],
-    [
-      {
-        name: "manasmalla.dev",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "IWD Vizag",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "Explore California",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "IndieSkullSyndicate",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
+    {
+      name: "Spotmies Partner App",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
+    {
+      name: "manasmalla.dev",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Web],
+    },
+    {
+      name: "IWD Vizag",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Web],
+    },
+    {
+      name: "Explore California",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Web],
+    },
+    {
+      name: "IndieSkullSyndicate",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Web],
+    },
 
-      {
-        name: "Calculator",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
+    {
+      name: "Calculator",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Web],
+    },
 
-      {
-        name: "Notes",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-    ],
-    [
-      {
-        name: "Namasthe Python",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "Namasthe Lokam",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "Hello Replit",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-    ],
-    [
-      {
-        name: "EcoOreoBot",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-    ],
-    [
-      {
-        name: "EcoWorld",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "Svasth360",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-      {
-        name: "Quantum Walk",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-    ],
-    [
-      {
-        name: "Neardrop",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image:
-          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Nearby_CHROME_PIXEL-02.max-1000x1000.png",
-      },
-    ],
-    [
-      {
-        name: "Cancer",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
-        image: "",
-      },
-    ],
+    {
+      name: "Notes",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Web],
+    },
+    {
+      name: "Namasthe Python",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Replits],
+    },
+    {
+      name: "Namasthe Lokam",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Replits],
+    },
+    {
+      name: "Hello Replit",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Replits],
+    },
+    {
+      name: "EcoOreoBot",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Robotics],
+    },
+    {
+      name: "EcoWorld",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Science],
+    },
+    {
+      name: "Svasth360",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Science],
+    },
+    {
+      name: "Quantum Walk",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Science],
+    },
+    {
+      name: "Neardrop",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image:
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Nearby_CHROME_PIXEL-02.max-1000x1000.png",
+      tags: [WorkTag.Library],
+    },
+    {
+      name: "Cancer",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.MachineLearning],
+    },
   ];
   const gallery = [
     {
@@ -897,6 +928,7 @@ export default function Work() {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
       image: "https://i.ytimg.com/vi/-F7gbZd0o1c/maxresdefault.jpg",
       subtitle: "Blue Ocean Competition",
+      link: "https://www.youtube.com/watch?v=-F7gbZd0o1c",
     },
     {
       name: "Quantum Walk",
@@ -904,6 +936,7 @@ export default function Work() {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
       image: "https://i.ytimg.com/vi/TkTXT90kd24/maxresdefault.jpg",
       subtitle: "Breakthrough Junior Challenge",
+      link: "https://www.youtube.com/watch?v=TkTXT90kd24",
     },
     {
       name: "EcoFun",
@@ -911,6 +944,7 @@ export default function Work() {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
       image: "https://i.ytimg.com/vi/6MIrkKRoIug/maxresdefault.jpg",
       subtitle: "Breakthrough Junior Challenge",
+      link: "https://www.youtube.com/watch?v=6MIrkKRoIug",
     },
     {
       name: "Shree Hari Strotram",
@@ -918,6 +952,7 @@ export default function Work() {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
       image: "https://i.ytimg.com/vi/VaB5avNpvRc/maxresdefault.jpg",
       subtitle: "",
+      link: "https://www.youtube.com/watch?v=VaB5avNpvRc",
     },
     {
       name: "Happy Birthday Thathaya",
@@ -925,6 +960,7 @@ export default function Work() {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
       image: "https://i.ytimg.com/vi/OjDtBp6HQ64/hqdefault.jpg",
       subtitle: "",
+      link: "https://www.youtube.com/watch?v=OjDtBp6HQ64",
     },
     {
       name: "Ek Chidiya Anek Chidiya",
@@ -932,6 +968,7 @@ export default function Work() {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
       image: "https://i.ytimg.com/vi/4NFDWMj2gKs/maxresdefault.jpg",
       subtitle: "",
+      link: "https://www.youtube.com/watch?v=4NFDWMj2gKs",
     },
     {
       name: "Be Corona Ready",
@@ -939,6 +976,71 @@ export default function Work() {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
       image: "https://img.youtube.com/vi/zchNwWYGSsE/hqdefault.jpg",
       subtitle: "",
+      link: "https://www.youtube.com/watch?v=zchNwWYGSsE",
+    },
+    {
+      name: "STEMQuest",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "https://img.youtube.com/vi/ofWzOIOpYVQ/hqdefault.jpg",
+      subtitle: "Discover | Learn | Create",
+      link: "https://www.youtube.com/watch?v=ofWzOIOpYVQ",
+    },
+    {
+      name: "Lead Pitch '23",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "https://img.youtube.com/vi/nMrnC_3t9vE/hqdefault.jpg",
+      subtitle: "Google Developer Student Clubs",
+      link: "https://www.youtube.com/watch?v=nMrnC_3t9vE",
+    },
+    {
+      name: "Channel Intro",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "https://img.youtube.com/vi/uo4MQTN7n9M/hqdefault.jpg",
+      subtitle: "Talent Safari",
+      link: "https://www.youtube.com/watch?v=uo4MQTN7n9M",
+    },
+    {
+      name: "Channel Teaser",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "https://img.youtube.com/vi/jR7JeBlezDk/hqdefault.jpg",
+      subtitle: "Tech Safari",
+      link: "https://www.youtube.com/watch?v=jR7JeBlezDk",
+    },
+    {
+      name: "Channel Trailer",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "https://img.youtube.com/vi/W5hlx_O1H4Y/hqdefault.jpg",
+      subtitle: "Learn With Super Oreo",
+      link: "https://www.youtube.com/watch?v=W5hlx_O1H4Y",
+    },
+    {
+      name: "Happy Birthday Lakshit",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "https://img.youtube.com/vi/sgEjSFD7SeI/hqdefault.jpg",
+      subtitle: "",
+      link: "https://www.youtube.com/watch?v=sgEjSFD7SeI",
+    },
+    {
+      name: "Happy Birthday Daddy",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "https://img.youtube.com/vi/y0zsphhHjkQ/hqdefault.jpg",
+      subtitle: "",
+      link: "https://www.youtube.com/watch?v=y0zsphhHjkQ",
+    },
+    {
+      name: "EcoCity",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "https://i.ytimg.com/vi/Vh_PQCLPX_c/maxresdefault.jpg",
+      subtitle: "ICSMF 2021",
+      link: "https://www.youtube.com/watch?v=Vh_PQCLPX_c",
     },
   ];
   return (
@@ -1049,39 +1151,41 @@ export default function Work() {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-8 py-8">
         {index < 9 || index == 11
-          ? work[index == 11 ? 9 : index].map((value) => {
-              return (
-                <div key={value.name}>
-                  <div className="w-full lg:w-96 h-64 lg:h-80 bg-blue-50 dark:bg-slate-900 rounded-md">
-                    {value.image != "" ? (
-                      <img
-                        src={value.image}
-                        className="w-full h-full object-cover rounded-md"
-                      />
-                    ) : (
-                      <div />
-                    )}
+          ? work
+              .filter((e) => e.tags.includes(tagIndex[index]))
+              .map((value) => {
+                return (
+                  <div key={value.name}>
+                    <div className="w-full lg:w-96 h-64 lg:h-80 bg-blue-50 dark:bg-slate-900 rounded-md">
+                      {value.image != "" ? (
+                        <img
+                          src={value.image}
+                          className="w-full h-full object-cover rounded-md"
+                        />
+                      ) : (
+                        <div />
+                      )}
+                    </div>
+                    <div className="my-6">
+                      <h4 className="text-2xl font-semibold">{value.name}</h4>
+                    </div>
+                    <p className="opacity-60 lg:w-96">{value.description}</p>
+                    <button
+                      onClick={() => {
+                        //   router.push("/work");
+                      }}
+                      className="py-4 font-light rounded-full text-blue-500 dark:text-blue-400"
+                    >
+                      {/* <Compass className="inline-flex w-4 h-4 mr-4" /> */}
+                      <a href={value.link} className="font-normal inline-flex">
+                        Explore
+                      </a>
+                      <ArrowRight className="inline-flex w-4 h-4 ml-4" />
+                    </button>
                   </div>
-                  <div className="my-6">
-                    <h4 className="text-2xl font-semibold">{value.name}</h4>
-                  </div>
-                  <p className="opacity-60 lg:w-96">{value.description}</p>
-                  <button
-                    onClick={() => {
-                      //   router.push("/work");
-                    }}
-                    className="py-4 font-light rounded-full text-blue-500 dark:text-blue-400"
-                  >
-                    {/* <Compass className="inline-flex w-4 h-4 mr-4" /> */}
-                    <a href={value.link} className="font-normal inline-flex">
-                      Explore
-                    </a>
-                    <ArrowRight className="inline-flex w-4 h-4 ml-4" />
-                  </button>
-                </div>
-              );
-            })
-          : (index == 9 ? gallery : videos).map((value) => {
+                );
+              })
+          : (index == 9 ? gallery : videos).map((value, valueIndex) => {
               return (
                 <div key={value.name}>
                   <div
@@ -1091,7 +1195,9 @@ export default function Work() {
                   >
                     <img
                       src={value.image}
-                      className="w-full h-full object-cover object-top rounded-md"
+                      className={`w-full h-full object-cover ${
+                        index == 9 ? "object-top" : "object-center"
+                      } rounded-md`}
                     />
                   </div>
                   <div className="my-6">
@@ -1103,6 +1209,14 @@ export default function Work() {
                   <p className="opacity-60 lg:w-96">{value.description}</p>
                   <button
                     onClick={() => {
+                      if (index == 10 && videos[valueIndex].link != "") {
+                        router.push(videos[valueIndex].link);
+                      } else if (index == 9 && value.image != "") {
+                        saveAs(
+                          value.image,
+                          value.image.split("/").reverse()[0]
+                        );
+                      }
                       //   router.push("/work");
                     }}
                     className="py-4 font-light rounded-full text-blue-500 dark:text-blue-400"
