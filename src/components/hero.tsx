@@ -6,12 +6,7 @@ export default function Hero() {
   return (
     <div className="mx-auto lg:mx-20 lg:w-[56%] text-center lg:mx-auto">
       <div className="mx-auto w-24 aspect-square rounded-full bg-[#005AC1] dark:bg-[#D2E3FC] bg-opacity-10 dark:bg-opacity-10">
-        <Image
-          alt="Manas Malla"
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          src="/memoji.png"
-          className="mx-1 mt-2 p-1"
-        />
+        <img src="/memoji.png" className="mx-1 mt-2 p-1" />
       </div>
       <h3 className="mb-5 mt-10">Hi, I&apos;m Manas Malla</h3>
       <h1 className="text-4xl lg:text-6xl leading-[1.3em]">
