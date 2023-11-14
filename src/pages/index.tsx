@@ -691,8 +691,12 @@ export default function Home() {
             <div className="flex lg:flex-row flex-col lg:mr-24 gap-12 lg:gap-24">
               <div className="w-full lg:w-1/2">
                 <div className="aspect-[765/856] bg-[#D2E3FC]/30 dark:bg-[#D2E3FC]/80 rounded-2xl">
-                  <img
-                    src="projects/asquaregokarting.png"
+                  <Image
+                    alt="ASquare Gokarting"
+                    width={765}
+                    height={856}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    src="/projects/asquaregokarting.png"
                     className="w-full h-full object-cover object-top rounded-2xl"
                   />
                 </div>
@@ -708,8 +712,12 @@ export default function Home() {
               </div>
               <div className="w-full lg:w-1/2 lg:mt-24">
                 <div className="aspect-[765/856] bg-[#FEF7E0]/50 dark:bg-[#FEF7E0]/80 rounded-2xl">
-                  <img
-                    src="projects/nandikrushi-poster.png"
+                  <Image
+                    alt="Nandikurshi"
+                    width={765}
+                    height={856}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    src="/projects/nandikrushi-poster.png"
                     className="w-full h-full object-cover object-top rounded-2xl"
                   />
                 </div>
@@ -734,8 +742,12 @@ export default function Home() {
               </div> */}
               <div className="w-full lg:w-1/2">
                 <div className="aspect-[765/856] bg-[#FCE8E6]/30 dark:bg-[#FCE8E6]/80 rounded-2xl">
-                  <img
-                    src="projects/aham-svastha-banner.png"
+                  <Image
+                    alt="Aham Svastha"
+                    width={765}
+                    height={856}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    src="/projects/aham-svastha-banner.png"
                     className="w-full h-full object-cover object-top rounded-2xl"
                   />
                 </div>
@@ -758,8 +770,12 @@ export default function Home() {
               </div> */}
               <div className="w-full lg:w-1/2 lg:mt-24">
                 <div className="aspect-[765/856] bg-[#CEEAD6]/30 dark:bg-[#CEEAD6]/80 rounded-2xl">
-                  <img
-                    src="projects/BeCoronaReady.png"
+                  <Image
+                    alt="BeCoronaReady"
+                    width={765}
+                    height={856}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    src="/projects/BeCoronaReady.png"
                     className="w-full h-full object-cover object-top rounded-2xl"
                   />
                 </div>

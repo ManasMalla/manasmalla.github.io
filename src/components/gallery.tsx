@@ -46,10 +46,10 @@ export default function Gallery() {
         <div className="w-[27%] relative aspect-[0.701724137931034] rounded-md shadow-[0_4px_32px_4px_rgba(0,0,0,0.16)]">
           <Image
             alt="TotsNShots"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            sizes="(max-width: 768px) 27vw, (max-width: 1200px) 27vw, 27vw"
             fill={true}
             src="/image-main.jpg"
-            className="w-full h-full rounded-md"
+            className="w-full h-full rounded-md object-cover"
           />
           <div className="bg-black z-10 absolute w-full h-full top-0 rounded-r-md bg-opacity-0 hover:bg-opacity-30">
             <div className="w-full h-full flex top-0 absolute items-center justify-center opacity-0 hover:opacity-100">
@@ -146,7 +146,7 @@ export default function Gallery() {
         <div className="w-[22%] aspect-[1.6] rounded-l-md shadow-[0_4px_32px_4px_rgba(0,0,0,0.16)] relative">
           <Image
             alt="Hindu Temple Of Central Illinois"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            sizes="22vw"
             fill={true}
             src="/temple-manas.JPG"
             className="w-full h-full object-cover rounded-l-md "

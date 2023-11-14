@@ -88,6 +88,7 @@ export default function RecommendationSection() {
           <div className="h-72 lg:h-96 w-[16rem] lg:w-[22rem] bg-[#f5fcfd] dark:opacity-10 absolute z-10 right-12 top-12 rounded-[0.325rem]"></div>
           <img
             src={recommendations[index].image}
+            alt={recommendations[index].name}
             className="h-72 lg:h-96 w-[16rem] lg:w-[22rem] rounded-[0.325rem] object-cover z-30 absolute"
           />
         </div>
