@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowLeft, ArrowRight, ChevronLeft } from "react-feather";
 
-export default function PraseedaAkkaTestimonial() {
+export default function SidharthPhilkhanaTestimonial() {
   return (
     <section className="mx-auto mb-16">
       <div className="px-24 py-12">
@@ -53,7 +53,7 @@ export default function PraseedaAkkaTestimonial() {
             <br />
             <br />
             Our shared enthusiasm for learning led us to meet in Google DevFest
-            2022. As an attendee, I was amazed to see Manas's unwavering
+            2022. As an attendee, I was amazed to see Manas&apos;s unwavering
             commitment to community contributions. His precision in
             volunteering, creating designs, inviting guests, logistic support,
             and creative prowess reached its peak, and he also was an event
@@ -68,14 +68,14 @@ export default function PraseedaAkkaTestimonial() {
             to get out of my comfort zone and try challenging stuff. When I had
             a good grip on React, it was Manas who strongly suggested me to deep
             dive into NextJs - which he gained expertise in. He also taught me
-            concepts of User Experience and how a developer’s thought process
-            should be. From Freeform to Figma, Manas was the driving force
-            behind me for mastering these design tools.
+            concepts of User Experience and how a developer&apos;s thought
+            process should be. From Freeform to Figma, Manas was the driving
+            force behind me for mastering these design tools.
             <br />
             <br />
-            Manas is more than a mentor; he's an icon of inspiration, instilling
-            a passion for tech and a commitment for community. I wish all the
-            very best to Manas for all his future goals and aspirations.
+            Manas is more than a mentor; he&apos;s an icon of inspiration,
+            instilling a passion for tech and a commitment for community. I wish
+            all the very best to Manas for all his future goals and aspirations.
           </p>
         </div>
       </div>

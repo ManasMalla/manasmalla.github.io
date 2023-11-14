@@ -13,6 +13,7 @@ import {
   Codesandbox,
   Compass,
   Cpu,
+  DollarSign,
   Download,
   Figma,
   Globe,
@@ -22,7 +23,7 @@ import {
   Twitch,
   Video,
 } from "react-feather";
-import { WorkTag } from "./tag";
+import { WorkTag } from "../../enums/tag";
 
 export default function Work() {
   const router = useRouter();
@@ -38,15 +39,32 @@ export default function Work() {
     6: WorkTag.Robotics,
     7: WorkTag.Science,
     8: WorkTag.Library,
+    12: WorkTag.Startup,
   };
   const work = [
+    {
+      name: "Now In Google",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      link: "",
+      tags: [WorkTag.Design, WorkTag.Flutter],
+    },
+    {
+      name: "NodeMailer",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      link: "",
+      tags: [WorkTag.Design, WorkTag.Flutter],
+    },
     {
       name: "AutoSmith",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
       image: "projects/autosmith.png",
       link: "https://autosmith.theananta.in",
-      tags: [WorkTag.Design, WorkTag.Flutter],
+      tags: [WorkTag.Design, WorkTag.Flutter, WorkTag.Web],
     },
     {
       name: "balavemulakonda.dev",
@@ -62,7 +80,7 @@ export default function Work() {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
       image: "/projects/stemquest.png",
       link: "https://stemquest.theananta.in/stemquest",
-      tags: [WorkTag.Design],
+      tags: [WorkTag.Startup],
     },
     {
       name: "Spotmies LLP",
@@ -177,6 +195,20 @@ export default function Work() {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
       image: "/projects/aarogya-health-record.png",
       tags: [WorkTag.Design, WorkTag.Android],
+    },
+    {
+      name: "Pixagram",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Design],
+    },
+    {
+      name: "Study Masters",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Design],
     },
     {
       name: "Progression",
@@ -309,6 +341,41 @@ export default function Work() {
     },
     {
       name: "WTM Vizag: IWD'23",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
+    {
+      name: "Greetify",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
+    {
+      name: "G-Samay",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
+    {
+      name: "Scanify",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
+    {
+      name: "PokeDex",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
+    },
+    {
+      name: "Weather App",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
       image: "",
@@ -481,6 +548,34 @@ export default function Work() {
       tags: [WorkTag.Web],
     },
     {
+      name: "GDSC GITAM",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Web],
+    },
+    {
+      name: "STEMQuest: Survey",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Web],
+    },
+    {
+      name: "Blogs",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Web],
+    },
+    {
+      name: "codelabs.dev",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Web],
+    },
+    {
       name: "IWD Vizag",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
@@ -580,6 +675,13 @@ export default function Work() {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
       image: "",
       tags: [WorkTag.MachineLearning],
+    },
+    {
+      name: "Boom Boom Talk",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Flutter],
     },
   ];
   const gallery = [
@@ -1148,9 +1250,17 @@ export default function Work() {
           }}
           icon={index == 10 ? <Video className="p-1" /> : <div />}
         />
+        <Chip
+          label="Startup"
+          variant={index == 12 ? "filled" : "outlined"}
+          onClick={() => {
+            setIndex(12);
+          }}
+          icon={index == 12 ? <DollarSign className="p-1" /> : <div />}
+        />
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-8 py-8">
-        {index < 9 || index == 11
+        {index < 9 || index >= 11
           ? work
               .filter((e) => e.tags.includes(tagIndex[index]))
               .map((value) => {

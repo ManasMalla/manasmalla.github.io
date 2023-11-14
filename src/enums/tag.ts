@@ -9,4 +9,5 @@ export enum WorkTag {
   Robotics = "robotics",
   Science = "science",
   Library = "library",
+  Startup = "startup",
 }

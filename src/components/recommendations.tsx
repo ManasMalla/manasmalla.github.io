@@ -43,7 +43,26 @@ export default function RecommendationSection() {
       title: "Nunc dictum ornare volutpat. Nunc cursus orci at nibh finibus. ",
     },
     {
-      name: "Sidharth Philkana",
+      name: "Swapna Dande",
+      designation: "Core Contributor, GDG Vizag",
+      image:
+        "https://media.licdn.com/dms/image/D5603AQGky0Gwuu1vdg/profile-displayphoto-shrink_800_800/0/1685290645408?e=1701907200&v=beta&t=kBW3wO0bWzo-r-DUXFcZjEM-wS5TK9CswjnxZRXVs-s",
+      recomm_short:
+        "Manas Malla is not only a dedicated professional but also a true enthusiast when it comes to technology and community building. What truly sets Manas apart is his role as an Android Study Jam facilitator and GDSC (Google Developer Student Clubs) lead at GITAM. He has played a pivotal role in nurturing the talents of the next generation of developers.",
+      title:
+        "I've had the privilege of knowing Manas Malla for a few years now, and he's an outstanding developer and an absolute hard worker.",
+    },
+    {
+      name: "Anjali Kakarlapudi",
+      designation: "Android Lead, GDSC GVPCEW '22",
+      image: "/profile-pictures/anjali-kakarlapudi.jpg",
+      recomm_short:
+        "Although, he's younger than me, I always look up to him when it comes to the knowledge he has in technology. He is a true perfectionist. His meticulous attention to detail and unwavering commitment to excellence is commendable. Whether it's coding, designing, or managing projects, Manas Malla consistently strives for nothing short of perfection. As a core contributor of Google Developer Groups/Women Techmakers Vizag, Android Study Jams facilitator and Google Developer Student Clubs",
+      title:
+        "A remarkable professional I've ever met with an unparalleled dedication to work.",
+    },
+    {
+      name: "Sidharth Philkhana",
       designation: "Student, GITAM (Deemed to be University)",
       image:
         "https://psidh.vercel.app/_next/image?url=%2Fimages%2Fpfp.jpg&w=1080&q=100",
@@ -65,11 +84,11 @@ export default function RecommendationSection() {
       </h2>
       <div className="flex mt-8 lg:flex-row flex-col">
         <div className="flex-shrink-0 h-[21rem] lg:h-[27rem] w-[16rem] lg:mx-0 ml-auto mb-4 lg:mb-0 mr-6 lg:w-[22rem] relative">
-          <div className="h-72 lg:h-96 w-[16rem] lg:w-[22rem] bg-[#eaf9fa] absolute -z-10 right-6 top-6 rounded-[0.325rem]"></div>
-          <div className="h-72 lg:h-96 w-[16rem] lg:w-[22rem] bg-[#f5fcfd] absolute -z-20 right-12 top-12 rounded-[0.325rem]"></div>
+          <div className="h-72 lg:h-96 w-[16rem] lg:w-[22rem] bg-[#eaf9fa] dark:bg-[#2d3030] absolute z-20 right-6 top-6 rounded-[0.325rem]"></div>
+          <div className="h-72 lg:h-96 w-[16rem] lg:w-[22rem] bg-[#f5fcfd] dark:opacity-10 absolute z-10 right-12 top-12 rounded-[0.325rem]"></div>
           <img
             src={recommendations[index].image}
-            className="h-72 lg:h-96 w-[16rem] lg:w-[22rem] rounded-[0.325rem] object-cover"
+            className="h-72 lg:h-96 w-[16rem] lg:w-[22rem] rounded-[0.325rem] object-cover z-30 absolute"
           />
         </div>
         <div className="flex flex-col shrink lg:px-16 justify-center pb-12">
@@ -97,25 +116,29 @@ export default function RecommendationSection() {
             </span>
           </h4>
           <div className="flex gap-4">
-            <p className={index == 0 ? "" : "opacity-30"}>•</p>
-            <p className={index == 1 ? "" : "opacity-30"}>•</p>
-            <p className={index == 2 ? "" : "opacity-30"}>•</p>
-            <p className={index == 3 ? "" : "opacity-30"}>•</p>
-            <p className={index == 4 ? "" : "opacity-30"}>•</p>
+            {recommendations.map((recom, i) => {
+              return (
+                <p key={recom.name} className={index == i ? "" : "opacity-30"}>
+                  •
+                </p>
+              );
+            })}
             <ArrowLeft
               className={index == 0 ? `opacity-30` : ``}
               onClick={() => {
                 if (index == 0) {
-                  setIndex(4);
+                  setIndex(recommendations.length - 1);
                 } else {
                   setIndex(index - 1);
                 }
               }}
             />
             <ArrowRight
-              className={index == 4 ? `opacity-30` : ``}
+              className={
+                index == recommendations.length - 1 ? `opacity-30` : ``
+              }
               onClick={() => {
-                if (index == 4) {
+                if (index == recommendations.length - 1) {
                   setIndex(0);
                 } else {
                   setIndex(index + 1);

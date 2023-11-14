@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Gallery() {
@@ -6,8 +7,11 @@ export default function Gallery() {
       <div className="flex gap-6">
         <div className="w-[40%] aspect-[0.974137931034483] h-max">
           <div className="w-full aspect-[2.1] mb-5 rounded-r-md shadow-[0_4px_32px_4px_rgba(0,0,0,0.16)] relative">
-            <img
-              src="asj-manas.JPG"
+            <Image
+              alt="Android Study Jams"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              fill={true}
+              src="/asj-manas.JPG"
               className="w-full h-full object-cover object-top rounded-r-md"
             />
             <div className="bg-black z-10 absolute w-full h-full top-0 rounded-r-md bg-opacity-0 hover:bg-opacity-30">
@@ -22,8 +26,11 @@ export default function Gallery() {
             </div>
           </div>
           <div className="w-full aspect-[2.025089605734767] rounded-r-md shadow-[0_4px_32px_4px_rgba(0,0,0,0.16)] relative">
-            <img
-              src="gds-manas.jpg"
+            <Image
+              alt="Google Developer Summit"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              fill={true}
+              src="/gds-manas.jpg"
               className="w-full h-full object-cover rounded-r-md"
             />
             <div className="bg-black z-10 absolute w-full h-full top-0 rounded-r-md bg-opacity-0 hover:bg-opacity-30">
@@ -37,7 +44,13 @@ export default function Gallery() {
           </div>
         </div>
         <div className="w-[27%] relative aspect-[0.701724137931034] rounded-md shadow-[0_4px_32px_4px_rgba(0,0,0,0.16)]">
-          <img src="image-main.jpg" className="w-full h-full rounded-md" />
+          <Image
+            alt="TotsNShots"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            fill={true}
+            src="/image-main.jpg"
+            className="w-full h-full rounded-md"
+          />
           <div className="bg-black z-10 absolute w-full h-full top-0 rounded-r-md bg-opacity-0 hover:bg-opacity-30">
             <div className="w-full h-full flex top-0 absolute items-center justify-center opacity-0 hover:opacity-100">
               <Link
@@ -53,8 +66,11 @@ export default function Gallery() {
 
         <div className="w-[34%] aspect-[square] h-max">
           <div className="w-full aspect-[1.385] mb-5 rounded-l-md shadow-[0_4px_32px_4px_rgba(0,0,0,0.16)] relative">
-            <img
-              src="afs-manas.jpg"
+            <Image
+              alt="Android Feedback Summit"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              fill={true}
+              src="/afs-manas.jpg"
               className="w-full h-full object-cover rounded-l-md "
             />
             <div className="bg-black z-10 absolute w-full h-full top-0 rounded-l-md bg-opacity-0 hover:bg-opacity-30">
@@ -67,8 +83,11 @@ export default function Gallery() {
             </div>
           </div>
           <div className="w-full aspect-[2.36] relative rounded-l-md shadow-[0_4px_32px_4px_rgba(0,0,0,0.16)]">
-            <img
-              src="dare-to-be-fearless.jpg"
+            <Image
+              alt="Dare to be Fearless"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              fill={true}
+              src="/dare-to-be-fearless.jpg"
               className="w-full h-full object-cover rounded-l-md object-[0%,10%] "
             />
             <div className="bg-black z-10 absolute w-full h-full top-0 rounded-l-md bg-opacity-0 hover:bg-opacity-30">
@@ -87,8 +106,11 @@ export default function Gallery() {
       </div>
       <div className="flex gap-6 mt-4">
         <div className="w-[60%] aspect-[3.3] relative rounded-r-md shadow-[0_4px_32px_4px_rgba(0,0,0,0.16)]">
-          <img
-            src="iwd-manas.jpg"
+          <Image
+            alt="International Women's Day: Vizag"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            fill={true}
+            src="/iwd-manas.jpg"
             className="w-full h-full object-cover rounded-r-md object-top"
           />
           <div className="bg-black z-10 absolute w-full h-full top-0 rounded-r-md bg-opacity-0 hover:bg-opacity-30">
@@ -104,8 +126,11 @@ export default function Gallery() {
           </div>
         </div>
         <div className="w-[18%] aspect-[1.8] relative rounded-md shadow-[0_4px_32px_4px_rgba(0,0,0,0.16)]">
-          <img
-            src="wed-manas.jpeg"
+          <Image
+            alt="Wedding"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            fill={true}
+            src="/wed-manas.jpeg"
             className="w-full h-full object-cover rounded-md "
           />
           <div className="bg-black z-10 absolute w-full h-full top-0 rounded-md bg-opacity-0 hover:bg-opacity-30">
@@ -119,8 +144,11 @@ export default function Gallery() {
         </div>
 
         <div className="w-[22%] aspect-[1.6] rounded-l-md shadow-[0_4px_32px_4px_rgba(0,0,0,0.16)] relative">
-          <img
-            src="temple-manas.JPG"
+          <Image
+            alt="Hindu Temple Of Central Illinois"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            fill={true}
+            src="/temple-manas.JPG"
             className="w-full h-full object-cover rounded-l-md "
           />
           <div className="bg-black z-10 absolute w-full h-full top-0 rounded-l-md bg-opacity-0 hover:bg-opacity-30">
