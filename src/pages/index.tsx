@@ -661,7 +661,10 @@ export default function Home() {
             <div className="relative">
               <div className="bg-[#EAF9FA] dark:bg-opacity-10 w-3/4 lg:w-1/3 aspect-square absolute -right-16 lg:-right-36 rounded-full" />
               <div className="border-[#93CED2] dark:opacity-30 border-2 w-3/4 lg:w-1/3 aspect-square absolute -right-0 lg:-right-8 top-16 rounded-full border-dashed" />
-              <img
+              <Image
+                fill={true}
+                alt="Party Memoji"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 src="party-memoji.png"
                 className="w-32 lg:w-48 right-28 lg:right-44 absolute"
               />
@@ -691,7 +694,10 @@ export default function Home() {
             <div className="flex lg:flex-row flex-col lg:mr-24 gap-12 lg:gap-24">
               <div className="w-full lg:w-1/2">
                 <div className="aspect-[765/856] bg-[#D2E3FC]/30 dark:bg-[#D2E3FC]/80 rounded-2xl">
-                  <img
+                  <Image
+                    fill={true}
+                    alt="ASquare Gokarting"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     src="projects/asquaregokarting.png"
                     className="w-full h-full object-cover object-top rounded-2xl"
                   />
@@ -708,7 +714,10 @@ export default function Home() {
               </div>
               <div className="w-full lg:w-1/2 lg:mt-24">
                 <div className="aspect-[765/856] bg-[#FEF7E0]/50 dark:bg-[#FEF7E0]/80 rounded-2xl">
-                  <img
+                  <Image
+                    fill={true}
+                    alt="Nandikrushi"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     src="projects/nandikrushi-poster.png"
                     className="w-full h-full object-cover object-top rounded-2xl"
                   />
@@ -734,7 +743,10 @@ export default function Home() {
               </div> */}
               <div className="w-full lg:w-1/2">
                 <div className="aspect-[765/856] bg-[#FCE8E6]/30 dark:bg-[#FCE8E6]/80 rounded-2xl">
-                  <img
+                  <Image
+                    fill={true}
+                    alt="Aham Svastha"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     src="projects/aham-svastha-banner.png"
                     className="w-full h-full object-cover object-top rounded-2xl"
                   />
@@ -758,7 +770,10 @@ export default function Home() {
               </div> */}
               <div className="w-full lg:w-1/2 lg:mt-24">
                 <div className="aspect-[765/856] bg-[#CEEAD6]/30 dark:bg-[#CEEAD6]/80 rounded-2xl">
-                  <img
+                  <Image
+                    fill={true}
+                    alt="BeCoronaReady"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     src="projects/BeCoronaReady.png"
                     className="w-full h-full object-cover object-top rounded-2xl"
                   />
