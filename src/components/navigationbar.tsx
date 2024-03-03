@@ -3,7 +3,7 @@ import { Mail, Menu } from "react-feather";
 
 export default function NavigationBar(props: { index: number }) {
   return (
-    <div className="mx-8 lg:mx-20 flex justify-between py-10">
+    <div className="mt-12 mx-8 lg:mx-20 flex justify-between py-10">
       <Link href="mailto:manasmalla.dev@gmail.com">
         <div className="flex gap-4 items-center">
           <Mail className="w-5 h-5" />
