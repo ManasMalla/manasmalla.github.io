@@ -6,6 +6,7 @@ import type { AppProps } from "next/app";
 import { useRouter } from "next/router";
 import { initializeParse } from "@parse/react-ssr";
 import { Zap } from "react-feather";
+import Link from "next/link";
 
 initializeParse(
   "https://parseapi.back4app.com", //custom url
@@ -36,9 +37,9 @@ export default function App({ Component, pageProps }: AppProps) {
         <span className="w-[24ch] lg:w-[unset] opacity-70">
           Read my journey through WWDC24 Swift Student Challenge.
         </span>{" "}
-        <a href="/" className="text-white ml-1">
+        <Link href="/" className="text-white ml-1">
           Coming Soon!
-        </a>
+        </Link>
       </div>
       <Component {...pageProps} />
       <Footer />
