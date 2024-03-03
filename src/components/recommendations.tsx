@@ -17,36 +17,16 @@ export default function RecommendationSection() {
     {
       name: "Praseeda Saripalle",
       designation: "Lead @ GDSC GVPCEW",
-      image:
-        "https://media.licdn.com/dms/image/D5603AQEdL5JK-XDSfQ/profile-displayphoto-shrink_800_800/0/1669657636236?e=1700092800&v=beta&t=3yIUc4J52uHOAl7PFKAu-H3EtOR4SFWfLgLDbBjd1p8",
+      image: "/profile-pictures/praseeda-saripalle.jpg",
       recomm_short:
         "If the driving factor itself is you, one could imagine how much energy is contained in you! And, the person who is so apt to resemble this analogy is Manas Malla. Being a creative designer by passion, and an Android Developer by profession, Manas has been highly excelling in any field given! Though I am ahead of him almost by 3 years of age, I never consider myself a senior to him when it comes to excelling in the amount of knowledge that he has in this field of development.",
       title: "There is always something that drives us and keeps us inspired.",
     },
-    {
-      name: "Sampath Balivada",
-      designation: "SDE1 @ PayPal",
-      image:
-        "https://media.licdn.com/dms/image/D5603AQEeemWpuZV8pw/profile-displayphoto-shrink_800_800/0/1679033640505?e=2147483647&v=beta&t=Gy7YHw7NOikIdM-XvVZfB4Xc73MS6OFQRY7azTwD7Ak",
-      recomm_short:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a quam sed lorem dapibus aliquet. Suspendisse pulvinar ligula sit amet dolor malesuada placerat. Proin enim elit, commodo et rutrum in, venenatis blandit lorem. Cras gravida pulvinar sapien et pharetra. Etiam a tortor in dolor feugiat faucibus. Vestibulum at laoreet turpis. Pellentesque nisi libero, venenatis sodales bibendum ac, euismod sit amet massa. Mauris tempor orci sed tellus luctus elementum. Duis sit amet urna accumsan, pellentesque ante eget, mattis ex. Donec posuere, nisl in condimentum tincidunt, erat massa viverra tellus, non fringilla. ",
-      title:
-        "Sed nec mollis nisi. Suspendisse hendrerit, arcu nec sagittis dictum.",
-    },
-    {
-      name: "Rama Villuri",
-      designation: "SW Architect @ Nokia",
-      image:
-        "https://media.licdn.com/dms/image/D5603AQHbJKISNBljwQ/profile-displayphoto-shrink_800_800/0/1692009479097?e=1700092800&v=beta&t=MTT-H2MHzHVyZ0eLotszd1-yCBj4VcvdAc-Z1vk8-04",
-      recomm_short:
-        "Fusce varius, purus nec tincidunt sagittis, nunc nisl sollicitudin justo, et iaculis enim libero eget felis. Vestibulum tincidunt elementum sem eu rhoncus. Pellentesque ullamcorper condimentum mauris, tristique interdum arcu lobortis pretium. Proin porttitor eget purus laoreet interdum. Vestibulum maximus neque sit amet elit pulvinar, vitae viverra lorem molestie. In vulputate id dolor rhoncus bibendum. Donec vitae sapien ut est vestibulum rutrum. Vivamus vel massa porta.",
-      title: "Nunc dictum ornare volutpat. Nunc cursus orci at nibh finibus. ",
-    },
+
     {
       name: "Swapna Dande",
       designation: "Core Contributor, GDG Vizag",
-      image:
-        "https://media.licdn.com/dms/image/D5603AQGky0Gwuu1vdg/profile-displayphoto-shrink_800_800/0/1685290645408?e=1701907200&v=beta&t=kBW3wO0bWzo-r-DUXFcZjEM-wS5TK9CswjnxZRXVs-s",
+      image: "/profile-pictures/swapna-dande.jpg",
       recomm_short:
         "Manas Malla is not only a dedicated professional but also a true enthusiast when it comes to technology and community building. What truly sets Manas apart is his role as an Android Study Jam facilitator and GDSC (Google Developer Student Clubs) lead at GITAM. He has played a pivotal role in nurturing the talents of the next generation of developers.",
       title:
@@ -64,12 +44,29 @@ export default function RecommendationSection() {
     {
       name: "Sidharth Philkhana",
       designation: "Student, GITAM (Deemed to be University)",
-      image:
-        "https://psidh.vercel.app/_next/image?url=%2Fimages%2Fpfp.jpg&w=1080&q=100",
+      image: "/profile-pictures/sidharth-philkhana.jpg",
       recomm_short:
         "A passionate creative designer and a proficient Android Developer, he effortlessly excels in every field he ventures into. I vividly recall in the first week, we participated in a quiz competition and Manas was electric in his speed and accuracy. As we were classmates, I had an opportunity to interact with him on a daily basis. Since my inaugural day at university",
       title:
         "From the onset of my university journey, Manas Malla has embodied an unparalleled source of inspiration.",
+    },
+    {
+      name: "Sampath Balivada",
+      designation: "SDE1 @ PayPal",
+      image:
+        "https://media.licdn.com/dms/image/D5603AQEeemWpuZV8pw/profile-displayphoto-shrink_800_800/0/1679033640505?e=2147483647&v=beta&t=Gy7YHw7NOikIdM-XvVZfB4Xc73MS6OFQRY7azTwD7Ak",
+      recomm_short:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a quam sed lorem dapibus aliquet. Suspendisse pulvinar ligula sit amet dolor malesuada placerat. Proin enim elit, commodo et rutrum in, venenatis blandit lorem. Cras gravida pulvinar sapien et pharetra. Etiam a tortor in dolor feugiat faucibus. Vestibulum at laoreet turpis. Pellentesque nisi libero, venenatis sodales bibendum ac, euismod sit amet massa. Mauris tempor orci sed tellus luctus elementum. Duis sit amet urna accumsan, pellentesque ante eget, mattis ex. Donec posuere, nisl in condimentum tincidunt, erat massa viverra tellus, non fringilla. ",
+      title:
+        "Sed nec mollis nisi. Suspendisse hendrerit, arcu nec sagittis dictum.",
+    },
+    {
+      name: "Rama Villuri",
+      designation: "SW Architect @ Nokia",
+      image: "/profile-pictures/rama-villuri.jpg",
+      recomm_short:
+        "Fusce varius, purus nec tincidunt sagittis, nunc nisl sollicitudin justo, et iaculis enim libero eget felis. Vestibulum tincidunt elementum sem eu rhoncus. Pellentesque ullamcorper condimentum mauris, tristique interdum arcu lobortis pretium. Proin porttitor eget purus laoreet interdum. Vestibulum maximus neque sit amet elit pulvinar, vitae viverra lorem molestie. In vulputate id dolor rhoncus bibendum. Donec vitae sapien ut est vestibulum rutrum. Vivamus vel massa porta.",
+      title: "Nunc dictum ornare volutpat. Nunc cursus orci at nibh finibus. ",
     },
   ];
   return (
