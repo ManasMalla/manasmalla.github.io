@@ -43,6 +43,69 @@ export default function Work() {
   };
   const work = [
     {
+      name: "estimate • the ananta studio",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "projects/estimate-theananta.png",
+      tags: [WorkTag.Design, WorkTag.Web],
+    },
+    {
+      name: "Reema Holidays",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "projects/reema-holidays.png",
+      tags: [WorkTag.Design, WorkTag.Web],
+    },
+    {
+      name: "Bheeshma Naturals",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "projects/bheeshma-naturals.png",
+      tags: [WorkTag.Design, WorkTag.Flutter],
+    },
+    {
+      name: "CodeFolio",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "projects/codefolio.png",
+      tags: [WorkTag.Design, WorkTag.Flutter],
+    },
+    {
+      name: "Greetify",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Design],
+    },
+    {
+      name: "WWEC 2024: Innovators Den",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "projects/innovators-den.png",
+      tags: [WorkTag.Design],
+    },
+    {
+      name: "GDSC GITAM",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Design],
+    },
+    {
+      name: "Invite Me",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Web],
+    },
+    {
+      name: "Monica Goud",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
+      image: "",
+      tags: [WorkTag.Design],
+    },
+    {
       name: "Now In Google",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
@@ -80,7 +143,7 @@ export default function Work() {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet odio ut turpis vulputate molestie vitae at sapien. Vivamus.",
       image: "/projects/stemquest.png",
       link: "https://stemquest.theananta.in/stemquest",
-      tags: [WorkTag.Startup],
+      tags: [WorkTag.Startup, WorkTag.Design],
     },
     {
       name: "Spotmies LLP",
@@ -1269,11 +1332,14 @@ export default function Work() {
                     <div className="w-full lg:w-96 h-64 lg:h-80 bg-blue-50 dark:bg-slate-900 rounded-md">
                       {value.image != "" ? (
                         <img
+                          alt="Work In Progress"
                           src={value.image}
                           className="w-full h-full object-cover rounded-md"
                         />
                       ) : (
-                        <div />
+                        <div className="justify-center flex items-center h-full">
+                          Work in Progress
+                        </div>
                       )}
                     </div>
                     <div className="my-6">
@@ -1303,12 +1369,23 @@ export default function Work() {
                       index == 9 ? "aspect-square" : "aspect-video"
                     } bg-blue-50 dark:bg-slate-900 rounded-md`}
                   >
-                    <img
-                      src={value.image}
-                      className={`w-full h-full object-cover ${
-                        index == 9 ? "object-top" : "object-center"
-                      } rounded-md`}
-                    />
+                    {value.image != "" && (
+                      <img
+                        src={value.image}
+                        className={`w-full h-full object-cover ${
+                          index == 9 ? "object-top" : "object-center"
+                        } rounded-md`}
+                      />
+                    )}
+                    {value.image == "" && (
+                      <img
+                        src={"projects/manas.png"}
+                        alt="Work In Progress"
+                        className={`w-full h-full object-cover ${
+                          index == 9 ? "object-top" : "object-center"
+                        } rounded-md`}
+                      />
+                    )}
                   </div>
                   <div className="my-6">
                     <h4 className="text-2xl font-semibold">{value.name}</h4>
