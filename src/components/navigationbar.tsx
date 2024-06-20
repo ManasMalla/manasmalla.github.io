@@ -15,7 +15,7 @@ export default function NavigationBar(props: { index: number }) {
           Home
         </Link>
         <Link
-          href="/#resume"
+          href="/resume"
           className={props.index == 1 ? "text-[#005AC1]" : ""}
         >
           Resume
