@@ -3,7 +3,7 @@ import { ArrowRight, ArrowUpRight, FileText } from "react-feather";
 
 export default function Resume() {
   return (
-    <div id="resume">
+    <div id="resume" className="mx-8 lg:mx-28 mb-14">
       <div>
         <h2 className="text-4xl py-16">Resume</h2>
         <div className="flex justify-between lg:flex-row flex-col">
@@ -594,7 +594,7 @@ export default function Resume() {
             </div>
           </div>
         </div>
-        <Link href="">
+        <Link href="/Manas Malla Resume.pdf">
           <div className="flex items-center text-[#B31412]">
             <FileText />
             <h4 className="mx-6 mt-1">View as PDF</h4>
