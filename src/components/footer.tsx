@@ -29,10 +29,10 @@ export default function Footer() {
         </Link>
       </div>
       <div className="flex gap-4">
-        <Link href="mailto:manasmalla.dev@gmail.com">
+        <Link href="mailto:me@manasmalla.dev">
           <div className="flex gap-4 items-center">
             <Mail className="w-5 h-5" />
-            <span>manasmalla.dev@gmail.com</span>
+            <span>me@manasmalla.dev</span>
           </div>
         </Link>
       </div>

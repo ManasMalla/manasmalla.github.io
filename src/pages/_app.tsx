@@ -21,6 +21,10 @@ export default function App({ Component, pageProps }: AppProps) {
     switch (router.pathname) {
       case "/":
         return 0;
+      case "/resume":
+        return 1;
+      case "/story":
+        return 4;
       case "/work":
         return 3;
       default:

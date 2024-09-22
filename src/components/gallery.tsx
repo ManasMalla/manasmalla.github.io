@@ -126,18 +126,18 @@ export default function Gallery() {
           </div>
         </div>
         <div className="w-[18%] aspect-[1.8] relative rounded-md shadow-[0_4px_32px_4px_rgba(0,0,0,0.16)]">
-          <Image
-            alt="Wedding"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            fill={true}
-            src="/wed-manas.jpeg"
-            className="w-full h-full object-cover rounded-md "
+          <img
+            alt="Android"
+            // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            // fill={true}
+            src="/IMG_6476.png"
+            className="w-full h-full object-cover rounded-md"
           />
           <div className="bg-black z-10 absolute w-full h-full top-0 rounded-md bg-opacity-0 hover:bg-opacity-30">
             <div className="w-full h-full flex top-0 absolute items-center justify-center opacity-0 hover:opacity-100">
               <div className="bg-white h-max z-20 rounded-full px-8 py-2 font-bold">
-                @A1Grand
-                <span className="font-normal">, 2019</span>
+                @IOConnect
+                <span className="font-normal">, '24</span>
               </div>
             </div>
           </div>

@@ -69,7 +69,7 @@ export default function Contact() {
           <h2 className="my-6">
             Fill in the form or{" "}
             <a
-              href="mailto:manasmalla.dev@gmail.com"
+              href="mailto:me@manasmalla.dev"
               className="underline font-semibold"
             >
               Send us an email
