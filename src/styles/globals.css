@@ -8,8 +8,7 @@
   }
 }
 
-
-@font-face {
+/* @font-face {
   font-family: "Ambit";
   font-weight: 900;
   src: url("/fonts/Ambit-Black.otf");
@@ -96,14 +95,12 @@
 @font-face {
   font-family: "Ambit";
   src: url("/fonts/Ambit-Regular.ttf");
-}
-
+} */
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Ambit', sans-serif;
 }
 
 html,
@@ -113,69 +110,65 @@ body {
 }
 
 @media (prefers-color-scheme: dark) {
-  #standard-basic-label{
+  #standard-basic-label {
     color: white;
     opacity: 0.4;
   }
-  
-  .css-1x51dt5-MuiInputBase-input-MuiInput-input{
-    color: white;
-    border-bottom: 1px solid white;
-  }
-  .MuiInput-input{
-    color: white;
-    border-bottom: 1px solid white;
-  }
-  .css-1x51dt5-MuiInputBase-input-MuiInput-input:focus{
 
+  .css-1x51dt5-MuiInputBase-input-MuiInput-input {
+    color: white;
+    border-bottom: 1px solid white;
+  }
+  .MuiInput-input {
+    color: white;
+    border-bottom: 1px solid white;
+  }
+  .css-1x51dt5-MuiInputBase-input-MuiInput-input:focus {
     margin-bottom: -1px;
   }
-  .css-1qfr5sv-MuiButtonBase-root-MuiChip-root{
-    color: white
-  }
-  .MuiChip-filled{
-    color: white;
-    background-color: rgba(255,255,255,0.12)
-  }
-  .css-9iedg7{
-
+  .css-1qfr5sv-MuiButtonBase-root-MuiChip-root {
     color: white;
   }
-  .css-6yx8q4{
-
-    background-color: rgba(255,255,255,0.12)
+  .MuiChip-filled {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.12);
   }
-  .css-1h8jdvg{
-    
-    color: white
+  .css-9iedg7 {
+    color: white;
   }
-  body{
+  .css-6yx8q4 {
+    background-color: rgba(255, 255, 255, 0.12);
+  }
+  .css-1h8jdvg {
+    color: white;
+  }
+  body {
     background-color: black;
   }
 }
 
 .carousel__list {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    padding: 1rem 0 0;
-    overflow: hidden;
-    position: relative;
-    margin: 0 auto;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  padding: 1rem 0 0;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
 }
 
 .carousel__item {
-    flex: 0 0 auto;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+  flex: 0 0 auto;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 @keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(calc(-23.4rem * 11));
-    }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-23.4rem * 11));
+  }
 }

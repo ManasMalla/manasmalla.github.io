@@ -7,6 +7,9 @@ import { useRouter } from "next/router";
 import { initializeParse } from "@parse/react-ssr";
 import { Zap } from "react-feather";
 import Link from "next/link";
+import { Plus_Jakarta_Sans } from "@next/font/google";
+
+const plus_jakarta_sans = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 initializeParse(
   "https://parseapi.back4app.com", //custom url
@@ -32,7 +35,12 @@ export default function App({ Component, pageProps }: AppProps) {
     }
   }
   return (
-    <div className="font-ambit dark:bg-black dark:text-white">
+    //FDFEFF
+    //#2DFF5B
+    //060B27 - dark blue
+    <div
+      className={`${plus_jakarta_sans.className} dark:bg-black dark:text-white`}
+    >
       <NavigationBar index={getIndexOfWebpage()} />
       <Component {...pageProps} />
       <Footer />

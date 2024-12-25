@@ -8,11 +8,13 @@ import Services from "@/components/services";
 import { WorkSection } from "@/components/work";
 import Head from "next/head";
 import Link from "next/link";
+import { Plus_Jakarta_Sans } from "@next/font/google";
 import { useRouter } from "next/router";
 import { ArrowUpRight } from "react-feather";
 
 export default function Home() {
   const router = useRouter();
+
   return (
     <>
       <Head>

@@ -5,11 +5,13 @@ export default function Hero() {
   const router = useRouter();
   return (
     <div className="mx-auto lg:mx-20 lg:w-[56%] text-center lg:mx-auto">
-      <div className="mx-auto w-24 aspect-square rounded-full bg-[#005AC1] dark:bg-[#D2E3FC] bg-opacity-10 dark:bg-opacity-10">
-        <img src="/memoji.png" className="mx-1 mt-2 p-1" />
+      <div className="mx-auto w-24 aspect-square rounded-full bg-[#005AC1] dark:bg-[#D2E3FC] bg-opacity-10 dark:bg-opacity-[15%]">
+        <img src="/wink-memoji.png" className="ml-[-2px] mt-2" />
       </div>
-      <h3 className="mb-5 mt-10">Hi, I&apos;m Manas Malla</h3>
-      <h1 className="text-4xl lg:text-6xl leading-[1.3em]">
+      <h3 className="mb-5 mt-8 text-xl font-medium">
+        Namaste, I&apos;m Manas Malla
+      </h3>
+      <h1 className="text-4xl lg:text-6xl leading-[1.3em] font-semibold">
         <span className="underline decoration-[#005AC1]/20 decoration-dashed">
           Building
         </span>{" "}
@@ -17,22 +19,24 @@ export default function Hero() {
         <br />
         is my ikigai.
       </h1>
-      <h2 className="lg:text-2xl font-light mb-14 mt-10 mx-8 lg:mx-auto">
+      <h2 className="font-light mb-12 mt-10 mx-8 lg:mx-auto max-w-[450px]">
+        a{" "}
         <span className="font-semibold">
-          a Designer, Developer, Speaker, Student and Tech Geek
-        </span>
-        <br />I specialise in Swift Development, UI/UX design, Android
-        development, Flutter Development and open-source contribtion
-        <span className="block mt-4 text-gray-400">
+          Designer, Developer <span className="font-normal">and</span> Student
+        </span>{" "}
+        in Vizag.
+        <br />I specialise in App Development, Responsive Web Development, UI/UX
+        Design and Open-Source contribtion.
+        {/* <span className="block mt-4 text-gray-400">
           <div className="typing font-mono">#BeingAForceForChange</div>
           <div className="inline-flex opacity-50 ml-1 blinking">|</div>
-        </span>
+        </span> */}
       </h2>
       <button
         onClick={() => {
           router.push("/contact");
         }}
-        className="bg-black dark:bg-white text-white dark:text-black px-12 py-3 rounded-full uppercase"
+        className="bg-black dark:bg-white text-white dark:text-black px-8 py-4 rounded-full uppercase text-[10px]"
       >
         Connect with Me
       </button>
