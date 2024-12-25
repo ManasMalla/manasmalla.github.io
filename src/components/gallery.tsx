@@ -137,7 +137,7 @@ export default function Gallery() {
             <div className="w-full h-full flex top-0 absolute items-center justify-center opacity-0 hover:opacity-100">
               <div className="bg-white h-max z-20 rounded-full px-8 py-2 font-bold">
                 @IOConnect
-                <span className="font-normal">, '24</span>
+                <span className="font-normal">, &apos;24</span>
               </div>
             </div>
           </div>
