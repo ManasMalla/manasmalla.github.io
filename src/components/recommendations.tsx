@@ -2,18 +2,18 @@ import { useState } from "react";
 import { ArrowLeft, ArrowRight } from "react-feather";
 
 export default function RecommendationSection() {
-  const [index, setIndex] = useState(1);
+  const [index, setIndex] = useState(0);
   const recommendations = [
-    {
-      name: "Bala Tripura Sundari",
-      designation: "Ambassador @ WTM Vizag",
-      image:
-        "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/IMG-20210112-WA0082.jpg",
-      recomm_short:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin congue scelerisque arcu vel pretium. Maecenas vulputate turpis id laoreet ultrices. Sed nisi libero, vulputate sed commodo et, sodales vel justo. Aenean tristique et lorem sit amet dapibus. Sed congue lacinia varius. Donec eleifend urna convallis, suscipit mauris vitae, porttitor magna. Cras non porta massa, eget convallis nibh. In mattis, ligula eu finibus molestie, enim nibh ornare tortor, vitae semper est turpis at justo. Nam est ex, eleifend ac erat et.",
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies.",
-    },
+    // {
+    //   name: "Bala Tripura Sundari",
+    //   designation: "Ambassador @ WTM Vizag",
+    //   image:
+    //     "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/IMG-20210112-WA0082.jpg",
+    //   recomm_short:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin congue scelerisque arcu vel pretium. Maecenas vulputate turpis id laoreet ultrices. Sed nisi libero, vulputate sed commodo et, sodales vel justo. Aenean tristique et lorem sit amet dapibus. Sed congue lacinia varius. Donec eleifend urna convallis, suscipit mauris vitae, porttitor magna. Cras non porta massa, eget convallis nibh. In mattis, ligula eu finibus molestie, enim nibh ornare tortor, vitae semper est turpis at justo. Nam est ex, eleifend ac erat et.",
+    //   title:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies.",
+    // },
     {
       name: "Praseeda Saripalle",
       designation: "Lead @ GDSC GVPCEW",
@@ -50,24 +50,24 @@ export default function RecommendationSection() {
       title:
         "From the onset of my university journey, Manas Malla has embodied an unparalleled source of inspiration.",
     },
-    {
-      name: "Sampath Balivada",
-      designation: "SDE1 @ PayPal",
-      image:
-        "https://media.licdn.com/dms/image/D5603AQEeemWpuZV8pw/profile-displayphoto-shrink_800_800/0/1679033640505?e=2147483647&v=beta&t=Gy7YHw7NOikIdM-XvVZfB4Xc73MS6OFQRY7azTwD7Ak",
-      recomm_short:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a quam sed lorem dapibus aliquet. Suspendisse pulvinar ligula sit amet dolor malesuada placerat. Proin enim elit, commodo et rutrum in, venenatis blandit lorem. Cras gravida pulvinar sapien et pharetra. Etiam a tortor in dolor feugiat faucibus. Vestibulum at laoreet turpis. Pellentesque nisi libero, venenatis sodales bibendum ac, euismod sit amet massa. Mauris tempor orci sed tellus luctus elementum. Duis sit amet urna accumsan, pellentesque ante eget, mattis ex. Donec posuere, nisl in condimentum tincidunt, erat massa viverra tellus, non fringilla. ",
-      title:
-        "Sed nec mollis nisi. Suspendisse hendrerit, arcu nec sagittis dictum.",
-    },
-    {
-      name: "Rama Villuri",
-      designation: "SW Architect @ Nokia",
-      image: "/profile-pictures/rama-villuri.jpg",
-      recomm_short:
-        "Fusce varius, purus nec tincidunt sagittis, nunc nisl sollicitudin justo, et iaculis enim libero eget felis. Vestibulum tincidunt elementum sem eu rhoncus. Pellentesque ullamcorper condimentum mauris, tristique interdum arcu lobortis pretium. Proin porttitor eget purus laoreet interdum. Vestibulum maximus neque sit amet elit pulvinar, vitae viverra lorem molestie. In vulputate id dolor rhoncus bibendum. Donec vitae sapien ut est vestibulum rutrum. Vivamus vel massa porta.",
-      title: "Nunc dictum ornare volutpat. Nunc cursus orci at nibh finibus. ",
-    },
+    // {
+    //   name: "Sampath Balivada",
+    //   designation: "SDE1 @ PayPal",
+    //   image:
+    //     "https://media.licdn.com/dms/image/D5603AQEeemWpuZV8pw/profile-displayphoto-shrink_800_800/0/1679033640505?e=2147483647&v=beta&t=Gy7YHw7NOikIdM-XvVZfB4Xc73MS6OFQRY7azTwD7Ak",
+    //   recomm_short:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a quam sed lorem dapibus aliquet. Suspendisse pulvinar ligula sit amet dolor malesuada placerat. Proin enim elit, commodo et rutrum in, venenatis blandit lorem. Cras gravida pulvinar sapien et pharetra. Etiam a tortor in dolor feugiat faucibus. Vestibulum at laoreet turpis. Pellentesque nisi libero, venenatis sodales bibendum ac, euismod sit amet massa. Mauris tempor orci sed tellus luctus elementum. Duis sit amet urna accumsan, pellentesque ante eget, mattis ex. Donec posuere, nisl in condimentum tincidunt, erat massa viverra tellus, non fringilla. ",
+    //   title:
+    //     "Sed nec mollis nisi. Suspendisse hendrerit, arcu nec sagittis dictum.",
+    // },
+    // {
+    //   name: "Rama Villuri",
+    //   designation: "SW Architect @ Nokia",
+    //   image: "/profile-pictures/rama-villuri.jpg",
+    //   recomm_short:
+    //     "Fusce varius, purus nec tincidunt sagittis, nunc nisl sollicitudin justo, et iaculis enim libero eget felis. Vestibulum tincidunt elementum sem eu rhoncus. Pellentesque ullamcorper condimentum mauris, tristique interdum arcu lobortis pretium. Proin porttitor eget purus laoreet interdum. Vestibulum maximus neque sit amet elit pulvinar, vitae viverra lorem molestie. In vulputate id dolor rhoncus bibendum. Donec vitae sapien ut est vestibulum rutrum. Vivamus vel massa porta.",
+    //   title: "Nunc dictum ornare volutpat. Nunc cursus orci at nibh finibus. ",
+    // },
   ];
   return (
     <section id="recommendations" className=" mb-16">

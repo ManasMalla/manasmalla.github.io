@@ -22,7 +22,7 @@ export default function PraseedaAkkaTestimonial() {
           <div className="h-96 w-[22rem] bg-[#eaf9fa] dark:bg-[#2d3030] absolute z-20 right-6 top-6 rounded-[0.325rem]"></div>
           <div className="h-96 w-[22rem] bg-[#f5fcfd] dark:opacity-10 absolute z-10 right-12 top-12 rounded-[0.325rem]"></div>
           <img
-            src="https://media.licdn.com/dms/image/D5603AQEdL5JK-XDSfQ/profile-displayphoto-shrink_800_800/0/1669657636236?e=1700092800&v=beta&t=3yIUc4J52uHOAl7PFKAu-H3EtOR4SFWfLgLDbBjd1p8"
+            src="/profile-pictures/praseeda-saripalle.jpg"
             className="h-96 w-[22rem] rounded-[0.325rem] object-cover z-30 absolute"
           />
         </div>

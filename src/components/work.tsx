@@ -10,7 +10,7 @@ export function WorkSection() {
       <h2 className="text-4xl py-12 ">
         The {}
         <span className="underline decoration-blue-200 decoration-2 underline-offset-[12px]">
-          Work
+          work
         </span>
         {} I do
       </h2>
