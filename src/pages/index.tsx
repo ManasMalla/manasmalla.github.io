@@ -32,7 +32,7 @@ export default function Home() {
           <IAmRemarkable />
           <WorkSection />
           <CollaborationSection />
-          <Services />
+          {/* <Services /> */}
           <LetsTalkSection />
           <RecommendationSection />
         </div>
