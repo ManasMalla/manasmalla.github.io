@@ -27,7 +27,7 @@ export default function MultiResumeTileCard({
       </div>
       <div className="flex flex-col gap-4 mt-[6px]">
         {items.map((item) => (
-          <div>
+          <div key={item.subtitle}>
             <div className="flex items-center">
               <h5 className="text-sm font-semibold mt-[6px] mb-1">
                 {item.subtitle}
