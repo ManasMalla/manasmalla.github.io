@@ -14,7 +14,7 @@ export default function NavigationBar(props: { index: number }) {
         <Link
           href="/"
           className={`${
-            props.index == 0 ? "bg-[#005AC1]" : ""
+            props.index == 0 ? "bg-[#005AC1] text-white" : ""
           } py-2 px-4 rounded-full text-[12px]`}
         >
           Home
@@ -22,7 +22,7 @@ export default function NavigationBar(props: { index: number }) {
         <Link
           href="/resume"
           className={`${
-            props.index == 1 ? "bg-[#005AC1]" : ""
+            props.index == 1 ? "bg-[#005AC1] text-white" : ""
           } py-2 px-4 rounded-full text-[12px]`}
         >
           Resume
@@ -30,7 +30,7 @@ export default function NavigationBar(props: { index: number }) {
         <Link
           href="/#achievements"
           className={`${
-            props.index == 2 ? "bg-[#005AC1]" : ""
+            props.index == 2 ? "bg-[#005AC1] text-white" : ""
           } py-2 px-4 rounded-full text-[12px]`}
         >
           Achievements
@@ -38,7 +38,7 @@ export default function NavigationBar(props: { index: number }) {
         <Link
           href="/#work"
           className={`${
-            props.index == 3 ? "bg-[#005AC1]" : ""
+            props.index == 3 ? "bg-[#005AC1] text-white" : ""
           } py-2 px-4 rounded-full text-[12px]`}
         >
           Work
@@ -46,7 +46,7 @@ export default function NavigationBar(props: { index: number }) {
         <Link
           href="/story"
           className={`${
-            props.index == 4 ? "bg-[#005AC1]" : ""
+            props.index == 4 ? "bg-[#005AC1] text-white" : ""
           } py-2 px-4 rounded-full text-[12px]`}
         >
           Stories
@@ -54,7 +54,7 @@ export default function NavigationBar(props: { index: number }) {
         <a
           href="https://blog.manasmalla.dev"
           className={`${
-            props.index == 6 ? "bg-[#005AC1]" : ""
+            props.index == 6 ? "bg-[#005AC1] text-white" : ""
           } py-2 px-4 rounded-full text-[12px]`}
         >
           Blogs

@@ -5,6 +5,10 @@ export default function Hero() {
   const router = useRouter();
   return (
     <div className="mx-auto lg:mx-20 lg:w-[56%] text-center lg:mx-auto">
+      <img
+        src="manasmalla-wave.png"
+        className="absolute h-[55%] rotate-[-30deg] right-[-30px] top-[20%] hidden md:flex"
+      />
       <div className="mx-auto w-24 aspect-square rounded-full bg-[#005AC1] dark:bg-[#D2E3FC] bg-opacity-10 dark:bg-opacity-[15%]">
         <img src="/wink-memoji.png" className="ml-[-2px] mt-2" />
       </div>
@@ -12,7 +16,7 @@ export default function Hero() {
         Namaste, I&apos;m Manas Malla
       </h3>
       <h1 className="text-4xl lg:text-6xl leading-[1.3em] font-semibold">
-        <span className="underline decoration-[#005AC1]/20 decoration-dashed">
+        <span className="underline decoration-[#005AC1]/20 dark:decoration-[#D2E3FC]/20 decoration-dashed">
           Building
         </span>{" "}
         solutions
