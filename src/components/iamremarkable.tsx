@@ -142,7 +142,7 @@ export default function IAmRemarkable() {
   return (
     <section id="achievements">
       <div className="flex pb-12 items-center justify-between">
-        <h2 className="text-4xl">
+        <h2 className="text-4xl font-semibold">
           I am{" "}
           <span className="underline decoration-[#FBBC04]/20 decoration-2 underline-offset-[12px]">
             remarkable
@@ -160,7 +160,7 @@ export default function IAmRemarkable() {
         </button>
       </div>
 
-      <div className="flex gap-x-8 animate-[scroll_17.5s_linear_infinite] hover:pause">
+      <div className="flex gap-x-8 animate-[scroll_50.5s_linear_infinite] hover:pause">
         {awards.concat(awards).map((item) => {
           return (
             <Link key={item.title} href="">

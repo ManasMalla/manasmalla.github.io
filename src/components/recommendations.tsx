@@ -71,7 +71,7 @@ export default function RecommendationSection() {
   ];
   return (
     <section id="recommendations" className=" mb-16">
-      <h2 className="text-4xl py-12">
+      <h2 className="text-4xl py-12 font-semibold">
         A few things people
         <br />
         usually say{" "}
@@ -90,10 +90,10 @@ export default function RecommendationSection() {
           />
         </div>
         <div className="flex flex-col shrink lg:px-16 justify-center pb-12">
-          <h3 className="text-lg font-semibold mb-8 w-[20rem] lg:w-[33rem]">
+          <h3 className="text-xl font-semibold mb-8 max-w-[20rem] lg:max-w-[25rem]">
             {recommendations[index].title}
           </h3>
-          <p className="lg:w-[33rem]">
+          <p className="lg:max-w-[28rem] text-sm leading-[1.75]">
             {recommendations[index].recomm_short}
             <span>
               ..{" "}
@@ -109,7 +109,7 @@ export default function RecommendationSection() {
           </p>
           <h4 className=" my-8">
             {recommendations[index].name}
-            <span className="ml-8 opacity-40">
+            <span className="ml-5 opacity-40 font-semibold text-sm uppercase">
               {recommendations[index].designation}
             </span>
           </h4>

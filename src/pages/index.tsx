@@ -11,6 +11,8 @@ import Link from "next/link";
 import { Plus_Jakarta_Sans } from "@next/font/google";
 import { useRouter } from "next/router";
 import { ArrowUpRight } from "react-feather";
+import Resume from "./resume";
+import ResumeComponent from "@/components/resume";
 
 export default function Home() {
   const router = useRouter();
@@ -33,10 +35,11 @@ export default function Home() {
         <div className="mx-8 lg:mx-28">
           <IAmRemarkable />
           <WorkSection />
-          <CollaborationSection />
           {/* <Services /> */}
+          <ResumeComponent />
           <LetsTalkSection />
           <RecommendationSection />
+          <CollaborationSection />
         </div>
       </main>
     </>

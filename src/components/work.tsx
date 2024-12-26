@@ -7,12 +7,14 @@ export function WorkSection() {
   const router = useRouter();
   return (
     <section id="work" className="mb-16">
-      <h2 className="text-4xl py-12 ">
-        The {}
+      <h2 className="text-4xl py-12 font-semibold leading-[1.4]">
+        The work I do,
+        <br />
+        and{" "}
         <span className="underline decoration-blue-200 decoration-2 underline-offset-[12px]">
-          work
-        </span>
-        {} I do
+          bussiness
+        </span>{" "}
+        I help.
       </h2>
       <div className="flex lg:flex-row flex-col lg:mr-24 gap-12 lg:gap-24">
         <div className="w-full lg:w-1/2">
@@ -26,8 +28,10 @@ export function WorkSection() {
               className="w-full h-full object-cover object-top rounded-2xl"
             />
           </div>
-          <h4 className="text-2xl my-6 font-semibold">ASquare Gokarting</h4>
-          <p className="opacity-60">
+          <h4 className="text-2xl my-6 mb-3 font-semibold">
+            ASquare Gokarting
+          </h4>
+          <p className="opacity-60 text-sm">
             An adventurous theme park with a play arena, drive-in, and race
             track that is considered to be India&apos;s longest track. Come and
             test your skills on this route with your friends and family.
@@ -44,8 +48,8 @@ export function WorkSection() {
               className="w-full h-full object-cover object-top rounded-2xl"
             />
           </div>
-          <h4 className="text-2xl my-6 font-semibold">Nandikrushi</h4>
-          <p className="opacity-60">
+          <h4 className="text-2xl my-6 mb-3 font-semibold">Nandikrushi</h4>
+          <p className="opacity-60 text-sm">
             Nandikrushi is an e-commerce platform where certified natural
             farmers post their produce and consumers close to the farmer
             location will buy them.
@@ -56,7 +60,7 @@ export function WorkSection() {
         {/* <div className="w-full lg:w-1/2">
             <div className="aspect-[765/856] bg-[#FCE8E6]/30 dark:bg-[#FCE8E6]/80"></div>
             <h4 className="text-2xl my-6 font-semibold">BeCoronaReady</h4>
-            <p className="opacity-60">
+            <p className="opacity-60 text-sm">
               Bringing awareness to people about the precautions,
               preventions and things to protect ourselves from COVID19 as
               well as preserve and enrich our health in a playful and
@@ -74,8 +78,8 @@ export function WorkSection() {
               className="w-full h-full object-cover object-top rounded-2xl"
             />
           </div>
-          <h4 className="text-2xl my-6 font-semibold">Aham Svastha</h4>
-          <p className="opacity-60">
+          <h4 className="text-2xl my-6 mb-3 font-semibold">Aham Svastha</h4>
+          <p className="opacity-60 text-sm">
             Aham Svastha motivates you to be fit and healthy in the busy-driven
             world by retreating to the golden-olden traditions: Yoga, Eating
             healthy food, Exercising, Drinking adequate water, Sufficient Sleep!
@@ -101,8 +105,8 @@ export function WorkSection() {
               className="w-full h-full object-cover object-top rounded-2xl"
             />
           </div>
-          <h4 className="text-2xl my-6 font-semibold">BeCoronaReady</h4>
-          <p className="opacity-60">
+          <h4 className="text-2xl my-6 mb-3 font-semibold">BeCoronaReady</h4>
+          <p className="opacity-60 text-sm">
             Bringing awareness to people about the precautions, preventions and
             things to protect ourselves from COVID19 as well as preserve and
             enrich our health in a playful and interactive way for everyone.
@@ -113,7 +117,7 @@ export function WorkSection() {
         onClick={() => {
           router.push("https://github.com/ManasMalla?tab=repositories");
         }}
-        className="px-12 py-4 bg-black dark:bg-white text-white dark:text-black font-light rounded-full lg:-translate-y-16 mt-4 lg:mt-0"
+        className="px-12 py-5 uppercase text-[12px] bg-black dark:bg-white text-white dark:text-black font-light rounded-full lg:-translate-y-16 mt-4 lg:mt-0"
       >
         <span className="font-normal">@ManasMalla</span> on GitHub
       </button>
@@ -121,7 +125,7 @@ export function WorkSection() {
         onClick={() => {
           router.push("/work");
         }}
-        className="px-4 lg:px-12 py-4 font-light rounded-full lg:-translate-y-16 mt-4 lg:mt-0"
+        className="px-4 lg:px-12 text-sm py-4 font-light rounded-full lg:-translate-y-16 mt-4 lg:mt-0"
       >
         <span className="font-normal inline-flex">View All</span>
         <ArrowRight className="inline-flex w-4 h-4 ml-4" />
