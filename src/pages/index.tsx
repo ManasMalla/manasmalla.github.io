@@ -4,14 +4,9 @@ import Hero from "@/components/hero";
 import IAmRemarkable from "@/components/iamremarkable";
 import { LetsTalkSection } from "@/components/lets_talk";
 import RecommendationSection from "@/components/recommendations";
-import Services from "@/components/services";
 import { WorkSection } from "@/components/work";
 import Head from "next/head";
-import Link from "next/link";
-import { Plus_Jakarta_Sans } from "@next/font/google";
 import { useRouter } from "next/router";
-import { ArrowUpRight } from "react-feather";
-import Resume from "./resume";
 import ResumeComponent from "@/components/resume";
 
 export default function Home() {
@@ -31,7 +26,6 @@ export default function Home() {
       <main>
         <Hero />
         <Gallery />
-
         <div className="mx-8 lg:mx-28">
           <IAmRemarkable />
           <WorkSection />

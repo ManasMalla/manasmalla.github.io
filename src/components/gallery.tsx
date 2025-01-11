@@ -11,7 +11,7 @@ export default function Gallery() {
               alt="Android Study Jams"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               fill={true}
-              src="/asj-manas.JPG"
+              src="/gallery/asj-manas.JPG"
               className="w-full h-full object-cover object-top rounded-r-md"
             />
             <div className="bg-black z-10 absolute w-full h-full top-0 rounded-r-md bg-opacity-0 hover:bg-opacity-30">
@@ -30,7 +30,7 @@ export default function Gallery() {
               alt="Google Developer Summit"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               fill={true}
-              src="/gds-manas.jpg"
+              src="/gallery/gds-manas.jpg"
               className="w-full h-full object-cover rounded-r-md"
             />
             <div className="bg-black z-10 absolute w-full h-full top-0 rounded-r-md bg-opacity-0 hover:bg-opacity-30">
@@ -48,7 +48,7 @@ export default function Gallery() {
             alt="TotsNShots"
             sizes="(max-width: 768px) 27vw, (max-width: 1200px) 27vw, 27vw"
             fill={true}
-            src="/image-main.jpg"
+            src="/gallery/image-main.jpg"
             className="w-full h-full rounded-md object-cover"
           />
           <div className="bg-black z-10 absolute w-full h-full top-0 rounded-r-md bg-opacity-0 hover:bg-opacity-30">
@@ -70,7 +70,7 @@ export default function Gallery() {
               alt="Android Feedback Summit"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               fill={true}
-              src="/afs-manas.jpg"
+              src="/gallery/afs-manas.jpg"
               className="w-full h-full object-cover rounded-l-md "
             />
             <div className="bg-black z-10 absolute w-full h-full top-0 rounded-l-md bg-opacity-0 hover:bg-opacity-30">
@@ -87,7 +87,7 @@ export default function Gallery() {
               alt="Dare to be Fearless"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               fill={true}
-              src="/dare-to-be-fearless.jpg"
+              src="/gallery/dare-to-be-fearless.jpg"
               className="w-full h-full object-cover rounded-l-md object-[0%,10%] "
             />
             <div className="bg-black z-10 absolute w-full h-full top-0 rounded-l-md bg-opacity-0 hover:bg-opacity-30">
@@ -110,7 +110,7 @@ export default function Gallery() {
             alt="International Women's Day: Vizag"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             fill={true}
-            src="/iwd-manas.jpg"
+            src="/gallery/iwd-manas.jpg"
             className="w-full h-full object-cover rounded-r-md object-top"
           />
           <div className="bg-black z-10 absolute w-full h-full top-0 rounded-r-md bg-opacity-0 hover:bg-opacity-30">
@@ -130,7 +130,7 @@ export default function Gallery() {
             alt="Android"
             // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             // fill={true}
-            src="/IMG_6476.png"
+            src="/gallery/IMG_6476.png"
             className="w-full h-full object-cover rounded-md"
           />
           <div className="bg-black z-10 absolute w-full h-full top-0 rounded-md bg-opacity-0 hover:bg-opacity-30">
@@ -148,7 +148,7 @@ export default function Gallery() {
             alt="Hindu Temple Of Central Illinois"
             sizes="22vw"
             fill={true}
-            src="/temple-manas.JPG"
+            src="/gallery/temple-manas.JPG"
             className="w-full h-full object-cover rounded-l-md "
           />
           <div className="bg-black z-10 absolute w-full h-full top-0 rounded-l-md bg-opacity-0 hover:bg-opacity-30">

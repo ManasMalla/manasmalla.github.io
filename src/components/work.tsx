@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import { ArrowRight } from "react-feather";
+import { ArrowRight, ArrowUpRight, GitHub } from "react-feather";
 
 export function WorkSection() {
   const router = useRouter();
@@ -36,6 +36,15 @@ export function WorkSection() {
             track that is considered to be India&apos;s longest track. Come and
             test your skills on this route with your friends and family.
           </p>
+          <div className="mt-3 text-[0.8rem] gap-3 flex">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.asquaregokarting"
+              className="py-2 px-4 rounded-full flex gap-2 items-center border border-black"
+            >
+              Explore
+              <ArrowUpRight className="w-4 h-4" />
+            </a>
+          </div>
         </div>
         <div className="w-full lg:w-1/2 lg:mt-24">
           <div className="aspect-[765/856] bg-[#FEF7E0]/50 dark:bg-[#FEF7E0]/80 rounded-2xl">
@@ -54,6 +63,15 @@ export function WorkSection() {
             farmers post their produce and consumers close to the farmer
             location will buy them.
           </p>
+          <div className="mt-3 text-[0.8rem] gap-3 flex">
+            <a
+              href="https://play.google.com/store/apps/details?id=farm.nandikrushi"
+              className="py-2 px-4 rounded-full flex gap-2 items-center border border-black"
+            >
+              Explore
+              <ArrowUpRight className="w-4 h-4" />
+            </a>
+          </div>
         </div>
       </div>
       <div className="flex lg:flex-row flex-col lg:mr-24 gap-12 lg:gap-24 lg:-translate-y-8 mt-12 lg:mt-0">
@@ -84,6 +102,22 @@ export function WorkSection() {
             world by retreating to the golden-olden traditions: Yoga, Eating
             healthy food, Exercising, Drinking adequate water, Sufficient Sleep!
           </p>
+          <div className="mt-3 text-[0.8rem] gap-3 flex">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.manasmalla.ahamsvasth"
+              className="py-2 px-4 rounded-full flex gap-2 items-center border border-black"
+            >
+              Explore
+              <ArrowUpRight className="w-4 h-4" />
+            </a>
+            <a
+              href="https://github.com/ManasMalla/AhamSvasth"
+              className="bg-black text-white py-2 px-6 rounded-full flex gap-2 items-center"
+            >
+              <GitHub className="w-4 h-4" />
+              GitHub
+            </a>
+          </div>
         </div>
         {/* <div className="w-full lg:w-1/2 lg:mt-24">
             <div className="aspect-[765/856] bg-[#CEEAD6]/30 dark:bg-[#CEEAD6]/80"></div>
@@ -111,6 +145,15 @@ export function WorkSection() {
             things to protect ourselves from COVID19 as well as preserve and
             enrich our health in a playful and interactive way for everyone.
           </p>
+          <div className="mt-3 text-[0.8rem] gap-3 flex">
+            <a
+              href="https://github.com/ManasMalla/becoronaready"
+              className="bg-black text-white py-2 px-6 rounded-full flex gap-2 items-center"
+            >
+              <GitHub className="w-4 h-4" />
+              GitHub
+            </a>
+          </div>
         </div>
       </div>
       <button
